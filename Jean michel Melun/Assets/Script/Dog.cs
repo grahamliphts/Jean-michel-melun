@@ -36,12 +36,6 @@ public class Dog : MonoBehaviour {
         if(lastInteract != new Vector3())
         {
             Debug.DrawRay(transform.position, lastInteract - transform.position, GetComponent<SpriteRenderer>().color);
-
-            Vector3 diff = lastInteract - transform.position;
-            diff.Normalize();
-
-            float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
         }
     }
 
@@ -49,43 +43,61 @@ public class Dog : MonoBehaviour {
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.tag == "Object")
-        {        
-            newInterract = true;
-            int interest = other.gameObject.GetComponent<InteractibleObject>().getInterest();
-            //Debug.Log("Test Interest " + other.gameObject.name + " " + interest);
-            if (lastInterest <= interest)
+        {
+
+            Vector3 targetDir = other.gameObject.transform.position - transform.position;
+            float angle = Vector3.Angle(targetDir, transform.right);
+
+            if (angle < 5.0f)
             {
-                Vector2 direction = lastInteract - this.transform.position;
-                float Distance = direction.magnitude;
-                //Debug.Log(Distance);
-                if (lastInterest == interest)
-                {                                   
-                    if (lastDistance != -1 && lastDistance > Distance)
+                newInterract = true;
+                int interest = other.gameObject.GetComponent<InteractibleObject>().getInterest();
+
+                //Debug.Log("Test Interest " + other.gameObject.name + " " + interest);
+                if (lastInterest <= interest)
+                {
+                    Vector2 direction = lastInteract - this.transform.position;
+                    float Distance = direction.magnitude;
+                    //Debug.Log(Distance);
+                    if (lastInterest == interest)
+                    {
+                        if (lastDistance != -1 && lastDistance > Distance)
+                        {
+                            lastInterest = interest;
+                            lastInteract = other.gameObject.transform.position;
+                            lastDistance = Distance;
+
+                        }
+                    }
+                    else
                     {
                         lastInterest = interest;
                         lastInteract = other.gameObject.transform.position;
                         lastDistance = Distance;
-
                     }
-                }
-                else
-                {
-                    lastInterest = interest;
-                    lastInteract = other.gameObject.transform.position;
-                    lastDistance = Distance;
-                }
 
+                }
             }
-
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Object")
+        {
+            lastInteract = new Vector3(0, 0, 0);
         }
     }
 
     public Vector3 getLastInteract()
     {
-        Vector3 temp = lastInteract;
-        lastInteract = new Vector3(0, 0, 0);
-        return temp;
+        return lastInteract;
     }
+
+    public void ResetLastInteract()
+    {
+        lastInteract = new Vector3(0, 0, 0);
+    }
+
     public int getForce()
     {
         return force;

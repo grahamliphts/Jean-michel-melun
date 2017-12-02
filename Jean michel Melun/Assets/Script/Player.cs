@@ -59,8 +59,34 @@ public class Player : MonoBehaviour
             Vector3 lastInteract = dog.getLastInteract();
             if (lastInteract != new Vector3(0,0,0))
             {
-                directionToApply += (lastInteract - dog.transform.position) * dog.getForce();
+                if(lastInteract.x < transform.position.x)
+                {
+                    directionToApply += (lastInteract - dog.transform.position) * dog.getForce();
+
+                    Vector3 diff = lastInteract - dog.transform.position;
+                    diff.Normalize();
+
+                    float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+                    dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                }
+                else
+                {
+                    dog.ResetLastInteract();
+                    Vector3 diff = dog.transform.position - transform.position;
+                    diff.Normalize();
+
+                    float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+                    dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                }
                 //Debug.Log(lastInteract);
+            }
+            else
+            {
+                Vector3 diff = dog.transform.position - transform.position;
+                diff.Normalize();
+
+                float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
             }
         }
 
@@ -69,8 +95,33 @@ public class Player : MonoBehaviour
             Vector3 lastInteract = dog.getLastInteract();
             if (lastInteract != new Vector3(0, 0, 0))
             {
-                directionToApply += (lastInteract - dog.transform.position) * dog.getForce();
-                //Debug.Log(lastInteract);
+                if (lastInteract.x > transform.position.x)
+                {
+                    directionToApply += (lastInteract - dog.transform.position) * dog.getForce();
+                    //Debug.Log(lastInteract);
+                    Vector3 diff = lastInteract - dog.transform.position;
+                    diff.Normalize();
+
+                    float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+                    dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                }
+                else
+                {
+                    dog.ResetLastInteract();
+                    Vector3 diff = dog.transform.position - transform.position;
+                    diff.Normalize();
+
+                    float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+                    dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                }
+            }
+            else
+            {
+                Vector3 diff = dog.transform.position - transform.position;
+                diff.Normalize();
+
+                float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
             }
         }
         //Debug.Log("DirApply " + directionToApply);
@@ -88,6 +139,7 @@ public class Player : MonoBehaviour
 
             //Debug.Log("Left : " + _leftDogs.Count);
             //Debug.Log("Right : " + _rightDogs.Count);
+
 
             CalculatePositionDogs();
         }
@@ -116,6 +168,12 @@ public class Player : MonoBehaviour
             float y = 1 * Mathf.Sin(angle * (i + 1) + Mathf.PI / 2);
 
             _leftDogs[i].transform.localPosition = new Vector3(x, y, 0);
+            
+            Vector3 diff = _leftDogs[i].transform.position - transform.position;
+            diff.Normalize();
+
+            float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+            _leftDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
         }
 
         for (int i = 0; i < _rightDogs.Count; i++)
@@ -125,6 +183,12 @@ public class Player : MonoBehaviour
             float y = 1 * Mathf.Sin(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
 
             _rightDogs[i].transform.localPosition = new Vector3(x, y, 0);
+
+            Vector3 diff = _rightDogs[i].transform.position - transform.position;
+            diff.Normalize();
+
+            float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+            _rightDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
         }
     }
 
@@ -133,8 +197,8 @@ public class Player : MonoBehaviour
         if(other.tag == "LostDog")
         {
             _leftDogs.Add(other.GetComponent<Dog>());
-            Debug.Log("Left : " + _leftDogs.Count);
-            Debug.Log("Right : " + _rightDogs.Count);
+            //Debug.Log("Left : " + _leftDogs.Count);
+            //Debug.Log("Right : " + _rightDogs.Count);
 
             other.tag = "Dog";
             other.gameObject.transform.SetParent(this.transform);
