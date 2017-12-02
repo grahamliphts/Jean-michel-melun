@@ -1,0 +1,1341 @@
+fileFormatVersion: 2
+<<<<<<< HEAD
+guid: a5ea6dfca2ae1364487c8a444b82a65e
+timeCreated: 1512254190
+=======
+guid: 5f0729c3a835b8a4aa101f5c2e7625df
+timeCreated: 1512255756
+>>>>>>> origin/master
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dog_shiba_walk_0
+    21300002: dog_shiba_walk_1
+    21300004: dog_shiba_walk_2
+    21300006: dog_shiba_walk_3
+    21300008: dog_shiba_walk_4
+    21300010: dog_shiba_walk_5
+    21300012: dog_shiba_walk_6
+    21300014: dog_shiba_walk_7
+    21300016: dog_shiba_walk_8
+    21300018: dog_shiba_walk_9
+    21300020: dog_shiba_walk_10
+    21300022: dog_shiba_walk_11
+    21300024: dog_shiba_walk_12
+    21300026: dog_shiba_walk_13
+    21300028: dog_shiba_walk_14
+    21300030: dog_shiba_walk_15
+    21300032: dog_shiba_walk_16
+    21300034: dog_shiba_walk_17
+    21300036: dog_shiba_walk_18
+    21300038: dog_shiba_walk_19
+    21300040: dog_shiba_walk_20
+    21300042: dog_shiba_walk_21
+    21300044: dog_shiba_walk_22
+    21300046: dog_shiba_walk_23
+    21300048: dog_shiba_walk_24
+    21300050: dog_shiba_walk_25
+    21300052: dog_shiba_walk_26
+    21300054: dog_shiba_walk_27
+    21300056: dog_shiba_walk_28
+    21300058: dog_shiba_walk_29
+    21300060: dog_shiba_walk_30
+    21300062: dog_shiba_walk_31
+    21300064: dog_shiba_walk_32
+    21300066: dog_shiba_walk_33
+    21300068: dog_shiba_walk_34
+    21300070: dog_shiba_walk_35
+    21300072: dog_shiba_walk_36
+    21300074: dog_shiba_walk_37
+    21300076: dog_shiba_walk_38
+    21300078: dog_shiba_walk_39
+    21300080: dog_shiba_walk_40
+    21300082: dog_shiba_walk_41
+    21300084: dog_shiba_walk_42
+    21300086: dog_shiba_walk_43
+    21300088: dog_shiba_walk_44
+    21300090: dog_shiba_walk_45
+    21300092: dog_shiba_walk_46
+    21300094: dog_shiba_walk_47
+    21300096: dog_shiba_walk_48
+    21300098: dog_shiba_walk_49
+    21300100: dog_shiba_walk_50
+    21300102: dog_shiba_walk_51
+    21300104: dog_shiba_walk_52
+    21300106: dog_shiba_walk_53
+    21300108: dog_shiba_walk_54
+    21300110: dog_shiba_walk_55
+    21300112: dog_shiba_walk_56
+    21300114: dog_shiba_walk_57
+    21300116: dog_shiba_walk_58
+    21300118: dog_shiba_walk_59
+    21300120: dog_shiba_walk_60
+    21300122: dog_shiba_walk_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+<<<<<<< HEAD
+    textureCompression: 0
+=======
+    textureCompression: 1
+>>>>>>> origin/master
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+<<<<<<< HEAD
+    textureCompression: 0
+=======
+    textureCompression: 1
+>>>>>>> origin/master
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+<<<<<<< HEAD
+    textureCompression: 0
+=======
+    textureCompression: 1
+>>>>>>> origin/master
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dog_shiba_walk_0
+      rect:
+        serializedVersion: 2
+        x: 4
+<<<<<<< HEAD
+        y: 2154
+        width: 158
+        height: 423
+=======
+        y: 2152
+        width: 158
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_1
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 173
+        y: 2155
+        width: 158
+        height: 423
+=======
+        x: 174
+        y: 2155
+        width: 158
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_2
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 342
+        y: 2155
+        width: 158
+=======
+        x: 343
+        y: 2155
+        width: 157
+>>>>>>> origin/master
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_3
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 2155
+        width: 158
+<<<<<<< HEAD
+        height: 423
+=======
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2155
+<<<<<<< HEAD
+        width: 158
+        height: 423
+=======
+        width: 160
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_5
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 849
+        y: 2155
+        width: 158
+        height: 423
+=======
+        x: 848
+        y: 2155
+        width: 159
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_6
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 2155
+        width: 157
+<<<<<<< HEAD
+        height: 423
+=======
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_7
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 2155
+        width: 157
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_8
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 1357
+        y: 2155
+        width: 157
+        height: 423
+=======
+        x: 1356
+        y: 2155
+        width: 160
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_9
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 2155
+<<<<<<< HEAD
+        width: 157
+        height: 423
+=======
+        width: 158
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_10
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 2155
+        width: 157
+<<<<<<< HEAD
+        height: 424
+=======
+        height: 423
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_11
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 1865
+        y: 2155
+        width: 157
+        height: 424
+=======
+        x: 1864
+        y: 2155
+        width: 160
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_12
+      rect:
+        serializedVersion: 2
+        x: 6
+<<<<<<< HEAD
+        y: 1726
+        width: 158
+        height: 423
+=======
+        y: 1724
+        width: 158
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_13
+      rect:
+        serializedVersion: 2
+        x: 175
+<<<<<<< HEAD
+        y: 1726
+        width: 158
+        height: 423
+=======
+        y: 1724
+        width: 158
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_14
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 345
+        y: 1726
+        width: 158
+        height: 423
+=======
+        x: 344
+        y: 1724
+        width: 160
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_15
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 514
+        y: 1726
+        width: 158
+=======
+        x: 512
+        y: 1726
+        width: 160
+>>>>>>> origin/master
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_16
+      rect:
+        serializedVersion: 2
+        x: 683
+<<<<<<< HEAD
+        y: 1726
+        width: 159
+        height: 423
+=======
+        y: 1724
+        width: 161
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_17
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 853
+        y: 1726
+        width: 158
+        height: 423
+=======
+        x: 852
+        y: 1724
+        width: 159
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_18
+      rect:
+        serializedVersion: 2
+        x: 1023
+<<<<<<< HEAD
+        y: 1726
+        width: 158
+        height: 423
+=======
+        y: 1724
+        width: 158
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_19
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1726
+        width: 158
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_20
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 1362
+        y: 1726
+        width: 157
+        height: 423
+=======
+        x: 1360
+        y: 1724
+        width: 160
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_21
+      rect:
+        serializedVersion: 2
+        x: 1532
+<<<<<<< HEAD
+        y: 1726
+        width: 156
+        height: 423
+=======
+        y: 1727
+        width: 156
+        height: 422
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_22
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 1701
+        y: 1727
+        width: 156
+=======
+        x: 1700
+        y: 1727
+        width: 157
+>>>>>>> origin/master
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_23
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 1727
+<<<<<<< HEAD
+        width: 155
+=======
+        width: 157
+>>>>>>> origin/master
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_24
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 13
+        y: 1297
+        width: 154
+        height: 422
+=======
+        x: 12
+        y: 1297
+        width: 156
+        height: 423
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_25
+      rect:
+        serializedVersion: 2
+        x: 183
+<<<<<<< HEAD
+        y: 1297
+        width: 153
+        height: 422
+=======
+        y: 1296
+        width: 153
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_26
+      rect:
+        serializedVersion: 2
+        x: 352
+<<<<<<< HEAD
+        y: 1297
+        width: 153
+        height: 422
+=======
+        y: 1296
+        width: 153
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_27
+      rect:
+        serializedVersion: 2
+        x: 522
+<<<<<<< HEAD
+        y: 1297
+        width: 152
+        height: 422
+=======
+        y: 1296
+        width: 154
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_28
+      rect:
+        serializedVersion: 2
+        x: 692
+<<<<<<< HEAD
+        y: 1297
+        width: 151
+        height: 422
+=======
+        y: 1296
+        width: 152
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_29
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 862
+        y: 1297
+        width: 150
+        height: 422
+=======
+        x: 860
+        y: 1296
+        width: 152
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_30
+      rect:
+        serializedVersion: 2
+        x: 1032
+<<<<<<< HEAD
+        y: 1297
+        width: 148
+        height: 422
+=======
+        y: 1296
+        width: 148
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_31
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1298
+        width: 147
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_32
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1298
+        width: 147
+<<<<<<< HEAD
+        height: 420
+=======
+        height: 422
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_33
+      rect:
+        serializedVersion: 2
+        x: 1539
+<<<<<<< HEAD
+        y: 1298
+        width: 149
+        height: 421
+=======
+        y: 1296
+        width: 148
+        height: 423
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_34
+      rect:
+        serializedVersion: 2
+        x: 1707
+<<<<<<< HEAD
+        y: 1298
+        width: 150
+        height: 421
+=======
+        y: 1296
+        width: 150
+        height: 423
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_35
+      rect:
+        serializedVersion: 2
+        x: 1875
+<<<<<<< HEAD
+        y: 1298
+        width: 151
+        height: 421
+=======
+        y: 1296
+        width: 153
+        height: 423
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_36
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 868
+        width: 152
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_37
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 868
+        width: 153
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_38
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 868
+        width: 154
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_39
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 868
+<<<<<<< HEAD
+        width: 156
+=======
+        width: 155
+>>>>>>> origin/master
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_40
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 868
+<<<<<<< HEAD
+        width: 155
+=======
+        width: 156
+>>>>>>> origin/master
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_41
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 868
+        width: 156
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 867
+        width: 157
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_43
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 1193
+        y: 867
+        width: 157
+=======
+        x: 1192
+        y: 867
+        width: 160
+>>>>>>> origin/master
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_44
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 1361
+        y: 867
+        width: 158
+=======
+        x: 1360
+        y: 867
+        width: 159
+>>>>>>> origin/master
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_45
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 1529
+        y: 867
+        width: 158
+=======
+        x: 1528
+        y: 867
+        width: 160
+>>>>>>> origin/master
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_46
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 1698
+        y: 867
+        width: 158
+=======
+        x: 1696
+        y: 867
+        width: 160
+>>>>>>> origin/master
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_47
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 1866
+        y: 867
+        width: 158
+=======
+        x: 1864
+        y: 867
+        width: 160
+>>>>>>> origin/master
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 436
+        width: 158
+<<<<<<< HEAD
+        height: 423
+=======
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_49
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 436
+        width: 159
+<<<<<<< HEAD
+        height: 423
+=======
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_50
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 436
+        width: 158
+<<<<<<< HEAD
+        height: 423
+=======
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_51
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 513
+        y: 436
+        width: 157
+        height: 423
+=======
+        x: 512
+        y: 436
+        width: 160
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_52
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 682
+        y: 436
+        width: 157
+        height: 423
+=======
+        x: 680
+        y: 436
+        width: 160
+        height: 422
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_53
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 436
+<<<<<<< HEAD
+        width: 157
+=======
+        width: 158
+>>>>>>> origin/master
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_54
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 436
+        width: 157
+<<<<<<< HEAD
+        height: 422
+=======
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_55
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 435
+        width: 157
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_56
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 1357
+        y: 435
+        width: 157
+        height: 423
+=======
+        x: 1356
+        y: 435
+        width: 160
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_57
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 1525
+        y: 435
+        width: 158
+        height: 423
+=======
+        x: 1526
+        y: 435
+        width: 158
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_58
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 435
+        width: 158
+<<<<<<< HEAD
+        height: 423
+=======
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_59
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 435
+        width: 158
+<<<<<<< HEAD
+        height: 423
+=======
+        height: 425
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 5
+<<<<<<< HEAD
+        width: 158
+=======
+        width: 160
+>>>>>>> origin/master
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: dog_shiba_walk_61
+      rect:
+        serializedVersion: 2
+<<<<<<< HEAD
+        x: 173
+        y: 5
+        width: 158
+        height: 423
+=======
+        x: 172
+        y: 4
+        width: 160
+        height: 424
+>>>>>>> origin/master
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

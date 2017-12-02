@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8017bc21df43b804c8893a4635aa962c
+timeCreated: 1512254503
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _hat: {instanceID: 0}
+  - _property: {instanceID: 0}
+  - _cape: {instanceID: 0}
+  - _batdogSmoke: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
