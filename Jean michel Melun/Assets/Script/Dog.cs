@@ -36,7 +36,12 @@ public class Dog : MonoBehaviour {
         if(lastInteract != new Vector3())
         {
             Debug.DrawRay(transform.position, lastInteract - transform.position, GetComponent<SpriteRenderer>().color);
-            //transform.ro(lastInteract);
+
+            Vector3 diff = lastInteract - transform.position;
+            diff.Normalize();
+
+            float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
         }
     }
 

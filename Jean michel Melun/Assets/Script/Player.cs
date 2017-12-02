@@ -59,7 +59,7 @@ public class Player : MonoBehaviour
             Vector3 lastInteract = dog.getLastInteract();
             if (lastInteract != new Vector3(0,0,0))
             {
-                directionToApply += (lastInteract - transform.position) * dog.getForce();
+                directionToApply += (lastInteract - dog.transform.position) * dog.getForce();
                 //Debug.Log(lastInteract);
             }
         }
@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
             Vector3 lastInteract = dog.getLastInteract();
             if (lastInteract != new Vector3(0, 0, 0))
             {
-                directionToApply += (lastInteract - transform.position) * dog.getForce();
+                directionToApply += (lastInteract - dog.transform.position) * dog.getForce();
                 //Debug.Log(lastInteract);
             }
         }
