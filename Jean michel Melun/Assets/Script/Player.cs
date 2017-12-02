@@ -53,18 +53,29 @@ public class Player : MonoBehaviour
 
     void CalculateForce()
     {
-        Vector2 directionToApply;
+        Vector3 directionToApply = new Vector3(0, 0, 0);
         foreach (Dog dog in _leftDogs)
         {
-            _rigidbody.AddForce(new Vector2(-1, 0));
+            Vector3 lastInteract = dog.getLastInteract();
+            if (lastInteract != new Vector3(0,0,0))
+            {
+                directionToApply += (lastInteract - transform.position) * dog.getForce();
+                //Debug.Log(lastInteract);
+            }
         }
 
         foreach (Dog dog in _rightDogs)
         {
-            _rigidbody.AddForce(new Vector2(1, 0));
+            Vector3 lastInteract = dog.getLastInteract();
+            if (lastInteract != new Vector3(0, 0, 0))
+            {
+                directionToApply += (lastInteract - transform.position) * dog.getForce();
+                //Debug.Log(lastInteract);
+            }
         }
+        //Debug.Log("DirApply " + directionToApply);
 
-
+        _rigidbody.AddForce(directionToApply);
     }
 
     void SwitchDogLeftToRight()

@@ -22,13 +22,14 @@ public class Dog : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        /*
         Vector2 direction = lastInteract - this.transform.position;
         direction.Normalize();
         //Debug.Log(CurrentDirection + " " + direction);
 
         GetComponent<Rigidbody2D>().AddForce(direction * force);
 
-        newInterract = false;
+        newInterract = false;*/
         lastInterest = 0;
         lastDistance = -1;
     }
@@ -40,7 +41,7 @@ public class Dog : MonoBehaviour {
         {        
             newInterract = true;
             int interest = other.gameObject.GetComponent<InteractibleObject>().getInterest();
-            //Debug.Log("Test Interest " + other.gameObject.name + " " + interest);
+            Debug.Log("Test Interest " + other.gameObject.name + " " + interest);
             if (lastInterest <= interest)
             {
                 Vector2 direction = lastInteract - this.transform.position;
@@ -69,7 +70,9 @@ public class Dog : MonoBehaviour {
 
     public Vector3 getLastInteract()
     {
-        return lastInteract;
+        Vector3 temp = lastInteract;
+        lastInteract = new Vector3(0, 0, 0);
+        return temp;
     }
     public int getForce()
     {
