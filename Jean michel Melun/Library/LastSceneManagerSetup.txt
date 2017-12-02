@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Dog Test Scene.unity
+- path: Assets/Scenes/Player Test Scene.unity
   isLoaded: 1
   isActive: 1
