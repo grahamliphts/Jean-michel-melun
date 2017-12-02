@@ -141,11 +141,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapSize: 50
   BuildingPrefab:
-  - {fileID: 1918173941657128, guid: 56d0caa4e173d0c4692235bfefce318d, type: 2}
+  - {fileID: 0}
   GroundPrefab:
-  - {fileID: 1935536714573748, guid: 29aaf01b639350640b05cada8c39d137, type: 2}
+  - {fileID: 0}
   WalkablePrefab:
-  - {fileID: 1828582137651670, guid: e7c8a56378c62174ab911d9514b6e2a6, type: 2}
+  - {fileID: 0}
+  intObject: {fileID: 0}
 --- !u!4 &263762023
 Transform:
   m_ObjectHideFlags: 0
