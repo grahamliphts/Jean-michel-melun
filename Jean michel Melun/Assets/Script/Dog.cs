@@ -37,7 +37,7 @@ public class Dog : MonoBehaviour {
 
         if(lastInteract != new Vector3())
         {
-            Debug.DrawRay(transform.position, lastInteract - transform.position, GetComponent<SpriteRenderer>().color);
+            Debug.DrawRay(transform.position, lastInteract - transform.position,Color.white);
         }
     }
 
