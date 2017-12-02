@@ -32,6 +32,12 @@ public class Dog : MonoBehaviour {
         newInterract = false;*/
         lastInterest = 0;
         lastDistance = -1;
+
+        if(lastInteract != new Vector3())
+        {
+            Debug.DrawRay(transform.position, lastInteract - transform.position, GetComponent<SpriteRenderer>().color);
+            //transform.ro(lastInteract);
+        }
     }
 
 
@@ -41,7 +47,7 @@ public class Dog : MonoBehaviour {
         {        
             newInterract = true;
             int interest = other.gameObject.GetComponent<InteractibleObject>().getInterest();
-            Debug.Log("Test Interest " + other.gameObject.name + " " + interest);
+            //Debug.Log("Test Interest " + other.gameObject.name + " " + interest);
             if (lastInterest <= interest)
             {
                 Vector2 direction = lastInteract - this.transform.position;
@@ -54,6 +60,7 @@ public class Dog : MonoBehaviour {
                         lastInterest = interest;
                         lastInteract = other.gameObject.transform.position;
                         lastDistance = Distance;
+
                     }
                 }
                 else

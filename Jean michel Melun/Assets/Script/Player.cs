@@ -86,8 +86,10 @@ public class Player : MonoBehaviour
             _rightDogs.Add(_leftDogs[0]);
             _leftDogs.RemoveAt(0);
 
-            Debug.Log("Left : " + _leftDogs.Count);
-            Debug.Log("Right : " + _rightDogs.Count);
+            //Debug.Log("Left : " + _leftDogs.Count);
+            //Debug.Log("Right : " + _rightDogs.Count);
+
+            CalculatePositionDogs();
         }
     }
 
@@ -99,8 +101,30 @@ public class Player : MonoBehaviour
             _leftDogs.Add(_rightDogs[0]);
             _rightDogs.RemoveAt(0);
 
-            Debug.Log("Left : " + _leftDogs.Count);
-            Debug.Log("Right : " + _rightDogs.Count);
+            //Debug.Log("Left : " + _leftDogs.Count);
+            //Debug.Log("Right : " + _rightDogs.Count);
+            CalculatePositionDogs();
+        }
+    }
+
+    void CalculatePositionDogs()
+    {
+        for(int i = 0; i < _leftDogs.Count; i++)
+        {
+            float angle = Mathf.PI / (_leftDogs.Count + 1);
+            float x = 1 * Mathf.Cos(angle * (i + 1) + Mathf.PI / 2);
+            float y = 1 * Mathf.Sin(angle * (i + 1) + Mathf.PI / 2);
+
+            _leftDogs[i].transform.localPosition = new Vector3(x, y, 0);
+        }
+
+        for (int i = 0; i < _rightDogs.Count; i++)
+        {
+            float angle = Mathf.PI / (_rightDogs.Count + 1);
+            float x = 1 * Mathf.Cos(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
+            float y = 1 * Mathf.Sin(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
+
+            _rightDogs[i].transform.localPosition = new Vector3(x, y, 0);
         }
     }
 
@@ -115,6 +139,7 @@ public class Player : MonoBehaviour
             other.tag = "Dog";
             other.gameObject.transform.SetParent(this.transform);
             other.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+            CalculatePositionDogs();
         }
     }
 }
