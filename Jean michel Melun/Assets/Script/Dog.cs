@@ -5,17 +5,18 @@ using UnityEngine;
 public class Dog : MonoBehaviour {
 
     [SerializeField]
-    private int force;
+    private int _force = 0;
     [SerializeField]
-    float Targetangle  = 45f;
+    float _perception = 0f;
+
     private Collider2D _collider;
-    private Vector3 lastInteract;
+    private Vector3 _lastInteract;
 
-    private int lastInterest = 0;
-    private float lastDistance = -1;
+    private int _lastInterest = 0;
+    private float _lastDistance = -1;
 
-    private Vector2 CurrentDirection = new Vector2(0, 0);
-    bool newInterract = false;
+    private Vector2 _CurrentDirection = new Vector2(0, 0);
+    bool _newInterract = false;
 
 	// Use this for initialization
 	void Start () {
@@ -23,7 +24,8 @@ public class Dog : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
         /*
         Vector2 direction = lastInteract - this.transform.position;
         direction.Normalize();
@@ -32,12 +34,12 @@ public class Dog : MonoBehaviour {
         GetComponent<Rigidbody2D>().AddForce(direction * force);
 
         newInterract = false;*/
-        lastInterest = 0;
-        lastDistance = -1;
+        _lastInterest = 0;
+        _lastDistance = -1;
 
-        if(lastInteract != new Vector3())
+        if(_lastInteract != new Vector3())
         {
-            Debug.DrawRay(transform.position, lastInteract - transform.position, GetComponent<SpriteRenderer>().color);
+            Debug.DrawRay(transform.position, _lastInteract - transform.position, GetComponent<SpriteRenderer>().color);
         }
     }
 
@@ -50,32 +52,32 @@ public class Dog : MonoBehaviour {
             Vector3 targetDir = other.gameObject.transform.position - transform.position;
             float angle = Vector3.Angle(targetDir, transform.right);
 
-            if (angle < Targetangle)
+            if (angle < _perception)
             {
-                newInterract = true;
+                _newInterract = true;
                 int interest = other.gameObject.GetComponent<InteractibleObject>().getInterest();
 
                 //Debug.Log("Test Interest " + other.gameObject.name + " " + interest);
-                if (lastInterest <= interest)
+                if (_lastInterest <= interest)
                 {
-                    Vector2 direction = lastInteract - this.transform.position;
+                    Vector2 direction = _lastInteract - this.transform.position;
                     float Distance = direction.magnitude;
                     //Debug.Log(Distance);
-                    if (lastInterest == interest)
+                    if (_lastInterest == interest)
                     {
-                        if (lastDistance != -1 && lastDistance > Distance)
+                        if (_lastDistance != -1 && _lastDistance > Distance)
                         {
-                            lastInterest = interest;
-                            lastInteract = other.gameObject.transform.position;
-                            lastDistance = Distance;
+                            _lastInterest = interest;
+                            _lastInteract = other.gameObject.transform.position;
+                            _lastDistance = Distance;
 
                         }
                     }
                     else
                     {
-                        lastInterest = interest;
-                        lastInteract = other.gameObject.transform.position;
-                        lastDistance = Distance;
+                        _lastInterest = interest;
+                        _lastInteract = other.gameObject.transform.position;
+                        _lastDistance = Distance;
                     }
 
                 }
@@ -86,22 +88,37 @@ public class Dog : MonoBehaviour {
     {
         if (other.gameObject.tag == "Object")
         {
-            lastInteract = new Vector3(0, 0, 0);
+            _lastInteract = new Vector3(0, 0, 0);
         }
     }
 
-    public Vector3 getLastInteract()
+    public Vector3 GetLastInteract()
     {
-        return lastInteract;
+        return _lastInteract;
     }
 
     public void ResetLastInteract()
     {
-        lastInteract = new Vector3(0, 0, 0);
+        _lastInteract = new Vector3(0, 0, 0);
     }
 
-    public int getForce()
+    public int GetForce()
     {
-        return force;
+        return _force;
+    }
+
+    public float Perception()
+    {
+        return _perception;
+    }
+
+    public void AddForce(int add)
+    {
+        _force += add;
+    }
+
+    public void AddPerception(float add)
+    {
+        _perception += add;
     }
 }
