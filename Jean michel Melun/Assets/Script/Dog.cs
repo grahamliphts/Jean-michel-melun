@@ -6,6 +6,8 @@ public class Dog : MonoBehaviour {
 
     [SerializeField]
     private int force;
+    [SerializeField]
+    float Targetangle  = 45f;
     private Collider2D _collider;
     private Vector3 lastInteract;
 
@@ -48,7 +50,7 @@ public class Dog : MonoBehaviour {
             Vector3 targetDir = other.gameObject.transform.position - transform.position;
             float angle = Vector3.Angle(targetDir, transform.right);
 
-            if (angle < 5.0f)
+            if (angle < Targetangle)
             {
                 newInterract = true;
                 int interest = other.gameObject.GetComponent<InteractibleObject>().getInterest();
