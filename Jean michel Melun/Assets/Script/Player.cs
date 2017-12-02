@@ -161,34 +161,41 @@ public class Player : MonoBehaviour
 
     void CalculatePositionDogs()
     {
+        float distPlayer = 0.5f;
         for(int i = 0; i < _leftDogs.Count; i++)
         {
             float angle = Mathf.PI / (_leftDogs.Count + 1);
-            float x = 1 * Mathf.Cos(angle * (i + 1) + Mathf.PI / 2);
-            float y = 1 * Mathf.Sin(angle * (i + 1) + Mathf.PI / 2);
+            float x = distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI / 2);
+            float y = distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI / 2);
 
             _leftDogs[i].transform.localPosition = new Vector3(x, y, 0);
             
-            Vector3 diff = _leftDogs[i].transform.position - transform.position;
-            diff.Normalize();
+            if (_leftDogs[i].getLastInteract() == new Vector3(0,0,0))
+            {
+                Vector3 diff = _leftDogs[i].transform.position - transform.position;
+                diff.Normalize();
 
-            float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-            _leftDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+                _leftDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+            }
         }
 
         for (int i = 0; i < _rightDogs.Count; i++)
         {
             float angle = Mathf.PI / (_rightDogs.Count + 1);
-            float x = 1 * Mathf.Cos(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
-            float y = 1 * Mathf.Sin(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
+            float x = distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
+            float y = distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
 
             _rightDogs[i].transform.localPosition = new Vector3(x, y, 0);
 
-            Vector3 diff = _rightDogs[i].transform.position - transform.position;
-            diff.Normalize();
+            if (_rightDogs[i].getLastInteract() == new Vector3(0, 0, 0))
+            {
+                Vector3 diff = _rightDogs[i].transform.position - transform.position;
+                diff.Normalize();
 
-            float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-            _rightDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+                _rightDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+            }
         }
     }
 
