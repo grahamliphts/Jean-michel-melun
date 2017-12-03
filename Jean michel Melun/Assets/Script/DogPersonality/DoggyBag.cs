@@ -16,8 +16,30 @@ public class DoggyBag : MonoBehaviour
     [SerializeField]
     RuntimeAnimatorController[] _chihuahua;
 
-    // Use this for initialization
+    [SerializeField]
+    public AudioClip[] _sourceSound; // 0 - big / 1 - medium / 2 - small / 3 - sniff
+
+    [SerializeField]
+    mapGenerator _mapGenerator;
+    
+    List<Vector3> sideWalkList = new List<Vector3>();
+
     void Start()
+    {
+        StartCoroutine("WaitMap");
+    }
+
+    IEnumerator WaitMap()
+    {
+        while(!_mapGenerator._finish)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+        sideWalkList = _mapGenerator.sideWalkList;
+        StartGenerator();
+    }
+
+    void StartGenerator()
     {
         RuntimeAnimatorController[][] _allDogs = new RuntimeAnimatorController[3][];
         _allDogs[0] = _shybaType;
@@ -27,7 +49,10 @@ public class DoggyBag : MonoBehaviour
         for (int i = 0; i < _numberDogs; i++)
         {
             GameObject newDog = Instantiate(Resources.Load("DogPrefab")) as GameObject;
-            newDog.transform.position = new Vector3(Random.Range(-5.0f, 5.0f), Random.Range(-5.0f, 5.0f), 0);
+
+            int pos = Random.Range(0, sideWalkList.Count);
+            newDog.transform.position = sideWalkList[pos];
+            sideWalkList.RemoveAt(pos);
             newDog.transform.rotation = new Quaternion();
 
             int typeDog = Random.Range(0, _allDogs.Length);
@@ -37,14 +62,20 @@ public class DoggyBag : MonoBehaviour
                 case 0: // Shiba
                     newDog.GetComponent<Dog>().AddForce(3);
                     newDog.GetComponent<Dog>().AddPerception(40);
+                    newDog.GetComponent<Dog>().woof.clip = _sourceSound[1];
+                    newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
                     break;
                 case 1: // Bulldog
                     newDog.GetComponent<Dog>().AddForce(5);
                     newDog.GetComponent<Dog>().AddPerception(20);
+                    newDog.GetComponent<Dog>().woof.clip = _sourceSound[0];
+                    newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
                     break;
                 case 2: // Chihuahua
                     newDog.GetComponent<Dog>().AddForce(1);
                     newDog.GetComponent<Dog>().AddPerception(60);
+                    newDog.GetComponent<Dog>().woof.clip = _sourceSound[2];
+                    newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
                     break;
             }
 

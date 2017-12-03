@@ -45,7 +45,10 @@ public class AquaDog : MonoBehaviour
     void Update()
     {
         if (_initialize && !_found && _dog.tag == "Dog")
+        {
             _found = true;
+            transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
+        }
 
         if (_initialize && _found && !_ultiStart && !_hasWater)
         {
@@ -66,6 +69,7 @@ public class AquaDog : MonoBehaviour
     void DogFound()
     {
         _found = true;
+        transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
     }
 
     IEnumerator TriggerUlti()
@@ -97,6 +101,7 @@ public class AquaDog : MonoBehaviour
         yield return new WaitForSeconds(_timeUlti);
         transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
         _dog.gameObject.GetComponent<CircleCollider2D>().enabled = true;
+        transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = true;
         _ultiStart = false;
     }
 

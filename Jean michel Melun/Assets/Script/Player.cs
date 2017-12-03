@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class Player : MonoBehaviour
     private List<Dog> _rightDogs;
     private Vector2 _directionPlayer;
     private Rigidbody2D _rigidbody;
+
+    private int _forceLeft = 0;
+    private int _forceRight = 0;
 
     [SerializeField]
     GameObject leftArmRoot;
@@ -17,7 +21,18 @@ public class Player : MonoBehaviour
     GameObject rightArmRoot;
     [SerializeField]
     Transform Righthandroot;
-    float _distPlayer = .7f;
+
+    [SerializeField]
+    Image[] _jauge;
+
+    [SerializeField]
+    int _maxForcePlayer = 15;
+
+    [SerializeField]
+    int _forcePlayer = 30;
+
+
+    float _distPlayer = .9f;
 
     List<LineRenderer> laisses;
     // Use this for initialization
@@ -34,29 +49,53 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Z))
         {
-            _rigidbody.AddForce(new Vector2(0, 5));
+            _rigidbody.AddForce(new Vector2(0, _forcePlayer));
         }
         if (Input.GetKey(KeyCode.S))
         {
-            _rigidbody.AddForce(new Vector2(0, -5));
+            _rigidbody.AddForce(new Vector2(0, -_forcePlayer));
         }
         if (Input.GetKey(KeyCode.Q))
         {
-            _rigidbody.AddForce(new Vector2(-5, 0));
+            _rigidbody.AddForce(new Vector2(-_forcePlayer, 0));
         }
         if (Input.GetKey(KeyCode.D))
         {
-            _rigidbody.AddForce(new Vector2(5, 0));
+            _rigidbody.AddForce(new Vector2(_forcePlayer, 0));
         }
 
 
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetMouseButtonUp(0))
         {
             SwitchDogRightToLeft();
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetMouseButtonUp(1))
         {
             SwitchDogLeftToRight();
+        }
+        if (Input.GetMouseButtonUp(2))
+        {
+            if(_leftDogs.Count != 0 || _rightDogs.Count != 0)
+            {
+                int choice = -1;
+                if(_leftDogs.Count != 0 && _rightDogs.Count != 0)
+                {
+                    choice = Random.Range(0, 2);
+                }
+
+                if (choice == -1 && _rightDogs.Count != 0 || choice == 0)
+                {
+                    int i = Random.Range(0, _rightDogs.Count);
+                    _rightDogs[i].Evade();
+                    _rightDogs.RemoveAt(i);
+                }
+                else if (choice == -1 && _leftDogs.Count != 0 || choice == 1)
+                {
+                    int i = Random.Range(0, _leftDogs.Count);
+                    _leftDogs[i].Evade();
+                    _leftDogs.RemoveAt(i);
+                }
+            }
         }
 
         CheckDogs();
@@ -69,7 +108,9 @@ public class Player : MonoBehaviour
         int i = 0;
         Vector3 leftDirection = new Vector3(0, 0, 0);
         Vector3 rightDirecton = new Vector3(0, 0, 0);
-
+        
+        _forceLeft = 0;
+        _forceRight = 0;
       
         foreach (Dog dog in _leftDogs)
         {
@@ -86,9 +127,10 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
                 directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
+                _forceLeft += dog.GetForce();
             }
             else
             {
@@ -103,7 +145,7 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
             i++;
             leftDirection += dog.transform.localPosition;
@@ -114,7 +156,7 @@ public class Player : MonoBehaviour
                 dog.gameObject.GetComponent<LineRenderer>().SetPosition(1, dog.transform.position);
             }
         }
-        leftDirection = leftDirection / i;
+
         i = 0;
         foreach (Dog dog in _rightDogs)
         {
@@ -131,9 +173,10 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
                 directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
+                _forceRight += dog.GetForce();
             }
             else
             {
@@ -148,7 +191,7 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
             rightDirecton += dog.transform.localPosition;
             if (dog.gameObject.GetComponent<LineRenderer>() != null)
@@ -159,8 +202,11 @@ public class Player : MonoBehaviour
             i++;
 
         }
-        rightDirecton = rightDirecton / i;
 
+
+        // POSITION ARMS
+        leftDirection = leftDirection / _leftDogs.Count;
+        rightDirecton = rightDirecton / _rightDogs.Count;
         leftDirection.Normalize();
         rightDirecton.Normalize();
         
@@ -169,6 +215,30 @@ public class Player : MonoBehaviour
         
         float Rrot_z = Mathf.Atan2(rightDirecton.y, rightDirecton.x) * Mathf.Rad2Deg;
         rightArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Rrot_z + (rightDirecton == new Vector3(0, 0, 0) ? 0 : -90));
+        //----------
+
+        // JAUGES FORCE
+        float forceLeft = _forceLeft * 1.0f / _maxForcePlayer;
+        float forceRight = _forceRight * 1.0f / _maxForcePlayer;
+
+        _jauge[0].color = Color.HSVToRGB((120 - forceLeft * 120) / 255.0f, 1, 1);
+        _jauge[0].fillAmount = forceLeft;
+        _jauge[1].color = Color.HSVToRGB((120 - forceRight * 120) / 255.0f, 1, 1);
+        _jauge[1].fillAmount = forceRight;
+
+        if (forceLeft >= 1.0f)
+        {
+            int j = Random.Range(0, _leftDogs.Count);
+            _leftDogs[j].Evade();
+            _leftDogs.RemoveAt(j);
+        }
+        if (forceRight >= 1.0f)
+        {
+            int j = Random.Range(0, _rightDogs.Count);
+            _rightDogs[j].Evade();
+            _rightDogs.RemoveAt(j);
+        }
+
 
         _rigidbody.AddForce(directionToApply);
     }
@@ -217,7 +287,7 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                _leftDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                _leftDogs[i].transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
 
           }
@@ -236,7 +306,7 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                _rightDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                _rightDogs[i].transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
         }
     }

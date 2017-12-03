@@ -30,12 +30,13 @@ public class mapGenerator : MonoBehaviour {
 
     int endLine;
     int endColumn;
-
-    List<Vector3> sideWalkList = new List<Vector3>(); 
-
+    
+    public List<Vector3> sideWalkList = new List<Vector3>();
+    public bool _finish = false;
+    
     int[] endLineTab;
     int[] endColumnTab;
-    int[] heightTab; 
+    int[] heightTab;
 
     [SerializeField]
     GameObject[] BuildingPrefab;
@@ -50,16 +51,17 @@ public class mapGenerator : MonoBehaviour {
 
     private int[][] _Map;
 
-
-	// Use this for initialization
-	void Start ()
+    int[][] orientedMap;
+    
+    // Use this for initialization
+    void Start()
     {
 
         int baseMapType = 0;
-        int buildType = 1; 
-        int pathType = 2; 
+        int buildType = 1;
+        int pathType = 2;
         int roadType = 3;
-        int sideWalkType = 4; 
+        int sideWalkType = 5;
 
         // Generate base ground empty map
         initMap(baseMapType);
@@ -72,10 +74,10 @@ public class mapGenerator : MonoBehaviour {
 
             startColumn = endLineTab[count];
             startLine = heightTab[0];
-   
+
             endColumn = endColumnTab[count];
             endLine = heightTab[1];
-           
+
             createRoad(roadType);
         }
 
@@ -88,11 +90,13 @@ public class mapGenerator : MonoBehaviour {
             startLine = endLineTab[count];
             startColumn = heightTab[0];
 
-            endLine =endColumnTab[count];
+            endLine = endColumnTab[count];
             endColumn = heightTab[1];
 
             createRoad(roadType);
         }
+
+        //orientedRoad(roadType);
 
         // Create sidewalks
         createsideWalk(sideWalkType, baseMapType, roadType);
@@ -105,13 +109,13 @@ public class mapGenerator : MonoBehaviour {
         createBuilding(buildType, baseMapType, buildingSize);
 
         generateMap();
-
-	}
+        _finish = true;
+    }
 	
 	// Update is called once per frame
 	void Update () {
 		
-	}
+    }
 
     //Randomize order of elements in a tab 
     void randomizeTab(int[] tab, int size)
@@ -122,13 +126,13 @@ public class mapGenerator : MonoBehaviour {
         for (int i = 0; i < size; i++)
         {
             rand_num = Random.Range(0, size);
-            
+
             temp = tab[i];
             tab[i] = tab[rand_num];
             tab[rand_num] = temp;
         }
     }
-    
+
     //Define starts and end points for roads
     void defPointTabs(int roadNb)
     {
@@ -184,10 +188,10 @@ public class mapGenerator : MonoBehaviour {
             if (currKeepGo == maxKeepGo)
             {
                 principalDir = Random.Range(0, 2);
-                currKeepGo = 0; 
+                currKeepGo = 0;
             }
             else
-                currKeepGo += 1; 
+                currKeepGo += 1;
 
 
             if (principalDir == 0) // Go Up or down
@@ -210,6 +214,113 @@ public class mapGenerator : MonoBehaviour {
                 keepWalk = false;
         }
     }
+
+    int compareNeiboors(int[] l1)
+    {
+
+        int orientation = 0;
+
+        int[][] neiboors = new int[7][];
+
+        neiboors[0] = new int[] {0,1,0,0,1,0,0,1,0}; //Vertical
+        neiboors[1] = new int[] {0,0,0,1,1,1,0,0,0}; //Horizontal
+        neiboors[2] = new int[] {0,0,0,0,1,0,1,1,1}; // Down
+        neiboors[3] = new int[] {0,0,0,1,1,1,0,1,0}; // Top
+        neiboors[4] = new int[] {0,1,0,0,1,1,0,1,0}; // Left
+        neiboors[5] = new int[] {0,1,0,1,1,0,0,1,0}; // Right
+        neiboors[6] = new int[] {0,1,0,1,1,1,0,1,0}; // Cross
+        
+        for (int i=0; i <7; i++)
+        {
+            bool res = false;
+            res = compareLists(l1, neiboors[i]);
+
+            if (res == true)
+
+            if (res == true)
+                orientation = i;
+        }
+
+        return orientation; 
+    }
+
+
+    bool compareLists(int[] l1, int[] l2)
+    {
+        bool res = true;
+
+        for (int i = 0; i < l1.Length; i++)
+        {
+            if (l1[i] != l2[i])
+            {
+                if (res == true)
+                    res = false;
+            }
+        }
+
+     return res;
+    }
+
+    //Create an oriented road map 
+    void orientedRoad(int area_type)
+    {
+        
+        orientedMap = new int[mapSize][];
+        for (int i = 0; i < mapSize; i++)
+        {
+            orientedMap[i] = new int[mapSize];
+            for (int j = 0; j < mapSize; j++)
+            {
+                orientedMap[i][j] = 0;
+            }
+        }
+
+
+        int[] neiboors = new int[9];
+        for (int a=0; a < 9 ; a++)
+            neiboors[a] = 0;
+
+        int count_nei = 0;
+        for (int line = 1; line < mapSize - 1; line++)
+        {
+            for (int col = 1; col < mapSize - 1; col++)
+            {
+                if (_Map[line][col] == area_type)
+                {
+
+                    count_nei = 0;
+                    string debug = "";
+                    for (int j = -1; j < 2; j++)
+                    {
+                        for (int i = -1; i < 2; i++)
+                        {
+                            if (_Map[line + i][col + j] == area_type)
+                            {
+                                neiboors[count_nei] = 1;
+                            }else
+                            {
+                                neiboors[count_nei] = 0;
+                            }
+
+                            debug += neiboors[count_nei].ToString();
+                            debug += " / ";
+                            count_nei++;
+                        }
+
+
+                    }
+                    Debug.Log(debug);
+                    Debug.Log("compare :" + compareNeiboors(neiboors));
+                }
+
+                
+                orientedMap[line][col] = compareNeiboors(neiboors);
+                
+
+            }      
+        }
+    }
+
 
     // Add an area_type path in the map between roadType roads
     void createPath(int area_type, int baseMapType, int roadType)
@@ -359,13 +470,14 @@ public class mapGenerator : MonoBehaviour {
     {
         float i = 0;
         float j = 0;
-        int nb; 
+        int nb;
+        int countI = 0;
+        int countJ = 0; 
 
         foreach(int[] MapLine in _Map)
         {
             foreach(int area in MapLine)
             {
-                //Debug.Log(i + " "+ j);
                 Vector3 position  = new Vector3(transform.position.x + i, transform.position.y + j, 0);
                 switch (area)
                 {
@@ -374,7 +486,6 @@ public class mapGenerator : MonoBehaviour {
                         break;
                     case 1:     // Building 
                         nb = scaledRandom(0, BuildingPrefab.Length, true);
-                        //Debug.Log(nb);
                         Instantiate(BuildingPrefab[nb], position, new Quaternion(), transform);
                         break;
                     case 2:     // Path thing
@@ -385,16 +496,23 @@ public class mapGenerator : MonoBehaviour {
                         nb = scaledRandom(0, RoadPrefab.Length, true);
                         Instantiate(RoadPrefab[nb], position, new Quaternion(), transform);
                         break;
-                    case 4:     //SideWalk
+
+                    case 5:     //SideWalk
                         nb = scaledRandom(0, SideWalkPrefab.Length, true);
                         Instantiate(SideWalkPrefab[nb], position, new Quaternion(), transform);
                         sideWalkList.Add(position);
                         break;
+
                 }
                 j += sprite_size;
+
+                countI++; 
             }
+            countI = 0;
             j = 0;
             i+= sprite_size;
+
+            countJ++; 
         }
 
     }
