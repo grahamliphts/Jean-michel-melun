@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1283058665558314}
+  m_IsPrefabParent: 1
+--- !u!1 &1283058665558314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4704823190410430}
+  - component: {fileID: 114524061309214348}
+  m_Layer: 0
+  m_Name: DoggyBagManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4704823190410430
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283058665558314}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.623, y: -0.256, z: -0.014164453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114524061309214348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1283058665558314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38e00ae2b893af24d9deb68625b51bd0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _numberDogs: 20
+  _shybaType:
+  - {fileID: 9100000, guid: 08407172d2d42984dad9dcbe854075f9, type: 2}
+  - {fileID: 9100000, guid: 79c8135854570d3428899bebf937c465, type: 2}
+  - {fileID: 9100000, guid: b6e15be867ba1b64984fec1a3f362689, type: 2}
+  - {fileID: 9100000, guid: 4d7400dbe9140ea48af7af98b2607f02, type: 2}
+  - {fileID: 9100000, guid: d4501bd76fb0b014bb49237d24bb2ef0, type: 2}
+  - {fileID: 9100000, guid: a8c500ec047ec9a49a1ec7d5590230eb, type: 2}
+  _bulldogType:
+  - {fileID: 9100000, guid: 65d420abf06a5b54cb30cafc6410c891, type: 2}
+  - {fileID: 9100000, guid: 7698ee2ab8e5acb41a83b36a00056764, type: 2}
+  - {fileID: 9100000, guid: ecc7f4858d58e7841a61314e95761ddb, type: 2}
+  - {fileID: 9100000, guid: ad53a59a5b0f7514b83f7428073f8ffd, type: 2}
+  - {fileID: 9100000, guid: 9bbfd20c5285b5d4bbe286e2d88f3b18, type: 2}
+  - {fileID: 9100000, guid: 78425806fa62869439a7bb59413db933, type: 2}
+  _chihuahua:
+  - {fileID: 9100000, guid: 07cb609e48bb86448a8712725cdad5f7, type: 2}
+  - {fileID: 9100000, guid: 2c51e77cff58da84fa8b6b5d812445b0, type: 2}
+  - {fileID: 9100000, guid: 600e87b73e4f95c49b0057ea67461a4a, type: 2}
+  - {fileID: 9100000, guid: bfdf5c134968d5f489187ad074faacb5, type: 2}
+  - {fileID: 9100000, guid: d5168ff2a390b744e87949b597a3db1c, type: 2}
+  - {fileID: 9100000, guid: 9069214bce198144a954bce23e63594e, type: 2}
+  _sourceSound:
+  - {fileID: 8300000, guid: f8a97925c39fee0438d8e6bcc8c4cee6, type: 3}
+  - {fileID: 8300000, guid: 3870b864c7a608f4c8b2442bc78747ae, type: 3}
+  - {fileID: 8300000, guid: 0e7536ee006aaa142be02f5cabcee543, type: 3}
+  - {fileID: 8300000, guid: 6d95d4c6d4f1c264188f72f8ee5e7a64, type: 3}

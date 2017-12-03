@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -9,11 +10,28 @@ public class Player : MonoBehaviour
     private Vector2 _directionPlayer;
     private Rigidbody2D _rigidbody;
 
+    private int _forceLeft = 0;
+    private int _forceRight = 0;
+
     [SerializeField]
     GameObject leftArmRoot;
     [SerializeField]
+    Transform Lefthandroot;
+    [SerializeField]
     GameObject rightArmRoot;
-    float _distPlayer = .7f;
+    [SerializeField]
+    Transform Righthandroot;
+
+    [SerializeField]
+    Image[] _jauge;
+
+    [SerializeField]
+    int _maxForcePlayer = 15;
+
+
+    float _distPlayer = .9f;
+
+    List<LineRenderer> laisses;
     // Use this for initialization
     void Start ()
     {
@@ -44,13 +62,37 @@ public class Player : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetMouseButtonUp(0))
         {
             SwitchDogRightToLeft();
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetMouseButtonUp(1))
         {
             SwitchDogLeftToRight();
+        }
+        if (Input.GetMouseButtonUp(2))
+        {
+            if(_leftDogs.Count != 0 || _rightDogs.Count != 0)
+            {
+                int choice = -1;
+                if(_leftDogs.Count != 0 && _rightDogs.Count != 0)
+                {
+                    choice = Random.Range(0, 2);
+                }
+
+                if (choice == -1 && _rightDogs.Count != 0 || choice == 0)
+                {
+                    int i = Random.Range(0, _rightDogs.Count);
+                    _rightDogs[i].Evade();
+                    _rightDogs.RemoveAt(i);
+                }
+                else if (choice == -1 && _leftDogs.Count != 0 || choice == 1)
+                {
+                    int i = Random.Range(0, _leftDogs.Count);
+                    _leftDogs[i].Evade();
+                    _leftDogs.RemoveAt(i);
+                }
+            }
         }
 
         CheckDogs();
@@ -61,7 +103,12 @@ public class Player : MonoBehaviour
     {
         Vector3 directionToApply = new Vector3(0, 0, 0);
         int i = 0;
-
+        Vector3 leftDirection = new Vector3(0, 0, 0);
+        Vector3 rightDirecton = new Vector3(0, 0, 0);
+        
+        _forceLeft = 0;
+        _forceRight = 0;
+      
         foreach (Dog dog in _leftDogs)
         {
             Vector3 lastInteract = dog.GetLastInteract();
@@ -77,9 +124,10 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
                 directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
+                _forceLeft += dog.GetForce();
             }
             else
             {
@@ -94,13 +142,18 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
             i++;
+            leftDirection += dog.transform.localPosition;
+
+            if (dog.gameObject.GetComponent<LineRenderer>() != null)
+            {
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(0, Lefthandroot.position);
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(1, dog.transform.position);
+            }
         }
-        Vector3 leftDirection = directionToApply;
-        leftDirection.Normalize();
-        Vector3 rightDirecton = new Vector3(0, 0, 0);
+
         i = 0;
         foreach (Dog dog in _rightDogs)
         {
@@ -117,10 +170,10 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
                 directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
-                rightDirecton += (lastInteract - dog.transform.position) * dog.GetForce();
+                _forceRight += dog.GetForce();
             }
             else
             {
@@ -135,22 +188,54 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
+            }
+            rightDirecton += dog.transform.localPosition;
+            if (dog.gameObject.GetComponent<LineRenderer>() != null)
+            {
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(0, Righthandroot.position);
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(1, dog.transform.position);
             }
             i++;
+
         }
+
+
+        // POSITION ARMS
+        leftDirection = leftDirection / _leftDogs.Count;
+        rightDirecton = rightDirecton / _rightDogs.Count;
+        leftDirection.Normalize();
         rightDirecton.Normalize();
-        Vector3 Ldiff = leftDirection - leftArmRoot.transform.position;
-        Ldiff.Normalize();
-
+        
         float Lrot_z = Mathf.Atan2(leftDirection.y, leftDirection.x) * Mathf.Rad2Deg;
-        leftArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, -Lrot_z + 90);
-
-        Vector3 Rdiff = rightDirecton - rightArmRoot.transform.position;
-        Rdiff.Normalize();
-
+        leftArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Lrot_z + (leftDirection == new Vector3(0,0,0) ? 0 : -90));
+        
         float Rrot_z = Mathf.Atan2(rightDirecton.y, rightDirecton.x) * Mathf.Rad2Deg;
-        rightArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Rrot_z - 90);
+        rightArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Rrot_z + (rightDirecton == new Vector3(0, 0, 0) ? 0 : -90));
+        //----------
+
+        // JAUGES FORCE
+        float forceLeft = _forceLeft * 1.0f / _maxForcePlayer;
+        float forceRight = _forceRight * 1.0f / _maxForcePlayer;
+
+        _jauge[0].color = Color.HSVToRGB((120 - forceLeft * 120) / 255.0f, 1, 1);
+        _jauge[0].fillAmount = forceLeft;
+        _jauge[1].color = Color.HSVToRGB((120 - forceRight * 120) / 255.0f, 1, 1);
+        _jauge[1].fillAmount = forceRight;
+
+        if (forceLeft >= 1.0f)
+        {
+            int j = Random.Range(0, _leftDogs.Count);
+            _leftDogs[j].Evade();
+            _leftDogs.RemoveAt(j);
+        }
+        if (forceRight >= 1.0f)
+        {
+            int j = Random.Range(0, _rightDogs.Count);
+            _rightDogs[j].Evade();
+            _rightDogs.RemoveAt(j);
+        }
+
 
         _rigidbody.AddForce(directionToApply);
     }
@@ -199,9 +284,10 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                _leftDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                _leftDogs[i].transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
-        }
+
+          }
 
         for (int i = 0; i < _rightDogs.Count; i++)
         {
@@ -217,7 +303,7 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                _rightDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                _rightDogs[i].transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
         }
     }
@@ -257,6 +343,13 @@ public class Player : MonoBehaviour
             CalculatePositionDogs();
             other.gameObject.GetComponent<Dog>().playBackgroundLoop();
             other.gameObject.GetComponent<Dog>().haveMaster(true);
+           // other.gameObject.AddComponent<LineRenderer>();
+
+            other.gameObject.GetComponent<LineRenderer>().SetPosition(0, transform.position);
+            other.gameObject.GetComponent<LineRenderer>().SetPosition(1, other.transform.position);
+            other.gameObject.GetComponent<LineRenderer>().startWidth = .01f;
+            other.gameObject.GetComponent<LineRenderer>().endWidth = .01f;
         }
+
     }
 }
