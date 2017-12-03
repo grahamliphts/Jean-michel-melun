@@ -123,7 +123,6 @@ public class Player : MonoBehaviour
                 dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
 
                 directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
-                rightDirecton += (lastInteract - dog.transform.position) * dog.GetForce();
             }
             else
             {
@@ -144,17 +143,15 @@ public class Player : MonoBehaviour
             i++;
         }
         rightDirecton = rightDirecton / i;
+
         leftDirection.Normalize();
         rightDirecton.Normalize();
-
-
+        
         float Lrot_z = Mathf.Atan2(leftDirection.y, leftDirection.x) * Mathf.Rad2Deg;
-        leftArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Lrot_z );
-
-
+        leftArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Lrot_z + (leftDirection == new Vector3(0,0,0) ? 0 : -90));
+        
         float Rrot_z = Mathf.Atan2(rightDirecton.y, rightDirecton.x) * Mathf.Rad2Deg;
-        Debug.Log(Rrot_z);
-        rightArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Rrot_z -90);
+        rightArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Rrot_z + (rightDirecton == new Vector3(0, 0, 0) ? 0 : -90));
 
         _rigidbody.AddForce(directionToApply);
     }
