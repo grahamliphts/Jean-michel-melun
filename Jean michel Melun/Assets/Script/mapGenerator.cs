@@ -34,8 +34,8 @@ public class mapGenerator : MonoBehaviour {
     public List<Vector3> sideWalkList = new List<Vector3>();
     public List<Vector3> freeSpaceList = new List<Vector3>();
 
-    Vector3 EntryPoint = new Vector3();
-    Vector3 ExitPoint = new Vector3();
+    public Vector3 EntryPoint = new Vector3();
+    public Vector3 ExitPoint = new Vector3();
 
     public bool _finish = false;
     

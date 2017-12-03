@@ -11,7 +11,7 @@ public class ThorDog : MonoBehaviour
     private Dog _dog;
 
     [SerializeField]
-    int _addForceStat = 1; // +1 / +3 / +5
+    int _addForceStat = 2; // +1 / +3 / +5
 
     [SerializeField]
     float _addPerceptionStat = 0; // en °

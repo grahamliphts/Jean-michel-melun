@@ -221,10 +221,16 @@ public class Dog : MonoBehaviour {
         transform.SetParent(null);
         GetComponent<LineRenderer>().enabled = false;
         GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-        if (_lastInteract == new Vector3(0, 0, 0))
-            _lastInteract = new Vector3(Random.Range(-5, 5), Random.Range(-5, 5), 0);
 
-        Vector3 diff = _lastInteract - transform.position;
+        Vector3 diff;
+        if (_lastInteract == new Vector3(0, 0, 0))
+        {
+            _lastInteract = new Vector3(Random.Range(-10.0f, 10.0f), Random.Range(-10.0f, 10.0f), 0);
+            diff = _lastInteract;
+        }
+        else
+            diff = _lastInteract - transform.position;
+
         diff.Normalize();
 
         float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
