@@ -34,8 +34,8 @@ public class mapGenerator : MonoBehaviour {
     public List<Vector3> sideWalkList = new List<Vector3>();
     public List<Vector3> freeSpaceList = new List<Vector3>();
 
-    Vector3 EntryPoint = new Vector3();
-    Vector3 ExitPoint = new Vector3();
+    public Vector3 EntryPoint = new Vector3();
+    public Vector3 ExitPoint = new Vector3();
 
     public bool _finish = false;
     
@@ -118,7 +118,7 @@ public class mapGenerator : MonoBehaviour {
         int i = 0;
         while (_Map[i][0] != roadType)
             i++;
-        EntryPoint.x = i;
+        EntryPoint.x = i * sprite_size;
         EntryPoint.y = 0;
 
         Debug.Log("Entry : " + EntryPoint.x);
@@ -128,8 +128,8 @@ public class mapGenerator : MonoBehaviour {
         i = mapSize - 1;
         while (_Map[i][mapSize-1] != roadType)
             i--;
-        ExitPoint.x = i;
-        ExitPoint.y = mapSize-1;
+        ExitPoint.x = i * sprite_size;
+        ExitPoint.y = (mapSize-1) * sprite_size;
 
         Debug.Log("Exit : " + ExitPoint.x);
 

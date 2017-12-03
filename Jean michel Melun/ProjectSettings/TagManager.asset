@@ -8,6 +8,7 @@ TagManager:
   - LostDog
   - Dog
   - Water
+  - Kryptonite
   layers:
   - Default
   - TransparentFX

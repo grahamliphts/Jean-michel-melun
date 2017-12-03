@@ -43,6 +43,7 @@ public class DoggyBag : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
         sideWalkList = _mapGenerator.sideWalkList;
+        freeSpaceList = _mapGenerator.freeSpaceList;
         StartGenerator();
     }
 
@@ -67,19 +68,19 @@ public class DoggyBag : MonoBehaviour
             switch (typeDog)
             {
                 case 0: // Shiba
-                    newDog.GetComponent<Dog>().AddForce(3);
+                    newDog.GetComponent<Dog>().AddForce(6);
                     newDog.GetComponent<Dog>().AddPerception(40);
                     newDog.GetComponent<Dog>().woof.clip = _sourceSound[1];
                     newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
                     break;
                 case 1: // Bulldog
-                    newDog.GetComponent<Dog>().AddForce(5);
+                    newDog.GetComponent<Dog>().AddForce(10);
                     newDog.GetComponent<Dog>().AddPerception(20);
                     newDog.GetComponent<Dog>().woof.clip = _sourceSound[0];
                     newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
                     break;
                 case 2: // Chihuahua
-                    newDog.GetComponent<Dog>().AddForce(1);
+                    newDog.GetComponent<Dog>().AddForce(2);
                     newDog.GetComponent<Dog>().AddPerception(60);
                     newDog.GetComponent<Dog>().woof.clip = _sourceSound[2];
                     newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
@@ -124,11 +125,12 @@ public class DoggyBag : MonoBehaviour
         for (int i = 0; i < _numberObjects; i++)
         {
             int pos = Random.Range(0, freeSpaceList.Count);
-            sideWalkList.RemoveAt(pos);
 
             int typeObject = Random.Range(0, _objects.Length);
             GameObject newObject = Instantiate(_objects[typeObject]) as GameObject;
-            newObject.transform.position = freeSpaceList[pos];
+            newObject.transform.position = freeSpaceList[pos] + new Vector3(0, 0, -0.1f);
+            newObject.transform.rotation = Quaternion.Euler(0, 0, Random.Range(0.0f, 360.0f));
+            freeSpaceList.RemoveAt(pos);
         }
 
         //Sprite sprite = newDog.AddComponent<SpriteRenderer>();

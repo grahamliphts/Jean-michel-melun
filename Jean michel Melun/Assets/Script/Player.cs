@@ -27,13 +27,15 @@ public class Player : MonoBehaviour
     Image[] _jauge;
 
     [SerializeField]
-    int _maxForcePlayer = 15;
+    int _maxForcePlayer = 5;
 
     [SerializeField]
     int _forcePlayer = 30;
 
+    [SerializeField]
+    mapGenerator _mapGenerator;
 
-    float _distPlayer = .9f;
+    float _distPlayer = 10f;
 
     private int dogAmount = 0;
     // Use this for initialization
@@ -43,10 +45,20 @@ public class Player : MonoBehaviour
         _rightDogs = new List<Dog>();
         
         _rigidbody = GetComponent<Rigidbody2D>();
+        StartCoroutine("WaitMap");
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    IEnumerator WaitMap()
+    {
+        while (!_mapGenerator._finish)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+        transform.position = _mapGenerator.EntryPoint;
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
         if (Input.GetKey(KeyCode.Z))
         {
@@ -126,7 +138,7 @@ public class Player : MonoBehaviour
                 float angle = Mathf.PI / (_leftDogs.Count + 1);
                 float x = _distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI / 2);
                 float y = _distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI / 2);
-
+                
                 dog.transform.localPosition = new Vector3(x + ((lastInteract.x - (x + transform.position.x)) * 0.1f), y + ((lastInteract.y - (y + transform.position.y)) * 0.2f), 0);
 
                 Vector3 diff = lastInteract - dog.transform.position;
@@ -135,7 +147,7 @@ public class Player : MonoBehaviour
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
                 dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
-                directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
+                directionToApply += diff * dog.GetForce();
                 _forceLeft += dog.GetForce();
             }
             else
@@ -182,7 +194,7 @@ public class Player : MonoBehaviour
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
                 dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
-                directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
+                directionToApply += diff * dog.GetForce();
                 _forceRight += dog.GetForce();
             }
             else
@@ -209,6 +221,7 @@ public class Player : MonoBehaviour
             i++;
 
         }
+        _rigidbody.AddForce(directionToApply);
 
 
         // POSITION ARMS
@@ -247,7 +260,6 @@ public class Player : MonoBehaviour
         }
 
 
-        _rigidbody.AddForce(directionToApply);
     }
 
     void SwitchDogLeftToRight()
