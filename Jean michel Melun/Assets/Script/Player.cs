@@ -9,7 +9,11 @@ public class Player : MonoBehaviour
     private Vector2 _directionPlayer;
     private Rigidbody2D _rigidbody;
 
-    float _distPlayer = 0.5f;
+    [SerializeField]
+    GameObject leftArmRoot;
+    [SerializeField]
+    GameObject rightArmRoot;
+    float _distPlayer = .7f;
     // Use this for initialization
     void Start ()
     {
@@ -94,7 +98,9 @@ public class Player : MonoBehaviour
             }
             i++;
         }
-
+        Vector3 leftDirection = directionToApply;
+        leftDirection.Normalize();
+        Vector3 rightDirecton = new Vector3(0, 0, 0);
         i = 0;
         foreach (Dog dog in _rightDogs)
         {
@@ -114,6 +120,7 @@ public class Player : MonoBehaviour
                 dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
 
                 directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
+                rightDirecton += (lastInteract - dog.transform.position) * dog.GetForce();
             }
             else
             {
@@ -132,6 +139,19 @@ public class Player : MonoBehaviour
             }
             i++;
         }
+        rightDirecton.Normalize();
+        Vector3 Ldiff = leftDirection - leftArmRoot.transform.position;
+        Ldiff.Normalize();
+
+        float Lrot_z = Mathf.Atan2(leftDirection.y, leftDirection.x) * Mathf.Rad2Deg;
+        leftArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, -Lrot_z + 90);
+
+        Vector3 Rdiff = rightDirecton - rightArmRoot.transform.position;
+        Rdiff.Normalize();
+
+        float Rrot_z = Mathf.Atan2(rightDirecton.y, rightDirecton.x) * Mathf.Rad2Deg;
+        rightArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Rrot_z - 90);
+
         _rigidbody.AddForce(directionToApply);
     }
 
