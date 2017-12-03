@@ -61,7 +61,10 @@ public class Player : MonoBehaviour
     {
         Vector3 directionToApply = new Vector3(0, 0, 0);
         int i = 0;
+        Vector3 leftDirection = new Vector3(0, 0, 0);
+        Vector3 rightDirecton = new Vector3(0, 0, 0);
 
+      
         foreach (Dog dog in _leftDogs)
         {
             Vector3 lastInteract = dog.GetLastInteract();
@@ -97,10 +100,10 @@ public class Player : MonoBehaviour
                 dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
             }
             i++;
+            leftDirection += dog.transform.localPosition;
+
         }
-        Vector3 leftDirection = directionToApply;
-        leftDirection.Normalize();
-        Vector3 rightDirecton = new Vector3(0, 0, 0);
+        leftDirection = leftDirection / i;
         i = 0;
         foreach (Dog dog in _rightDogs)
         {
@@ -137,20 +140,21 @@ public class Player : MonoBehaviour
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
                 dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
             }
+            rightDirecton += dog.transform.localPosition;
             i++;
         }
+        rightDirecton = rightDirecton / i;
+        leftDirection.Normalize();
         rightDirecton.Normalize();
-        Vector3 Ldiff = leftDirection - leftArmRoot.transform.position;
-        Ldiff.Normalize();
+
 
         float Lrot_z = Mathf.Atan2(leftDirection.y, leftDirection.x) * Mathf.Rad2Deg;
-        leftArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, -Lrot_z + 90);
+        leftArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Lrot_z );
 
-        Vector3 Rdiff = rightDirecton - rightArmRoot.transform.position;
-        Rdiff.Normalize();
 
         float Rrot_z = Mathf.Atan2(rightDirecton.y, rightDirecton.x) * Mathf.Rad2Deg;
-        rightArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Rrot_z - 90);
+        Debug.Log(Rrot_z);
+        rightArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Rrot_z -90);
 
         _rigidbody.AddForce(directionToApply);
     }
