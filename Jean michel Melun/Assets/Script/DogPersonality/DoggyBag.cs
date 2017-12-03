@@ -112,6 +112,11 @@ public class DoggyBag : MonoBehaviour
         }
         //Sprite sprite = newDog.AddComponent<SpriteRenderer>();
     }
+
+    public int getDogOnMap()
+    {
+        return _numberDogs;
+    }
 	
 	// Update is called once per frame
 	void Update () {

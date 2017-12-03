@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
 
     float _distPlayer = .9f;
 
-    List<LineRenderer> laisses;
+    private int dogAmount = 0;
     // Use this for initialization
     void Start ()
     {
@@ -111,9 +111,10 @@ public class Player : MonoBehaviour
         
         _forceLeft = 0;
         _forceRight = 0;
-      
+        dogAmount = 0;
         foreach (Dog dog in _leftDogs)
         {
+            dogAmount++;
             Vector3 lastInteract = dog.GetLastInteract();
             if (lastInteract != new Vector3(0,0,0) && (lastInteract.x < transform.position.x))
             {
@@ -160,6 +161,7 @@ public class Player : MonoBehaviour
         i = 0;
         foreach (Dog dog in _rightDogs)
         {
+            dogAmount++;
             Vector3 lastInteract = dog.GetLastInteract();
             if (lastInteract != new Vector3(0, 0, 0) && (lastInteract.x > transform.position.x))
             {
@@ -354,5 +356,9 @@ public class Player : MonoBehaviour
             other.gameObject.GetComponent<LineRenderer>().endWidth = .01f;
         }
 
+    }
+    public int getDogInHands()
+    {
+        return dogAmount;
     }
 }
