@@ -88,7 +88,7 @@ public class LokiDog : MonoBehaviour
     {
         _dog.gameObject.tag = "LostDog";
         _found = false;
-        _dog.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
         _dog.gameObject.GetComponent<CircleCollider2D>().enabled = false;
         _dog.gameObject.transform.SetParent(null);
     }
@@ -98,7 +98,7 @@ public class LokiDog : MonoBehaviour
         yield return new WaitForSeconds(_timeUlti);
         _ultiStart = false;
         _dog.gameObject.SetActive(true);
-        _dog.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
         _dog.gameObject.GetComponent<CircleCollider2D>().enabled = true;
     }
 }

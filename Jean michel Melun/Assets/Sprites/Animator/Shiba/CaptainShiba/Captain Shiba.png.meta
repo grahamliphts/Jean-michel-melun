@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: f36545698f7f9a34c96df5349b3b5019
+timeCreated: 1512304805
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Captain Shiba_0
+    21300002: Captain Shiba_1
+    21300004: Captain Shiba_2
+    21300006: Captain Shiba_3
+    21300008: Captain Shiba_4
+    21300010: Captain Shiba_5
+    21300012: Captain Shiba_6
+    21300014: Captain Shiba_7
+    21300016: Captain Shiba_8
+    21300018: Captain Shiba_9
+    21300020: Captain Shiba_10
+    21300022: Captain Shiba_11
+    21300024: Captain Shiba_12
+    21300026: Captain Shiba_13
+    21300028: Captain Shiba_14
+    21300030: Captain Shiba_15
+    21300032: Captain Shiba_16
+    21300034: Captain Shiba_17
+    21300036: Captain Shiba_18
+    21300038: Captain Shiba_19
+    21300040: Captain Shiba_20
+    21300042: Captain Shiba_21
+    21300044: Captain Shiba_22
+    21300046: Captain Shiba_23
+    21300048: Captain Shiba_24
+    21300050: Captain Shiba_25
+    21300052: Captain Shiba_26
+    21300054: Captain Shiba_27
+    21300056: Captain Shiba_28
+    21300058: Captain Shiba_29
+    21300060: Captain Shiba_30
+    21300062: Captain Shiba_31
+    21300064: Captain Shiba_32
+    21300066: Captain Shiba_33
+    21300068: Captain Shiba_34
+    21300070: Captain Shiba_35
+    21300072: Captain Shiba_36
+    21300074: Captain Shiba_37
+    21300076: Captain Shiba_38
+    21300078: Captain Shiba_39
+    21300080: Captain Shiba_40
+    21300082: Captain Shiba_41
+    21300084: Captain Shiba_42
+    21300086: Captain Shiba_43
+    21300088: Captain Shiba_44
+    21300090: Captain Shiba_45
+    21300092: Captain Shiba_46
+    21300094: Captain Shiba_47
+    21300096: Captain Shiba_48
+    21300098: Captain Shiba_49
+    21300100: Captain Shiba_50
+    21300102: Captain Shiba_51
+    21300104: Captain Shiba_52
+    21300106: Captain Shiba_53
+    21300108: Captain Shiba_54
+    21300110: Captain Shiba_55
+    21300112: Captain Shiba_56
+    21300114: Captain Shiba_57
+    21300116: Captain Shiba_58
+    21300118: Captain Shiba_59
+    21300120: Captain Shiba_60
+    21300122: Captain Shiba_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Captain Shiba_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2216
+        width: 176
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2215
+        width: 178
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2212
+        width: 180
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2208
+        width: 181
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_4
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 2204
+        width: 179
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_5
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 2203
+        width: 181
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_6
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 2200
+        width: 180
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_7
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2200
+        width: 180
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_8
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 2204
+        width: 180
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_9
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 2207
+        width: 180
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_10
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 2208
+        width: 177
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_11
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 2212
+        width: 176
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1778
+        width: 176
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1776
+        width: 173
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1772
+        width: 174
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_15
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1768
+        width: 177
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_16
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1764
+        width: 176
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_17
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1763
+        width: 176
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_18
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1759
+        width: 174
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_19
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1758
+        width: 171
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_20
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1760
+        width: 174
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_21
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1763
+        width: 171
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_22
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 1764
+        width: 171
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_23
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 1768
+        width: 169
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1332
+        width: 169
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_25
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1336
+        width: 168
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1332
+        width: 168
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_27
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1330
+        width: 169
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_28
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1328
+        width: 169
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_29
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1324
+        width: 167
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_30
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1323
+        width: 169
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_31
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 1320
+        width: 168
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_32
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1320
+        width: 168
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_33
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 1324
+        width: 169
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_34
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 1327
+        width: 169
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_35
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 1331
+        width: 168
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 896
+        width: 168
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_37
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 900
+        width: 168
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_38
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 900
+        width: 169
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_39
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 896
+        width: 169
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_40
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 892
+        width: 171
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_41
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 890
+        width: 172
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_42
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 887
+        width: 175
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_43
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 884
+        width: 174
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_44
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 883
+        width: 176
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_45
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 887
+        width: 176
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_46
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 888
+        width: 174
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_47
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 894
+        width: 174
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_48
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 460
+        width: 173
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_49
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 464
+        width: 174
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_50
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 468
+        width: 172
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_51
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 464
+        width: 173
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_52
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 460
+        width: 176
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_53
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 459
+        width: 177
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_54
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 455
+        width: 180
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_55
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 452
+        width: 180
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_56
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 448
+        width: 180
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_57
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 448
+        width: 181
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_58
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 453
+        width: 181
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_59
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 455
+        width: 178
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 20
+        width: 179
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Shiba_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 23
+        width: 180
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

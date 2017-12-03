@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: 90f202d5c270951489ec879222ca3920
+timeCreated: 1512307744
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BatChihuahua_0
+    21300002: BatChihuahua_1
+    21300004: BatChihuahua_2
+    21300006: BatChihuahua_3
+    21300008: BatChihuahua_4
+    21300010: BatChihuahua_5
+    21300012: BatChihuahua_6
+    21300014: BatChihuahua_7
+    21300016: BatChihuahua_8
+    21300018: BatChihuahua_9
+    21300020: BatChihuahua_10
+    21300022: BatChihuahua_11
+    21300024: BatChihuahua_12
+    21300026: BatChihuahua_13
+    21300028: BatChihuahua_14
+    21300030: BatChihuahua_15
+    21300032: BatChihuahua_16
+    21300034: BatChihuahua_17
+    21300036: BatChihuahua_18
+    21300038: BatChihuahua_19
+    21300040: BatChihuahua_20
+    21300042: BatChihuahua_21
+    21300044: BatChihuahua_22
+    21300046: BatChihuahua_23
+    21300048: BatChihuahua_24
+    21300050: BatChihuahua_25
+    21300052: BatChihuahua_26
+    21300054: BatChihuahua_27
+    21300056: BatChihuahua_28
+    21300058: BatChihuahua_29
+    21300060: BatChihuahua_30
+    21300062: BatChihuahua_31
+    21300064: BatChihuahua_32
+    21300066: BatChihuahua_33
+    21300068: BatChihuahua_34
+    21300070: BatChihuahua_35
+    21300072: BatChihuahua_36
+    21300074: BatChihuahua_37
+    21300076: BatChihuahua_38
+    21300078: BatChihuahua_39
+    21300080: BatChihuahua_40
+    21300082: BatChihuahua_41
+    21300084: BatChihuahua_42
+    21300086: BatChihuahua_43
+    21300088: BatChihuahua_44
+    21300090: BatChihuahua_45
+    21300092: BatChihuahua_46
+    21300094: BatChihuahua_47
+    21300096: BatChihuahua_48
+    21300098: BatChihuahua_49
+    21300100: BatChihuahua_50
+    21300102: BatChihuahua_51
+    21300104: BatChihuahua_52
+    21300106: BatChihuahua_53
+    21300108: BatChihuahua_54
+    21300110: BatChihuahua_55
+    21300112: BatChihuahua_56
+    21300114: BatChihuahua_57
+    21300116: BatChihuahua_58
+    21300118: BatChihuahua_59
+    21300120: BatChihuahua_60
+    21300122: BatChihuahua_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BatChihuahua_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1480
+        width: 150
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1477
+        width: 151
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_2
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1475
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_3
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1475
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_4
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1475
+        width: 153
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_5
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1477
+        width: 153
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_6
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1480
+        width: 153
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_7
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1478
+        width: 154
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_8
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1476
+        width: 154
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_9
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1475
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_10
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1475
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_11
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1477
+        width: 155
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1185
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1185
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_14
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1181
+        width: 155
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_15
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_16
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_17
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1182
+        width: 155
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_18
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1186
+        width: 155
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_19
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1189
+        width: 155
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_20
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1184
+        width: 155
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_21
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_22
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_23
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1181
+        width: 154
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 889
+        width: 153
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_25
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 893
+        width: 153
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_26
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 888
+        width: 152
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_27
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 885
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_28
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 885
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_29
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 886
+        width: 151
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_30
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 889
+        width: 150
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_31
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 894
+        width: 150
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_32
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 892
+        width: 150
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_33
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 888
+        width: 150
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_34
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 885
+        width: 151
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_35
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 885
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 591
+        width: 152
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_37
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 593
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_38
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 593
+        width: 154
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_39
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 590
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_40
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 590
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_41
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 590
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_42
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 593
+        width: 155
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_43
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 597
+        width: 155
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_44
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 599
+        width: 155
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_45
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 594
+        width: 155
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_46
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 590
+        width: 156
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_47
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 590
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 296
+        width: 155
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_49
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 300
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_50
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 306
+        width: 155
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_51
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 300
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_52
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 296
+        width: 155
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_53
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 295
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_54
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 296
+        width: 154
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_55
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 301
+        width: 154
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_56
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 309
+        width: 154
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_57
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 305
+        width: 153
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_58
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 299
+        width: 153
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_59
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 296
+        width: 152
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 151
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatChihuahua_61
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 151
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

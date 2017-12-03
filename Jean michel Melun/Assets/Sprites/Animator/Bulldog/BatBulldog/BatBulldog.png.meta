@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: b1d4cdb13c84e774e8fb36ec50f74c92
+timeCreated: 1512306796
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BatBulldog_0
+    21300002: BatBulldog_1
+    21300004: BatBulldog_2
+    21300006: BatBulldog_3
+    21300008: BatBulldog_4
+    21300010: BatBulldog_5
+    21300012: BatBulldog_6
+    21300014: BatBulldog_7
+    21300016: BatBulldog_8
+    21300018: BatBulldog_9
+    21300020: BatBulldog_10
+    21300022: BatBulldog_11
+    21300024: BatBulldog_12
+    21300026: BatBulldog_13
+    21300028: BatBulldog_14
+    21300030: BatBulldog_15
+    21300032: BatBulldog_16
+    21300034: BatBulldog_17
+    21300036: BatBulldog_18
+    21300038: BatBulldog_19
+    21300040: BatBulldog_20
+    21300042: BatBulldog_21
+    21300044: BatBulldog_22
+    21300046: BatBulldog_23
+    21300048: BatBulldog_24
+    21300050: BatBulldog_25
+    21300052: BatBulldog_26
+    21300054: BatBulldog_27
+    21300056: BatBulldog_28
+    21300058: BatBulldog_29
+    21300060: BatBulldog_30
+    21300062: BatBulldog_31
+    21300064: BatBulldog_32
+    21300066: BatBulldog_33
+    21300068: BatBulldog_34
+    21300070: BatBulldog_35
+    21300072: BatBulldog_36
+    21300074: BatBulldog_37
+    21300076: BatBulldog_38
+    21300078: BatBulldog_39
+    21300080: BatBulldog_40
+    21300082: BatBulldog_41
+    21300084: BatBulldog_42
+    21300086: BatBulldog_43
+    21300088: BatBulldog_44
+    21300090: BatBulldog_45
+    21300092: BatBulldog_46
+    21300094: BatBulldog_47
+    21300096: BatBulldog_48
+    21300098: BatBulldog_49
+    21300100: BatBulldog_50
+    21300102: BatBulldog_51
+    21300104: BatBulldog_52
+    21300106: BatBulldog_53
+    21300108: BatBulldog_54
+    21300110: BatBulldog_55
+    21300112: BatBulldog_56
+    21300114: BatBulldog_57
+    21300116: BatBulldog_58
+    21300118: BatBulldog_59
+    21300120: BatBulldog_60
+    21300122: BatBulldog_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BatBulldog_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1645
+        width: 164
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1646
+        width: 162
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1646
+        width: 161
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1646
+        width: 160
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_4
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1645
+        width: 158
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_5
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1645
+        width: 157
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_6
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1649
+        width: 156
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_7
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1646
+        width: 154
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_8
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1645
+        width: 154
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_9
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1645
+        width: 154
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_10
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1645
+        width: 154
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_11
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1645
+        width: 153
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1318
+        width: 153
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1318
+        width: 153
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_14
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1316
+        width: 153
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_15
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1316
+        width: 153
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_16
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1316
+        width: 155
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_17
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1316
+        width: 155
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_18
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 1316
+        width: 157
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_19
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1318
+        width: 159
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_20
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1316
+        width: 159
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_21
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1316
+        width: 161
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_22
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 1317
+        width: 161
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_23
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1316
+        width: 163
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 987
+        width: 164
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 991
+        width: 165
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 987
+        width: 167
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_27
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 987
+        width: 168
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_28
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 988
+        width: 169
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_29
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 987
+        width: 170
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_30
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 987
+        width: 171
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_31
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 989
+        width: 172
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_32
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 988
+        width: 172
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_33
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 987
+        width: 171
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_34
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 987
+        width: 171
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_35
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 987
+        width: 170
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 658
+        width: 168
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_37
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 659
+        width: 168
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_38
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 659
+        width: 167
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_39
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 658
+        width: 165
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_40
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 658
+        width: 165
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_41
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 659
+        width: 164
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_42
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 658
+        width: 163
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_43
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 658
+        width: 162
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_44
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 659
+        width: 161
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_45
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 658
+        width: 160
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_46
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 658
+        width: 159
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_47
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 658
+        width: 159
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_48
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 329
+        width: 157
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_49
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 329
+        width: 156
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_50
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 330
+        width: 154
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_51
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 329
+        width: 154
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_52
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 329
+        width: 153
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_53
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 330
+        width: 154
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_54
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 329
+        width: 155
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_55
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 329
+        width: 157
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_56
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 333
+        width: 157
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_57
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 331
+        width: 158
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_58
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 329
+        width: 160
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_59
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 329
+        width: 160
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 161
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BatBulldog_61
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 163
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

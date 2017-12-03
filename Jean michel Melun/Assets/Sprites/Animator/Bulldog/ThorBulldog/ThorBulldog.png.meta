@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: cac67fffeea263d4083b829fefff41c1
+timeCreated: 1512307022
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ThorBulldog_0
+    21300002: ThorBulldog_1
+    21300004: ThorBulldog_2
+    21300006: ThorBulldog_3
+    21300008: ThorBulldog_4
+    21300010: ThorBulldog_5
+    21300012: ThorBulldog_6
+    21300014: ThorBulldog_7
+    21300016: ThorBulldog_8
+    21300018: ThorBulldog_9
+    21300020: ThorBulldog_10
+    21300022: ThorBulldog_11
+    21300024: ThorBulldog_12
+    21300026: ThorBulldog_13
+    21300028: ThorBulldog_14
+    21300030: ThorBulldog_15
+    21300032: ThorBulldog_16
+    21300034: ThorBulldog_17
+    21300036: ThorBulldog_18
+    21300038: ThorBulldog_19
+    21300040: ThorBulldog_20
+    21300042: ThorBulldog_21
+    21300044: ThorBulldog_22
+    21300046: ThorBulldog_23
+    21300048: ThorBulldog_24
+    21300050: ThorBulldog_25
+    21300052: ThorBulldog_26
+    21300054: ThorBulldog_27
+    21300056: ThorBulldog_28
+    21300058: ThorBulldog_29
+    21300060: ThorBulldog_30
+    21300062: ThorBulldog_31
+    21300064: ThorBulldog_32
+    21300066: ThorBulldog_33
+    21300068: ThorBulldog_34
+    21300070: ThorBulldog_35
+    21300072: ThorBulldog_36
+    21300074: ThorBulldog_37
+    21300076: ThorBulldog_38
+    21300078: ThorBulldog_39
+    21300080: ThorBulldog_40
+    21300082: ThorBulldog_41
+    21300084: ThorBulldog_42
+    21300086: ThorBulldog_43
+    21300088: ThorBulldog_44
+    21300090: ThorBulldog_45
+    21300092: ThorBulldog_46
+    21300094: ThorBulldog_47
+    21300096: ThorBulldog_48
+    21300098: ThorBulldog_49
+    21300100: ThorBulldog_50
+    21300102: ThorBulldog_51
+    21300104: ThorBulldog_52
+    21300106: ThorBulldog_53
+    21300108: ThorBulldog_54
+    21300110: ThorBulldog_55
+    21300112: ThorBulldog_56
+    21300114: ThorBulldog_57
+    21300116: ThorBulldog_58
+    21300118: ThorBulldog_59
+    21300120: ThorBulldog_60
+    21300122: ThorBulldog_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThorBulldog_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1866
+        width: 253
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1866
+        width: 254
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_2
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1867
+        width: 255
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1867
+        width: 255
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_4
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1865
+        width: 255
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_5
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 1866
+        width: 256
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_6
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 1869
+        width: 256
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_7
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1867
+        width: 255
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_8
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 1865
+        width: 256
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_9
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 1866
+        width: 255
+        height: 351
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_10
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 1865
+        width: 256
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_11
+      rect:
+        serializedVersion: 2
+        x: 3171
+        y: 1865
+        width: 255
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1494
+        width: 254
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_13
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1494
+        width: 254
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_14
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1492
+        width: 254
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_15
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1493
+        width: 253
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_16
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1493
+        width: 254
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_17
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 1492
+        width: 255
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_18
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 1493
+        width: 255
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_19
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 1494
+        width: 255
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_20
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 1492
+        width: 255
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_21
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 1492
+        width: 255
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_22
+      rect:
+        serializedVersion: 2
+        x: 2893
+        y: 1494
+        width: 255
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_23
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 1492
+        width: 255
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1120
+        width: 255
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_25
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1123
+        width: 255
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_26
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1120
+        width: 255
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_27
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1119
+        width: 255
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_28
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1121
+        width: 255
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_29
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1119
+        width: 253
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_30
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 1119
+        width: 253
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_31
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 1121
+        width: 253
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_32
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 1120
+        width: 252
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_33
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 1119
+        width: 254
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_34
+      rect:
+        serializedVersion: 2
+        x: 2900
+        y: 1120
+        width: 254
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_35
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 1119
+        width: 254
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_36
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 746
+        width: 255
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_37
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 748
+        width: 255
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_38
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 748
+        width: 255
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_39
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 746
+        width: 256
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_40
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 747
+        width: 256
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_41
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 748
+        width: 256
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_42
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 746
+        width: 256
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_43
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 747
+        width: 255
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_44
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 748
+        width: 255
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_45
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 746
+        width: 254
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_46
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 746
+        width: 254
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_47
+      rect:
+        serializedVersion: 2
+        x: 3174
+        y: 746
+        width: 254
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_48
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 373
+        width: 253
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_49
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 374
+        width: 254
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_50
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 375
+        width: 254
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_51
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 373
+        width: 255
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_52
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 373
+        width: 255
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_53
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 375
+        width: 256
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_54
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 373
+        width: 255
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_55
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 374
+        width: 256
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_56
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 377
+        width: 255
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_57
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 376
+        width: 256
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_58
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 373
+        width: 255
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_59
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 373
+        width: 255
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 255
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ThorBulldog_61
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 254
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
