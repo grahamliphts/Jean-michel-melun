@@ -139,7 +139,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38e00ae2b893af24d9deb68625b51bd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _numberDogs: 6
+  _numberDogs: 20
+  _shybaType:
+  - {fileID: 9100000, guid: 08407172d2d42984dad9dcbe854075f9, type: 2}
+  - {fileID: 9100000, guid: 79c8135854570d3428899bebf937c465, type: 2}
+  - {fileID: 9100000, guid: b6e15be867ba1b64984fec1a3f362689, type: 2}
+  - {fileID: 9100000, guid: 4d7400dbe9140ea48af7af98b2607f02, type: 2}
+  - {fileID: 9100000, guid: d4501bd76fb0b014bb49237d24bb2ef0, type: 2}
+  - {fileID: 9100000, guid: a8c500ec047ec9a49a1ec7d5590230eb, type: 2}
+  _bulldogType:
+  - {fileID: 9100000, guid: 65d420abf06a5b54cb30cafc6410c891, type: 2}
+  - {fileID: 9100000, guid: 7698ee2ab8e5acb41a83b36a00056764, type: 2}
+  - {fileID: 9100000, guid: ecc7f4858d58e7841a61314e95761ddb, type: 2}
+  - {fileID: 9100000, guid: ad53a59a5b0f7514b83f7428073f8ffd, type: 2}
+  - {fileID: 9100000, guid: 9bbfd20c5285b5d4bbe286e2d88f3b18, type: 2}
+  - {fileID: 9100000, guid: 78425806fa62869439a7bb59413db933, type: 2}
+  _chihuahua:
+  - {fileID: 9100000, guid: 07cb609e48bb86448a8712725cdad5f7, type: 2}
+  - {fileID: 9100000, guid: 2c51e77cff58da84fa8b6b5d812445b0, type: 2}
+  - {fileID: 9100000, guid: 600e87b73e4f95c49b0057ea67461a4a, type: 2}
+  - {fileID: 9100000, guid: bfdf5c134968d5f489187ad074faacb5, type: 2}
+  - {fileID: 9100000, guid: d5168ff2a390b744e87949b597a3db1c, type: 2}
+  - {fileID: 9100000, guid: 9069214bce198144a954bce23e63594e, type: 2}
 --- !u!4 &336575755
 Transform:
   m_ObjectHideFlags: 0
@@ -151,7 +172,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &426497271
 GameObject:
@@ -324,11 +345,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.21
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -349,11 +370,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 607087623}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -9.985835}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1181682209}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1004230683
@@ -507,7 +528,7 @@ Transform:
   - {fileID: 426497276}
   - {fileID: 1004230688}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1181682205
 GameObject:
@@ -612,9 +633,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.623, y: -0.256, z: -0.014164453}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 607087627}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1181682210
 CircleCollider2D:

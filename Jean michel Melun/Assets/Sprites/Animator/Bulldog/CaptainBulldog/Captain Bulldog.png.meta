@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: 550210fdc4f4e144e99505116277309f
+timeCreated: 1512306856
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Captain Bulldog_0
+    21300002: Captain Bulldog_1
+    21300004: Captain Bulldog_2
+    21300006: Captain Bulldog_3
+    21300008: Captain Bulldog_4
+    21300010: Captain Bulldog_5
+    21300012: Captain Bulldog_6
+    21300014: Captain Bulldog_7
+    21300016: Captain Bulldog_8
+    21300018: Captain Bulldog_9
+    21300020: Captain Bulldog_10
+    21300022: Captain Bulldog_11
+    21300024: Captain Bulldog_12
+    21300026: Captain Bulldog_13
+    21300028: Captain Bulldog_14
+    21300030: Captain Bulldog_15
+    21300032: Captain Bulldog_16
+    21300034: Captain Bulldog_17
+    21300036: Captain Bulldog_18
+    21300038: Captain Bulldog_19
+    21300040: Captain Bulldog_20
+    21300042: Captain Bulldog_21
+    21300044: Captain Bulldog_22
+    21300046: Captain Bulldog_23
+    21300048: Captain Bulldog_24
+    21300050: Captain Bulldog_25
+    21300052: Captain Bulldog_26
+    21300054: Captain Bulldog_27
+    21300056: Captain Bulldog_28
+    21300058: Captain Bulldog_29
+    21300060: Captain Bulldog_30
+    21300062: Captain Bulldog_31
+    21300064: Captain Bulldog_32
+    21300066: Captain Bulldog_33
+    21300068: Captain Bulldog_34
+    21300070: Captain Bulldog_35
+    21300072: Captain Bulldog_36
+    21300074: Captain Bulldog_37
+    21300076: Captain Bulldog_38
+    21300078: Captain Bulldog_39
+    21300080: Captain Bulldog_40
+    21300082: Captain Bulldog_41
+    21300084: Captain Bulldog_42
+    21300086: Captain Bulldog_43
+    21300088: Captain Bulldog_44
+    21300090: Captain Bulldog_45
+    21300092: Captain Bulldog_46
+    21300094: Captain Bulldog_47
+    21300096: Captain Bulldog_48
+    21300098: Captain Bulldog_49
+    21300100: Captain Bulldog_50
+    21300102: Captain Bulldog_51
+    21300104: Captain Bulldog_52
+    21300106: Captain Bulldog_53
+    21300108: Captain Bulldog_54
+    21300110: Captain Bulldog_55
+    21300112: Captain Bulldog_56
+    21300114: Captain Bulldog_57
+    21300116: Captain Bulldog_58
+    21300118: Captain Bulldog_59
+    21300120: Captain Bulldog_60
+    21300122: Captain Bulldog_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Captain Bulldog_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1645
+        width: 171
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1646
+        width: 169
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_2
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1646
+        width: 168
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1646
+        width: 167
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_4
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1645
+        width: 166
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_5
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1645
+        width: 164
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_6
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1649
+        width: 164
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_7
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 1646
+        width: 163
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_8
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 1645
+        width: 161
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_9
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 1645
+        width: 161
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_10
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 1645
+        width: 159
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_11
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1645
+        width: 158
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1318
+        width: 156
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_13
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1318
+        width: 156
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_14
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1316
+        width: 155
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_15
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1316
+        width: 153
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_16
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1316
+        width: 152
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_17
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1316
+        width: 152
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_18
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1316
+        width: 152
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_19
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1318
+        width: 152
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_20
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1316
+        width: 151
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_21
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1316
+        width: 153
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_22
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 1317
+        width: 153
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_23
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1316
+        width: 154
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 987
+        width: 156
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_25
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 991
+        width: 156
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_26
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 987
+        width: 157
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_27
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 987
+        width: 159
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_28
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 988
+        width: 159
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_29
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 987
+        width: 160
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_30
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 987
+        width: 161
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_31
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 989
+        width: 162
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_32
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 988
+        width: 162
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_33
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 987
+        width: 161
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_34
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 987
+        width: 160
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_35
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 987
+        width: 159
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_36
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 658
+        width: 158
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_37
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 659
+        width: 157
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_38
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 659
+        width: 156
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_39
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 658
+        width: 155
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_40
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 658
+        width: 154
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_41
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 659
+        width: 153
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_42
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 658
+        width: 153
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_43
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 658
+        width: 152
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_44
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 659
+        width: 152
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_45
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 658
+        width: 152
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_46
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 658
+        width: 152
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_47
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 658
+        width: 153
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_48
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 329
+        width: 153
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_49
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 329
+        width: 155
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_50
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 330
+        width: 156
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_51
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 329
+        width: 158
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_52
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 329
+        width: 158
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_53
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 330
+        width: 159
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_54
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 329
+        width: 161
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_55
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 329
+        width: 162
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_56
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 333
+        width: 163
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_57
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 331
+        width: 164
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_58
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 329
+        width: 166
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_59
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 329
+        width: 166
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 168
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Bulldog_61
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 169
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

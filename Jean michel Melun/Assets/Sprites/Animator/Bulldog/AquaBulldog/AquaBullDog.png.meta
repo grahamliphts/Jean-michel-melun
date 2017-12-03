@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: 194c9ce3aa8099b47bbbda2955429327
+timeCreated: 1512306764
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AquaBullDog_0
+    21300002: AquaBullDog_1
+    21300004: AquaBullDog_2
+    21300006: AquaBullDog_3
+    21300008: AquaBullDog_4
+    21300010: AquaBullDog_5
+    21300012: AquaBullDog_6
+    21300014: AquaBullDog_7
+    21300016: AquaBullDog_8
+    21300018: AquaBullDog_9
+    21300020: AquaBullDog_10
+    21300022: AquaBullDog_11
+    21300024: AquaBullDog_12
+    21300026: AquaBullDog_13
+    21300028: AquaBullDog_14
+    21300030: AquaBullDog_15
+    21300032: AquaBullDog_16
+    21300034: AquaBullDog_17
+    21300036: AquaBullDog_18
+    21300038: AquaBullDog_19
+    21300040: AquaBullDog_20
+    21300042: AquaBullDog_21
+    21300044: AquaBullDog_22
+    21300046: AquaBullDog_23
+    21300048: AquaBullDog_24
+    21300050: AquaBullDog_25
+    21300052: AquaBullDog_26
+    21300054: AquaBullDog_27
+    21300056: AquaBullDog_28
+    21300058: AquaBullDog_29
+    21300060: AquaBullDog_30
+    21300062: AquaBullDog_31
+    21300064: AquaBullDog_32
+    21300066: AquaBullDog_33
+    21300068: AquaBullDog_34
+    21300070: AquaBullDog_35
+    21300072: AquaBullDog_36
+    21300074: AquaBullDog_37
+    21300076: AquaBullDog_38
+    21300078: AquaBullDog_39
+    21300080: AquaBullDog_40
+    21300082: AquaBullDog_41
+    21300084: AquaBullDog_42
+    21300086: AquaBullDog_43
+    21300088: AquaBullDog_44
+    21300090: AquaBullDog_45
+    21300092: AquaBullDog_46
+    21300094: AquaBullDog_47
+    21300096: AquaBullDog_48
+    21300098: AquaBullDog_49
+    21300100: AquaBullDog_50
+    21300102: AquaBullDog_51
+    21300104: AquaBullDog_52
+    21300106: AquaBullDog_53
+    21300108: AquaBullDog_54
+    21300110: AquaBullDog_55
+    21300112: AquaBullDog_56
+    21300114: AquaBullDog_57
+    21300116: AquaBullDog_58
+    21300118: AquaBullDog_59
+    21300120: AquaBullDog_60
+    21300122: AquaBullDog_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AquaBullDog_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1741
+        width: 248
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1740
+        width: 249
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_2
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1740
+        width: 251
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_3
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1740
+        width: 252
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_4
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1740
+        width: 252
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_5
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1740
+        width: 253
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_6
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1744
+        width: 255
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_7
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1740
+        width: 256
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_8
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 1740
+        width: 255
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_9
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 1740
+        width: 258
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_10
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 1740
+        width: 256
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_11
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 1740
+        width: 255
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1394
+        width: 257
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1392
+        width: 257
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_14
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1392
+        width: 256
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_15
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 1392
+        width: 256
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_16
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1392
+        width: 257
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_17
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1392
+        width: 257
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_18
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 1392
+        width: 257
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_19
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 1394
+        width: 256
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_20
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 1392
+        width: 255
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_21
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 1392
+        width: 256
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_22
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 1394
+        width: 256
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_23
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 1392
+        width: 255
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1044
+        width: 256
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_25
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1048
+        width: 253
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_26
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1044
+        width: 253
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_27
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1044
+        width: 253
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_28
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1046
+        width: 250
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_29
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 1044
+        width: 249
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_30
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1044
+        width: 249
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_31
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 1046
+        width: 247
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_32
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 1045
+        width: 249
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_33
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 1044
+        width: 249
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_34
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 1044
+        width: 250
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_35
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 1044
+        width: 251
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_36
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 696
+        width: 253
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_37
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 698
+        width: 253
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_38
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 697
+        width: 253
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_39
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 696
+        width: 256
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_40
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 697
+        width: 255
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_41
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 696
+        width: 256
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_42
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 696
+        width: 255
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_43
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 696
+        width: 256
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_44
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 696
+        width: 257
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_45
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 696
+        width: 256
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_46
+      rect:
+        serializedVersion: 2
+        x: 2772
+        y: 696
+        width: 256
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_47
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 696
+        width: 260
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 348
+        width: 257
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_49
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 348
+        width: 256
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_50
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 350
+        width: 257
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_51
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 348
+        width: 256
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_52
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 348
+        width: 257
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_53
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 350
+        width: 255
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_54
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 348
+        width: 257
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_55
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 348
+        width: 256
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_56
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 352
+        width: 254
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_57
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 350
+        width: 253
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_58
+      rect:
+        serializedVersion: 2
+        x: 2764
+        y: 348
+        width: 253
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_59
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 348
+        width: 252
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 251
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AquaBullDog_61
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 0
+        width: 250
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
