@@ -860,30 +860,15 @@ Prefab:
       propertyPath: _mapGenerator
       value: 
       objectReference: {fileID: 136635339}
-    - target: {fileID: 212131643937764568, guid: 6ea5edada0fee15428a135cbef496e46,
+    - target: {fileID: 58792536026163108, guid: 6ea5edada0fee15428a135cbef496e46,
         type: 2}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Radius
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 212140555124207294, guid: 6ea5edada0fee15428a135cbef496e46,
+    - target: {fileID: 20614626989440608, guid: 6ea5edada0fee15428a135cbef496e46,
         type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212613302082446824, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 212858652332403242, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 212286703748716044, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 2
+      propertyPath: orthographic size
+      value: 25
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ea5edada0fee15428a135cbef496e46, type: 2}
