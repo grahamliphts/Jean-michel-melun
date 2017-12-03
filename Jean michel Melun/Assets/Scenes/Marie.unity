@@ -301,23 +301,32 @@ MonoBehaviour:
   mapSize: 50
   UpRoadNb: 5
   RightRoadNb: 4
-  pathNb: 100
+  pathNb: 50
   buildingSize: 2
   maxKeepGo: 4
+  sideWalkList: []
+  freeSpaceList: []
+  _finish: 0
   BuildingPrefab:
   - {fileID: 1388411693103898, guid: 6d7baa116df50a341b6f2f5fd0438c84, type: 2}
   - {fileID: 1398899215079974, guid: a56a00dcbaadd9442b513402f6549831, type: 2}
   - {fileID: 1352452116923144, guid: b19f9b02798e5b24484196d10f385729, type: 2}
   - {fileID: 1087762796995926, guid: aff0d0972f2ef5243816241add9daefb, type: 2}
-  - {fileID: 1994193658886006, guid: 63dc6ef25b26e934e928398a36c95b37, type: 2}
   GroundPrefab:
   - {fileID: 1441940049321058, guid: 6d610e788bfd8a64fb8ab8fef05decc3, type: 2}
   PathPrefab:
+  - {fileID: 1234872699124626, guid: e651a9967b7185744995cf7ae2ed17f0, type: 2}
+  - {fileID: 1533847745256156, guid: e60e75638cdd4724ab068c82161d00e9, type: 2}
   - {fileID: 1604774374849258, guid: bf817072dc6ca264986ebea68cb7752d, type: 2}
   - {fileID: 1041975345638842, guid: 829eb0ccf40f6114fbb455ed3aad7955, type: 2}
-  - {fileID: 1409923383109672, guid: 6d9cba1800811b2499d4fb0092fe58fd, type: 2}
+  - {fileID: 1902422756881760, guid: 99e7c7a862430d1428beb85b89aa6066, type: 2}
+  - {fileID: 1289678194195758, guid: 76aab6e60afe5f14e812f9c3b738a188, type: 2}
   - {fileID: 1075169002971440, guid: 3d3de426d62d4c04aa560aa197578475, type: 2}
+  - {fileID: 1186458895680138, guid: 2b5a9333f9b8f364aa716b51bcbc844c, type: 2}
+  - {fileID: 1167357163931554, guid: 337625eab12a52844ae4bb4ac2be71b2, type: 2}
+  - {fileID: 1409923383109672, guid: 6d9cba1800811b2499d4fb0092fe58fd, type: 2}
   - {fileID: 1780457298295996, guid: ae90f557ff171424894739c892e0c7b5, type: 2}
+  - {fileID: 1206043923572056, guid: 4196ac72dd9b84b4c99e200983248d2c, type: 2}
   RoadPrefab:
   - {fileID: 1898655226007400, guid: 57af91ac0cb12b44dbdc32787730de86, type: 2}
   - {fileID: 1768482976841882, guid: 1664f30e68ffd34449b7f93cd46dc76e, type: 2}
