@@ -194,7 +194,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 190503648}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 512, y: 384, z: 0}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 325355107}
@@ -233,7 +233,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 325355106}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -256.168, y: 252.13998, z: 0}
+  m_LocalPosition: {x: -556.515, y: 351.61185, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2003811613}
@@ -241,8 +241,8 @@ RectTransform:
   m_Father: {fileID: 190503652}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.042671874, y: 0.72}
-  m_AnchorMax: {x: 0.45700002, y: 0.9366145}
+  m_AnchorMin: {x: 0.042671874, y: 0.7145185}
+  m_AnchorMax: {x: 0.37762502, y: 0.9366145}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -402,7 +402,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1264348407}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 264.80002, y: -120.661316, z: 0}
+  m_LocalPosition: {x: 496.50003, y: -169.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 190503652}
@@ -472,7 +472,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1300254566}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -248.168, y: -122.06796, z: 0}
+  m_LocalPosition: {x: -465.31497, y: -171.65808, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 190503652}
@@ -504,7 +504,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 27
+    m_FontSize: 21
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -515,25 +515,26 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Hero''s are in mission ...
+  m_Text: 'Heroes are in mission ...
 
     We need a professional hunter ...
 
-    Hero''s dogs are everywhere in the city, if no one recover them, they will destroy
+    Heroes'' dogs are everywhere in the city, if no one recover them, they will destroy
     everything.
 
 
     Mr Melun your mission is to bring them back !
 
     You have less than 5 minutes to catch as much dogs as you can but be carefull
-    most of them have powers as their masters !
+    most of them have powers ever bigger than their masters'' ones!
 
 
     Use W,A,S,D to move, left and right click to switch dogs positions and middle
     mouse button to release a dog.
 
 
-    World''s eyes are on you Mr Melun, make us proud...
+    World''s eyes are on you Mr Melun, make us proud... Or at least don''t be too
+    ridiculous !
 
 '
 --- !u!222 &1300254569
@@ -722,14 +723,14 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1479041282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.3037567, y: -46.74588, z: 0}
+  m_LocalPosition: {x: -32.990784, y: -65.26068, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 325355107}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.03528686, y: 0.0571631}
-  m_AnchorMax: {x: 0.9802869, y: 0.38085198}
+  m_AnchorMin: {x: 0.03528686, y: 0.075}
+  m_AnchorMax: {x: 0.86211544, y: 0.38085198}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
