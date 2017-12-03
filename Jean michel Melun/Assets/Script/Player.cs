@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     private Vector2 _directionPlayer;
     private Rigidbody2D _rigidbody;
 
+    float _distPlayer = 0.5f;
     // Use this for initialization
     void Start ()
     {
@@ -55,78 +56,82 @@ public class Player : MonoBehaviour
     void CalculateForce()
     {
         Vector3 directionToApply = new Vector3(0, 0, 0);
+        int i = 0;
+
         foreach (Dog dog in _leftDogs)
         {
             Vector3 lastInteract = dog.GetLastInteract();
-            if (lastInteract != new Vector3(0,0,0))
+            if (lastInteract != new Vector3(0,0,0) && (lastInteract.x < transform.position.x))
             {
-                if(lastInteract.x < transform.position.x)
-                {
-                    directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
+                float angle = Mathf.PI / (_leftDogs.Count + 1);
+                float x = _distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI / 2);
+                float y = _distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI / 2);
 
-                    Vector3 diff = lastInteract - dog.transform.position;
-                    diff.Normalize();
+                dog.transform.localPosition = new Vector3(x + ((lastInteract.x - x) * 0.1f), y + ((lastInteract.y - y) * 0.1f), 0);
 
-                    float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                    dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
-                }
-                else
-                {
-                    dog.ResetLastInteract();
-                    Vector3 diff = dog.transform.position - transform.position;
-                    diff.Normalize();
+                Vector3 diff = lastInteract - dog.transform.position;
+                diff.Normalize();
 
-                    float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                    dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
-                }
-                //Debug.Log(lastInteract);
+                float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+
+                directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
             }
             else
             {
+                dog.ResetLastInteract();
+                float angle = Mathf.PI / (_leftDogs.Count + 1);
+                float x = _distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI / 2);
+                float y = _distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI / 2);
+
+                dog.transform.localPosition = new Vector3(x, y, 0);
+
                 Vector3 diff = dog.transform.position - transform.position;
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
                 dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
             }
+            i++;
         }
 
+        i = 0;
         foreach (Dog dog in _rightDogs)
         {
             Vector3 lastInteract = dog.GetLastInteract();
-            if (lastInteract != new Vector3(0, 0, 0))
+            if (lastInteract != new Vector3(0, 0, 0) && (lastInteract.x > transform.position.x))
             {
-                if (lastInteract.x > transform.position.x)
-                {
-                    directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
-                    //Debug.Log(lastInteract);
-                    Vector3 diff = lastInteract - dog.transform.position;
-                    diff.Normalize();
+                float angle = Mathf.PI / (_rightDogs.Count + 1);
+                float x = _distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
+                float y = _distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
 
-                    float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                    dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
-                }
-                else
-                {
-                    dog.ResetLastInteract();
-                    Vector3 diff = dog.transform.position - transform.position;
-                    diff.Normalize();
+                dog.transform.localPosition = new Vector3(x + ((lastInteract.x - (x + transform.position.x)) * 0.1f), y + ((lastInteract.y - (y + transform.position.y)) * 0.2f), 0);
 
-                    float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                    dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
-                }
+                Vector3 diff = lastInteract - dog.transform.position;
+                diff.Normalize();
+
+                float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+
+                directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
             }
             else
             {
+                dog.ResetLastInteract();
+                float angle = Mathf.PI / (_rightDogs.Count + 1);
+                float x = _distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
+                float y = _distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
+
+                dog.transform.localPosition = new Vector3(x, y, 0);
+
                 Vector3 diff = dog.transform.position - transform.position;
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
                 dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
             }
+            i++;
         }
-        //Debug.Log("DirApply " + directionToApply);
-
         _rigidbody.AddForce(directionToApply);
     }
 
@@ -140,8 +145,6 @@ public class Player : MonoBehaviour
 
             //Debug.Log("Left : " + _leftDogs.Count);
             //Debug.Log("Right : " + _rightDogs.Count);
-
-
             CalculatePositionDogs();
         }
     }
@@ -162,12 +165,11 @@ public class Player : MonoBehaviour
 
     void CalculatePositionDogs()
     {
-        float distPlayer = 0.5f;
         for (int i = 0; i < _leftDogs.Count; i++)
         {
             float angle = Mathf.PI / (_leftDogs.Count + 1);
-            float x = distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI / 2);
-            float y = distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI / 2);
+            float x = _distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI / 2);
+            float y = _distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI / 2);
 
             _leftDogs[i].transform.localPosition = new Vector3(x, y, 0);
 
@@ -184,8 +186,8 @@ public class Player : MonoBehaviour
         for (int i = 0; i < _rightDogs.Count; i++)
         {
             float angle = Mathf.PI / (_rightDogs.Count + 1);
-            float x = distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
-            float y = distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
+            float x = _distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
+            float y = _distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI + Mathf.PI / 2);
 
             _rightDogs[i].transform.localPosition = new Vector3(x, y, 0);
 
