@@ -5,7 +5,7 @@ using UnityEngine;
 public class DoggyBag : MonoBehaviour
 {
     [SerializeField]
-    int _numberDogs = 6;
+    int _numberDogs = 20;
 
     [SerializeField]
     RuntimeAnimatorController[] _shybaType;
@@ -21,8 +21,15 @@ public class DoggyBag : MonoBehaviour
 
     [SerializeField]
     mapGenerator _mapGenerator;
-    
+
+    [SerializeField]
+    int _numberObjects = 20;
+
+    [SerializeField]
+    GameObject[] _objects;
+
     List<Vector3> sideWalkList = new List<Vector3>();
+    List<Vector3> freeSpaceList = new List<Vector3>();
 
     void Start()
     {
@@ -110,6 +117,20 @@ public class DoggyBag : MonoBehaviour
                     break;
             }
         }
+
+        foreach (Vector3 pos in sideWalkList)
+            freeSpaceList.Add(pos);
+
+        for (int i = 0; i < _numberObjects; i++)
+        {
+            int pos = Random.Range(0, freeSpaceList.Count);
+            sideWalkList.RemoveAt(pos);
+
+            int typeObject = Random.Range(0, _objects.Length);
+            GameObject newObject = Instantiate(_objects[typeObject]) as GameObject;
+            newObject.transform.position = freeSpaceList[pos];
+        }
+
         //Sprite sprite = newDog.AddComponent<SpriteRenderer>();
     }
 

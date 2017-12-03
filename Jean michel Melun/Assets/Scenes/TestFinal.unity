@@ -315,8 +315,8 @@ MonoBehaviour:
   mapSize: 50
   UpRoadNb: 6
   RightRoadNb: 6
-  pathNb: 200
-  buildingSize: 3
+  pathNb: 50
+  buildingSize: 2
   maxKeepGo: 4
   sideWalkList: []
   _finish: 0
@@ -1018,91 +1018,11 @@ Prefab:
       objectReference: {fileID: 1599263793}
     - target: {fileID: 4328444209499764, guid: 6ea5edada0fee15428a135cbef496e46, type: 2}
       propertyPath: m_LocalScale.x
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4328444209499764, guid: 6ea5edada0fee15428a135cbef496e46, type: 2}
       propertyPath: m_LocalScale.y
       value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 212942091273284886, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_DrawMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212942091273284886, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_Color.r
-      value: 0.18382353
-      objectReference: {fileID: 0}
-    - target: {fileID: 212942091273284886, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0.86490864
-      objectReference: {fileID: 0}
-    - target: {fileID: 212942091273284886, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212942091273284886, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212942091273284886, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 20905151426666524, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_BackGroundColor.r
-      value: 0.53676474
-      objectReference: {fileID: 0}
-    - target: {fileID: 20905151426666524, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_BackGroundColor.g
-      value: 0.53676474
-      objectReference: {fileID: 0}
-    - target: {fileID: 20905151426666524, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_BackGroundColor.b
-      value: 0.53676474
-      objectReference: {fileID: 0}
-    - target: {fileID: 95771838848945886, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: efc4f18a180bf4d44ab7924ea0ce09c3, type: 2}
-    - target: {fileID: 212314166007327796, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212566856747340280, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 4ddfcfc9e0d060e419b2af637809bb13,
-        type: 3}
-    - target: {fileID: 212566856747340280, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 1.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 212566856747340280, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4446472581286416, guid: 6ea5edada0fee15428a135cbef496e46, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 212523296418223386, guid: 6ea5edada0fee15428a135cbef496e46,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6ea5edada0fee15428a135cbef496e46, type: 2}

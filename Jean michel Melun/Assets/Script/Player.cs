@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -62,6 +63,10 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             _rigidbody.AddForce(new Vector2(_forcePlayer, 0));
+        }
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
         }
 
 
