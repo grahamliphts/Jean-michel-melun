@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class Menu_Manager : MonoBehaviour {
 
-    
+
+    [SerializeField]
+    int test;
 	// Use this for initialization
 	void Start () {
 
