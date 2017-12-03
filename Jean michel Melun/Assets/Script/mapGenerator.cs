@@ -323,10 +323,42 @@ public class mapGenerator : MonoBehaviour {
 
     }
 
+    int scaledRandom(int begin, int end, bool direction)
+    {
+        int[] tab_rand = new int[end];
+
+        for (int i = 0; i < end; i++)
+        {
+            if (direction == true)
+                tab_rand[i] = i;
+            else
+                tab_rand[i] = end - 1 - i; 
+        }
+
+        int nb = Random.Range(begin, end);
+        int count = tab_rand[nb];
+
+        while (count > 0)
+        {
+            int nb2 = Random.Range(begin, end);
+            if (nb2 < nb)
+            {
+                nb = nb2;
+                count = 0;
+            }
+            else
+                count -= 1; 
+        }
+        return nb; 
+
+    }
+
     void generateMap()
     {
         float i = 0;
         float j = 0;
+        int nb; 
+
         foreach(int[] MapLine in _Map)
         {
             foreach(int area in MapLine)
@@ -338,17 +370,22 @@ public class mapGenerator : MonoBehaviour {
                     case 0:     // Ground
                         Instantiate(GroundPrefab[0], position, new Quaternion(),transform);
                         break;
-                    case 1:     // Building
-                        Instantiate(BuildingPrefab[0], position, new Quaternion(), transform);
+                    case 1:     // Building 
+                        nb = scaledRandom(0, BuildingPrefab.Length, true);
+                        //Debug.Log(nb);
+                        Instantiate(BuildingPrefab[nb], position, new Quaternion(), transform);
                         break;
                     case 2:     // Path thing
-                        Instantiate(PathPrefab[0], position, new Quaternion(), transform);
+                        nb = scaledRandom(0, PathPrefab.Length, true);
+                        Instantiate(PathPrefab[nb], position, new Quaternion(), transform);
                         break;
                     case 3:     //Road
-                        Instantiate(RoadPrefab[0], position, new Quaternion(), transform);
+                        nb = scaledRandom(0, RoadPrefab.Length, true);
+                        Instantiate(RoadPrefab[nb], position, new Quaternion(), transform);
                         break;
                     case 4:     //SideWalk
-                        Instantiate(SideWalkPrefab[0], position, new Quaternion(), transform);
+                        nb = Random.Range(0, SideWalkPrefab.Length);
+                        Instantiate(SideWalkPrefab[nb], position, new Quaternion(), transform);
                         break;
                 }
                 j += sprite_size;
