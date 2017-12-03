@@ -198,4 +198,17 @@ public class Dog : MonoBehaviour {
         else
             woof.volume = 1;
     }
+
+    public void Evade()
+    {
+        if (_lastInteract != new Vector3(0, 0, 0))
+            GetComponent<Rigidbody2D>().AddForce((_lastInteract - transform.position) * 10);
+    }
+
+    IEnumerator WaitEvade()
+    {
+        yield return new WaitForSeconds(5f);
+        Destroy(this);
+    }
+
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -9,10 +10,20 @@ public class Player : MonoBehaviour
     private Vector2 _directionPlayer;
     private Rigidbody2D _rigidbody;
 
+    private int _forceLeft = 0;
+    private int _forceRight = 0;
+
     [SerializeField]
     GameObject leftArmRoot;
     [SerializeField]
     GameObject rightArmRoot;
+
+    [SerializeField]
+    Image[] _jauge;
+
+    [SerializeField]
+    int _maxForcePlayer = 15;
+
     float _distPlayer = .7f;
     // Use this for initialization
     void Start ()
@@ -63,7 +74,9 @@ public class Player : MonoBehaviour
         int i = 0;
         Vector3 leftDirection = new Vector3(0, 0, 0);
         Vector3 rightDirecton = new Vector3(0, 0, 0);
-
+        
+        _forceLeft = 0;
+        _forceRight = 0;
       
         foreach (Dog dog in _leftDogs)
         {
@@ -83,6 +96,7 @@ public class Player : MonoBehaviour
                 dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
 
                 directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
+                _forceLeft += dog.GetForce();
             }
             else
             {
@@ -103,7 +117,7 @@ public class Player : MonoBehaviour
             leftDirection += dog.transform.localPosition;
 
         }
-        leftDirection = leftDirection / i;
+
         i = 0;
         foreach (Dog dog in _rightDogs)
         {
@@ -123,6 +137,7 @@ public class Player : MonoBehaviour
                 dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
 
                 directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
+                _forceRight += dog.GetForce();
             }
             else
             {
@@ -142,8 +157,11 @@ public class Player : MonoBehaviour
             rightDirecton += dog.transform.localPosition;
             i++;
         }
-        rightDirecton = rightDirecton / i;
 
+
+        // POSITION ARMS
+        leftDirection = leftDirection / _leftDogs.Count;
+        rightDirecton = rightDirecton / _rightDogs.Count;
         leftDirection.Normalize();
         rightDirecton.Normalize();
         
@@ -152,6 +170,18 @@ public class Player : MonoBehaviour
         
         float Rrot_z = Mathf.Atan2(rightDirecton.y, rightDirecton.x) * Mathf.Rad2Deg;
         rightArmRoot.transform.localRotation = Quaternion.Euler(0f, 0f, Rrot_z + (rightDirecton == new Vector3(0, 0, 0) ? 0 : -90));
+        //----------
+
+        // JAUGES FORCE
+        float forceLeft = _forceLeft * 1.0f / _maxForcePlayer;
+        float forceRight = _forceRight * 1.0f / _maxForcePlayer;
+
+        _jauge[0].color = Color.HSVToRGB((120 - forceLeft * 120) / 255.0f, 1, 1);
+        _jauge[0].fillAmount = forceLeft;
+        _jauge[1].color = Color.HSVToRGB((120 - forceRight * 120) / 255.0f, 1, 1);
+        _jauge[1].fillAmount = forceRight;
+
+
 
         _rigidbody.AddForce(directionToApply);
     }
