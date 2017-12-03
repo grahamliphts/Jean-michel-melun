@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Menu_Manager : MonoBehaviour {
 
@@ -19,6 +20,11 @@ public class Menu_Manager : MonoBehaviour {
 
 		
 	}
+
+    public void StartLevel()
+    {
+        SceneManager.LoadScene("TestFinal", LoadSceneMode.Single);
+    }
 	
     public void NextImage()
     {

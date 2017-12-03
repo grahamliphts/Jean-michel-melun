@@ -560,7 +560,7 @@ public class mapGenerator : MonoBehaviour {
         {
             foreach(int area in MapLine)
             {
-                Vector3 position  = new Vector3(transform.position.x + i, transform.position.y + j, 0);
+                Vector3 position  = new Vector3(transform.position.x + i, transform.position.y + j, 1);
                 switch (area)
                 {
                     case 0:     // Ground
