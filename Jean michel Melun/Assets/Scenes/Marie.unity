@@ -298,11 +298,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite_size: 7.5
-  mapSize: 100
-  UpRoadNb: 6
-  RightRoadNb: 6
-  pathNb: 200
-  buildingSize: 3
+  mapSize: 50
+  UpRoadNb: 5
+  RightRoadNb: 4
+  pathNb: 100
+  buildingSize: 2
   maxKeepGo: 4
   BuildingPrefab:
   - {fileID: 1388411693103898, guid: 6d7baa116df50a341b6f2f5fd0438c84, type: 2}
@@ -321,8 +321,8 @@ MonoBehaviour:
   RoadPrefab:
   - {fileID: 1898655226007400, guid: 57af91ac0cb12b44dbdc32787730de86, type: 2}
   - {fileID: 1768482976841882, guid: 1664f30e68ffd34449b7f93cd46dc76e, type: 2}
-  - {fileID: 1593971764885808, guid: 47bbd0745177d6b48b2e6a03a9273738, type: 2}
   - {fileID: 1670868038522476, guid: 363c24eee02cf324b8004575c15aca3e, type: 2}
+  - {fileID: 1593971764885808, guid: 47bbd0745177d6b48b2e6a03a9273738, type: 2}
   SideWalkPrefab:
   - {fileID: 1587837637789544, guid: 33255306f0d47104fa71e8620e60e2d0, type: 2}
   - {fileID: 1271702603419948, guid: 05763068ea0bdc74c822d8a32451048d, type: 2}
