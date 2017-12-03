@@ -824,7 +824,7 @@ MonoBehaviour:
   _bag: {fileID: 81137781}
   _player: {fileID: 830635690}
   Score: {fileID: 1729210006}
-  timer: {fileID: 0}
+  timer: {fileID: 2013865407}
 --- !u!1 &1599263791
 GameObject:
   m_ObjectHideFlags: 0
