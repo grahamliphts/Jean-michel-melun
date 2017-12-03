@@ -32,6 +32,11 @@ public class mapGenerator : MonoBehaviour {
     int endColumn;
     
     public List<Vector3> sideWalkList = new List<Vector3>();
+    public List<Vector3> freeSpaceList = new List<Vector3>();
+
+    Vector3 EntryPoint = new Vector3();
+    Vector3 ExitPoint = new Vector3();
+
     public bool _finish = false;
     
     int[] endLineTab;
@@ -48,6 +53,7 @@ public class mapGenerator : MonoBehaviour {
     GameObject[] RoadPrefab;
     [SerializeField]
     GameObject[] SideWalkPrefab;
+
 
     private int[][] _Map;
 
@@ -107,6 +113,25 @@ public class mapGenerator : MonoBehaviour {
 
         // Create buildings
         createBuilding(buildType, baseMapType, buildingSize);
+
+        // Define Entry Point 
+        int i = 0;
+        while (_Map[i][0] != roadType)
+            i++;
+        EntryPoint.x = i;
+        EntryPoint.y = 0;
+
+        Debug.Log("Entry : " + EntryPoint.x);
+
+
+        //Define Exit Point
+        i = mapSize - 1;
+        while (_Map[i][mapSize-1] != roadType)
+            i--;
+        ExitPoint.x = i;
+        ExitPoint.y = mapSize-1;
+
+        Debug.Log("Exit : " + ExitPoint.x);
 
         generateMap();
         _finish = true;
@@ -335,7 +360,7 @@ public class mapGenerator : MonoBehaviour {
         }
         _Map[currPointI][currPointJ] = area_type;
 
-        //End poitn of the path 
+        //End point of the path 
         int nextPointI = 0;
         int nextPointJ = 0;
         while (_Map[nextPointI][nextPointJ] != baseMapType)
@@ -343,7 +368,6 @@ public class mapGenerator : MonoBehaviour {
             nextPointI = Random.Range(0, mapSize);
             nextPointJ = Random.Range(0, mapSize);
         }
-        _Map[nextPointI][nextPointJ] = area_type;
 
         //Connect points (except an roadType road is found) 
         bool keepWalk = true;
@@ -379,8 +403,37 @@ public class mapGenerator : MonoBehaviour {
     // Add area_type sidewalks in the map on every roads
     void createsideWalk(int area_type, int baseMapType, int roadType)
     {
+        // For first col
+        for (int currJ = 1; currJ < mapSize - 1; currJ++)
+        {
+            if (_Map[0][currJ] == baseMapType)
+            {
+                for (int i = 0; i < 2; i++)
+                {
+                    for (int j = -1; j < 2; j++)
+                    {
+                        if (_Map[i][currJ + j] == roadType)
+                            _Map[0][currJ] = area_type;
+                    }
+                }
+            }
+        }
+
         for (int currI = 1; currI < mapSize - 1; currI++)
         {
+            //For First line 
+            if (_Map[currI][0] == baseMapType)
+            {
+                for (int i = -1; i < 2; i++)
+                {
+                    for (int j = 0; j < 2; j++)
+                    {
+                        if (_Map[currI + i][j] == roadType)
+                            _Map[currI][0] = area_type;
+                    }
+                }
+            }
+
             for (int currJ = 1; currJ < mapSize - 1; currJ++)
             {
                 if (_Map[currI][currJ] == baseMapType)
@@ -392,6 +445,35 @@ public class mapGenerator : MonoBehaviour {
                             if (_Map[currI + i][currJ + j] == roadType)
                                 _Map[currI][currJ] = area_type;
                         }
+                    }
+                }
+            }
+
+            //For last line 
+            if (_Map[currI][mapSize-1] == baseMapType)
+            {
+                for (int i = -1; i < 2; i++)
+                {
+                    for (int j = -1; j < 1; j++)
+                    {
+                        if (_Map[currI + i][mapSize - 1 + j] == roadType)
+                            _Map[currI][mapSize - 1] = area_type;
+                    }
+                }
+            }
+        }
+
+        // For first col
+        for (int currJ = 1; currJ < mapSize - 1; currJ++)
+        {
+            if (_Map[mapSize - 1][currJ] == baseMapType)
+            {
+                for (int i = -1; i < 1; i++)
+                {
+                    for (int j = -1; j < 2; j++)
+                    {
+                        if (_Map[mapSize - 1 + i][currJ + j] == roadType)
+                            _Map[mapSize - 1][currJ] = area_type;
                     }
                 }
             }
@@ -483,6 +565,7 @@ public class mapGenerator : MonoBehaviour {
                 {
                     case 0:     // Ground
                         Instantiate(GroundPrefab[0], position, new Quaternion(),transform);
+                        freeSpaceList.Add(position);
                         break;
                     case 1:     // Building 
                         nb = scaledRandom(0, BuildingPrefab.Length, true);
@@ -503,6 +586,7 @@ public class mapGenerator : MonoBehaviour {
                         sideWalkList.Add(position);
                         break;
 
+
                 }
                 j += sprite_size;
 
@@ -514,6 +598,5 @@ public class mapGenerator : MonoBehaviour {
 
             countJ++; 
         }
-
     }
 }
