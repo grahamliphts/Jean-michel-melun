@@ -16,7 +16,11 @@ public class Player : MonoBehaviour
     [SerializeField]
     GameObject leftArmRoot;
     [SerializeField]
+    Transform Lefthandroot;
+    [SerializeField]
     GameObject rightArmRoot;
+    [SerializeField]
+    Transform Righthandroot;
 
     [SerializeField]
     Image[] _jauge;
@@ -24,7 +28,10 @@ public class Player : MonoBehaviour
     [SerializeField]
     int _maxForcePlayer = 15;
 
-    float _distPlayer = .7f;
+
+    float _distPlayer = .9f;
+
+    List<LineRenderer> laisses;
     // Use this for initialization
     void Start ()
     {
@@ -55,13 +62,37 @@ public class Player : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.A))
+        if (Input.GetMouseButtonUp(0))
         {
             SwitchDogRightToLeft();
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetMouseButtonUp(1))
         {
             SwitchDogLeftToRight();
+        }
+        if (Input.GetMouseButtonUp(2))
+        {
+            if(_leftDogs.Count != 0 || _rightDogs.Count != 0)
+            {
+                int choice = -1;
+                if(_leftDogs.Count != 0 && _rightDogs.Count != 0)
+                {
+                    choice = Random.Range(0, 2);
+                }
+
+                if (choice == -1 && _rightDogs.Count != 0 || choice == 0)
+                {
+                    int i = Random.Range(0, _rightDogs.Count);
+                    _rightDogs[i].Evade();
+                    _rightDogs.RemoveAt(i);
+                }
+                else if (choice == -1 && _leftDogs.Count != 0 || choice == 1)
+                {
+                    int i = Random.Range(0, _leftDogs.Count);
+                    _leftDogs[i].Evade();
+                    _leftDogs.RemoveAt(i);
+                }
+            }
         }
 
         CheckDogs();
@@ -116,6 +147,11 @@ public class Player : MonoBehaviour
             i++;
             leftDirection += dog.transform.localPosition;
 
+            if (dog.gameObject.GetComponent<LineRenderer>() != null)
+            {
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(0, Lefthandroot.position);
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(1, dog.transform.position);
+            }
         }
 
         i = 0;
@@ -155,7 +191,13 @@ public class Player : MonoBehaviour
                 dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
             }
             rightDirecton += dog.transform.localPosition;
+            if (dog.gameObject.GetComponent<LineRenderer>() != null)
+            {
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(0, Righthandroot.position);
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(1, dog.transform.position);
+            }
             i++;
+
         }
 
 
@@ -181,6 +223,18 @@ public class Player : MonoBehaviour
         _jauge[1].color = Color.HSVToRGB((120 - forceRight * 120) / 255.0f, 1, 1);
         _jauge[1].fillAmount = forceRight;
 
+        if (forceLeft > 1.0f)
+        {
+            int j = Random.Range(0, _leftDogs.Count);
+            _leftDogs[j].Evade();
+            _leftDogs.RemoveAt(j);
+        }
+        if (forceRight > 1.0f)
+        {
+            int j = Random.Range(0, _rightDogs.Count);
+            _rightDogs[j].Evade();
+            _rightDogs.RemoveAt(j);
+        }
 
 
         _rigidbody.AddForce(directionToApply);
@@ -232,7 +286,8 @@ public class Player : MonoBehaviour
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
                 _leftDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
             }
-        }
+
+          }
 
         for (int i = 0; i < _rightDogs.Count; i++)
         {
@@ -288,6 +343,13 @@ public class Player : MonoBehaviour
             CalculatePositionDogs();
             other.gameObject.GetComponent<Dog>().playBackgroundLoop();
             other.gameObject.GetComponent<Dog>().haveMaster(true);
+           // other.gameObject.AddComponent<LineRenderer>();
+
+            other.gameObject.GetComponent<LineRenderer>().SetPosition(0, transform.position);
+            other.gameObject.GetComponent<LineRenderer>().SetPosition(1, other.transform.position);
+            other.gameObject.GetComponent<LineRenderer>().startWidth = .01f;
+            other.gameObject.GetComponent<LineRenderer>().endWidth = .01f;
         }
+
     }
 }

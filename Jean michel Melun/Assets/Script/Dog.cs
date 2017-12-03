@@ -8,10 +8,11 @@ public class Dog : MonoBehaviour {
     private int _force = 0;
     [SerializeField]
     float _perception = 0f;
+
     [SerializeField]
-    AudioSource[] background;
+    public AudioSource[] background;
     [SerializeField]
-    AudioSource woof;
+    public AudioSource woof;
 
     private Collider2D _collider;
     private Vector3 _lastInteract;
@@ -70,7 +71,7 @@ public class Dog : MonoBehaviour {
                 //Debug.Log("Test Interest " + other.gameObject.name + " " + interest);
                 if (_lastInterest <= interest)
                 {
-                    Vector2 direction = _lastInteract - this.transform.position;
+                    Vector2 direction = _lastInteract - transform.position;
                     float Distance = direction.magnitude;
                     //Debug.Log(Distance);
                     if (_lastInterest == interest)
@@ -201,14 +202,27 @@ public class Dog : MonoBehaviour {
 
     public void Evade()
     {
-        if (_lastInteract != new Vector3(0, 0, 0))
-            GetComponent<Rigidbody2D>().AddForce((_lastInteract - transform.position) * 10);
+        transform.SetParent(null);
+        GetComponent<LineRenderer>().enabled = false;
+        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+        if (_lastInteract == new Vector3(0, 0, 0))
+            _lastInteract = new Vector3(Random.Range(-5, 5), Random.Range(-5, 5), 0);
+
+        Vector3 diff = _lastInteract - transform.position;
+        diff.Normalize();
+
+        float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+        transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+
+        GetComponent<Rigidbody2D>().AddForce(diff * 50);
+
+        StartCoroutine("WaitEvade");
     }
 
     IEnumerator WaitEvade()
     {
         yield return new WaitForSeconds(5f);
-        Destroy(this);
+        Destroy(gameObject);
     }
 
 }

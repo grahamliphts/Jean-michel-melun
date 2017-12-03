@@ -16,6 +16,9 @@ public class DoggyBag : MonoBehaviour
     [SerializeField]
     RuntimeAnimatorController[] _chihuahua;
 
+    [SerializeField]
+    public AudioClip[] _sourceSound; // 0 - big / 1 - medium / 2 - small / 3 - sniff
+
     // Use this for initialization
     void Start()
     {
@@ -37,14 +40,20 @@ public class DoggyBag : MonoBehaviour
                 case 0: // Shiba
                     newDog.GetComponent<Dog>().AddForce(3);
                     newDog.GetComponent<Dog>().AddPerception(40);
+                    newDog.GetComponent<Dog>().woof.clip = _sourceSound[1];
+                    newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
                     break;
                 case 1: // Bulldog
                     newDog.GetComponent<Dog>().AddForce(5);
                     newDog.GetComponent<Dog>().AddPerception(20);
+                    newDog.GetComponent<Dog>().woof.clip = _sourceSound[0];
+                    newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
                     break;
                 case 2: // Chihuahua
                     newDog.GetComponent<Dog>().AddForce(1);
                     newDog.GetComponent<Dog>().AddPerception(60);
+                    newDog.GetComponent<Dog>().woof.clip = _sourceSound[2];
+                    newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
                     break;
             }
 

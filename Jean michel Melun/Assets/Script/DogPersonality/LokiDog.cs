@@ -44,7 +44,10 @@ public class LokiDog : MonoBehaviour
     void Update()
     {
         if (_initialize && !_found && _dog.tag == "Dog")
+        {
             _found = true;
+            transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
+        }
 
 
         if (_initialize && _found && !_ultiStart)
@@ -66,6 +69,7 @@ public class LokiDog : MonoBehaviour
     void DogFound()
     {
         _found = true;
+        transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
     }
 
     IEnumerator TriggerUlti()
@@ -99,6 +103,7 @@ public class LokiDog : MonoBehaviour
         _ultiStart = false;
         _dog.gameObject.SetActive(true);
         transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
+        transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = true;
         _dog.gameObject.GetComponent<CircleCollider2D>().enabled = true;
     }
 }

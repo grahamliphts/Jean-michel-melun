@@ -45,7 +45,10 @@ public class SuperDog : MonoBehaviour
 	void Update ()
     {
         if (_initialize && !_found && _dog.tag == "Dog")
+        {
             _found = true;
+            transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
+        }
 
         if (_initialize && _found && !_ultiStart)
         {
@@ -66,6 +69,7 @@ public class SuperDog : MonoBehaviour
     void DogFound()
     {
         _found = true;
+        transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
     }
 
     IEnumerator TriggerUlti()
