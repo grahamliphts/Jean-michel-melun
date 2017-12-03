@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: 76c03c0f12b4fdf47a5f25f79200e3e6
+timeCreated: 1512307766
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Captain Chihuahua_0
+    21300002: Captain Chihuahua_1
+    21300004: Captain Chihuahua_2
+    21300006: Captain Chihuahua_3
+    21300008: Captain Chihuahua_4
+    21300010: Captain Chihuahua_5
+    21300012: Captain Chihuahua_6
+    21300014: Captain Chihuahua_7
+    21300016: Captain Chihuahua_8
+    21300018: Captain Chihuahua_9
+    21300020: Captain Chihuahua_10
+    21300022: Captain Chihuahua_11
+    21300024: Captain Chihuahua_12
+    21300026: Captain Chihuahua_13
+    21300028: Captain Chihuahua_14
+    21300030: Captain Chihuahua_15
+    21300032: Captain Chihuahua_16
+    21300034: Captain Chihuahua_17
+    21300036: Captain Chihuahua_18
+    21300038: Captain Chihuahua_19
+    21300040: Captain Chihuahua_20
+    21300042: Captain Chihuahua_21
+    21300044: Captain Chihuahua_22
+    21300046: Captain Chihuahua_23
+    21300048: Captain Chihuahua_24
+    21300050: Captain Chihuahua_25
+    21300052: Captain Chihuahua_26
+    21300054: Captain Chihuahua_27
+    21300056: Captain Chihuahua_28
+    21300058: Captain Chihuahua_29
+    21300060: Captain Chihuahua_30
+    21300062: Captain Chihuahua_31
+    21300064: Captain Chihuahua_32
+    21300066: Captain Chihuahua_33
+    21300068: Captain Chihuahua_34
+    21300070: Captain Chihuahua_35
+    21300072: Captain Chihuahua_36
+    21300074: Captain Chihuahua_37
+    21300076: Captain Chihuahua_38
+    21300078: Captain Chihuahua_39
+    21300080: Captain Chihuahua_40
+    21300082: Captain Chihuahua_41
+    21300084: Captain Chihuahua_42
+    21300086: Captain Chihuahua_43
+    21300088: Captain Chihuahua_44
+    21300090: Captain Chihuahua_45
+    21300092: Captain Chihuahua_46
+    21300094: Captain Chihuahua_47
+    21300096: Captain Chihuahua_48
+    21300098: Captain Chihuahua_49
+    21300100: Captain Chihuahua_50
+    21300102: Captain Chihuahua_51
+    21300104: Captain Chihuahua_52
+    21300106: Captain Chihuahua_53
+    21300108: Captain Chihuahua_54
+    21300110: Captain Chihuahua_55
+    21300112: Captain Chihuahua_56
+    21300114: Captain Chihuahua_57
+    21300116: Captain Chihuahua_58
+    21300118: Captain Chihuahua_59
+    21300120: Captain Chihuahua_60
+    21300122: Captain Chihuahua_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Captain Chihuahua_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1480
+        width: 150
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1477
+        width: 151
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_2
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1475
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_3
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1475
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_4
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1475
+        width: 153
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_5
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1477
+        width: 153
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_6
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1480
+        width: 153
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_7
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1478
+        width: 154
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_8
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1476
+        width: 154
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_9
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1475
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_10
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1475
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_11
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1477
+        width: 155
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1185
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1185
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_14
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1181
+        width: 155
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_15
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_16
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_17
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1182
+        width: 155
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_18
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1186
+        width: 155
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_19
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1189
+        width: 155
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_20
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1184
+        width: 155
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_21
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_22
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_23
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1181
+        width: 154
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 889
+        width: 153
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_25
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 893
+        width: 153
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_26
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 888
+        width: 152
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_27
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 885
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_28
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 885
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_29
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 886
+        width: 151
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_30
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 889
+        width: 150
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_31
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 894
+        width: 150
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_32
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 892
+        width: 150
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_33
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 888
+        width: 150
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_34
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 885
+        width: 151
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_35
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 885
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 591
+        width: 152
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_37
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 593
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_38
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 593
+        width: 154
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_39
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 590
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_40
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 590
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_41
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 590
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_42
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 593
+        width: 155
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_43
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 597
+        width: 155
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_44
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 599
+        width: 155
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_45
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 594
+        width: 155
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_46
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 590
+        width: 156
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_47
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 590
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 296
+        width: 155
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_49
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 300
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_50
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 306
+        width: 155
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_51
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 300
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_52
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 296
+        width: 155
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_53
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 295
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_54
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 296
+        width: 154
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_55
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 301
+        width: 154
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_56
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 309
+        width: 154
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_57
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 305
+        width: 153
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_58
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 299
+        width: 153
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_59
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 296
+        width: 152
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 151
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Captain Chihuahua_61
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 151
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

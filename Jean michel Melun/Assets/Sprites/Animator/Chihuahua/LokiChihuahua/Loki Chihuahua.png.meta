@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: 2d0b900a50ff0984e836ab94f7035590
+timeCreated: 1512307784
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Loki Chihuahua_0
+    21300002: Loki Chihuahua_1
+    21300004: Loki Chihuahua_2
+    21300006: Loki Chihuahua_3
+    21300008: Loki Chihuahua_4
+    21300010: Loki Chihuahua_5
+    21300012: Loki Chihuahua_6
+    21300014: Loki Chihuahua_7
+    21300016: Loki Chihuahua_8
+    21300018: Loki Chihuahua_9
+    21300020: Loki Chihuahua_10
+    21300022: Loki Chihuahua_11
+    21300024: Loki Chihuahua_12
+    21300026: Loki Chihuahua_13
+    21300028: Loki Chihuahua_14
+    21300030: Loki Chihuahua_15
+    21300032: Loki Chihuahua_16
+    21300034: Loki Chihuahua_17
+    21300036: Loki Chihuahua_18
+    21300038: Loki Chihuahua_19
+    21300040: Loki Chihuahua_20
+    21300042: Loki Chihuahua_21
+    21300044: Loki Chihuahua_22
+    21300046: Loki Chihuahua_23
+    21300048: Loki Chihuahua_24
+    21300050: Loki Chihuahua_25
+    21300052: Loki Chihuahua_26
+    21300054: Loki Chihuahua_27
+    21300056: Loki Chihuahua_28
+    21300058: Loki Chihuahua_29
+    21300060: Loki Chihuahua_30
+    21300062: Loki Chihuahua_31
+    21300064: Loki Chihuahua_32
+    21300066: Loki Chihuahua_33
+    21300068: Loki Chihuahua_34
+    21300070: Loki Chihuahua_35
+    21300072: Loki Chihuahua_36
+    21300074: Loki Chihuahua_37
+    21300076: Loki Chihuahua_38
+    21300078: Loki Chihuahua_39
+    21300080: Loki Chihuahua_40
+    21300082: Loki Chihuahua_41
+    21300084: Loki Chihuahua_42
+    21300086: Loki Chihuahua_43
+    21300088: Loki Chihuahua_44
+    21300090: Loki Chihuahua_45
+    21300092: Loki Chihuahua_46
+    21300094: Loki Chihuahua_47
+    21300096: Loki Chihuahua_48
+    21300098: Loki Chihuahua_49
+    21300100: Loki Chihuahua_50
+    21300102: Loki Chihuahua_51
+    21300104: Loki Chihuahua_52
+    21300106: Loki Chihuahua_53
+    21300108: Loki Chihuahua_54
+    21300110: Loki Chihuahua_55
+    21300112: Loki Chihuahua_56
+    21300114: Loki Chihuahua_57
+    21300116: Loki Chihuahua_58
+    21300118: Loki Chihuahua_59
+    21300120: Loki Chihuahua_60
+    21300122: Loki Chihuahua_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Loki Chihuahua_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1480
+        width: 150
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1477
+        width: 151
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_2
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 1475
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_3
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1475
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_4
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1475
+        width: 153
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_5
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1477
+        width: 153
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_6
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1480
+        width: 153
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_7
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1478
+        width: 154
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_8
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 1476
+        width: 154
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_9
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1475
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_10
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1475
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_11
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1477
+        width: 155
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1185
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1185
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_14
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1181
+        width: 155
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_15
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_16
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_17
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1182
+        width: 155
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_18
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1186
+        width: 155
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_19
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 1189
+        width: 155
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_20
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 1184
+        width: 155
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_21
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_22
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 1180
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_23
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1181
+        width: 154
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 889
+        width: 153
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_25
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 893
+        width: 153
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_26
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 888
+        width: 152
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_27
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 885
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_28
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 885
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_29
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 886
+        width: 151
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_30
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 889
+        width: 150
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_31
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 894
+        width: 150
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_32
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 892
+        width: 150
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_33
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 888
+        width: 150
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_34
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 885
+        width: 151
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_35
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 885
+        width: 152
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 591
+        width: 152
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_37
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 593
+        width: 153
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_38
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 593
+        width: 154
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_39
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 590
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_40
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 590
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_41
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 590
+        width: 154
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_42
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 593
+        width: 155
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_43
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 597
+        width: 155
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_44
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 599
+        width: 155
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_45
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 594
+        width: 155
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_46
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 590
+        width: 156
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_47
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 590
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 296
+        width: 155
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_49
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 300
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_50
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 306
+        width: 155
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_51
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 300
+        width: 155
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_52
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 296
+        width: 155
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_53
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 295
+        width: 155
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_54
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 296
+        width: 154
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_55
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 301
+        width: 154
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_56
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 309
+        width: 154
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_57
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 305
+        width: 153
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_58
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 299
+        width: 153
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_59
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 296
+        width: 152
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 151
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Chihuahua_61
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 151
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

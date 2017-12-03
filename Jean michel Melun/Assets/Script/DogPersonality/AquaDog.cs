@@ -88,13 +88,15 @@ public class AquaDog : MonoBehaviour
     {
         _dog.gameObject.tag = "LostDog";
         _found = false;
-        _dog.gameObject.SetActive(false);
+        transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = false;
+        _dog.gameObject.GetComponent<CircleCollider2D>().enabled = false;
     }
 
     IEnumerator StopUlti()
     {
         yield return new WaitForSeconds(_timeUlti);
-        _dog.gameObject.SetActive(true);
+        transform.GetChild(0).GetComponent<SpriteRenderer>().enabled = true;
+        _dog.gameObject.GetComponent<CircleCollider2D>().enabled = true;
         _ultiStart = false;
     }
 

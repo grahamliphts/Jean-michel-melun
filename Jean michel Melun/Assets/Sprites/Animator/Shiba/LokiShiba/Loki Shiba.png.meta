@@ -1,0 +1,1024 @@
+fileFormatVersion: 2
+guid: ceccaeb24193faa42a290e3cb4b333b8
+timeCreated: 1512305309
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Loki Shiba_0
+    21300002: Loki Shiba_1
+    21300004: Loki Shiba_2
+    21300006: Loki Shiba_3
+    21300008: Loki Shiba_4
+    21300010: Loki Shiba_5
+    21300012: Loki Shiba_6
+    21300014: Loki Shiba_7
+    21300016: Loki Shiba_8
+    21300018: Loki Shiba_9
+    21300020: Loki Shiba_10
+    21300022: Loki Shiba_11
+    21300024: Loki Shiba_12
+    21300026: Loki Shiba_13
+    21300028: Loki Shiba_14
+    21300030: Loki Shiba_15
+    21300032: Loki Shiba_16
+    21300034: Loki Shiba_17
+    21300036: Loki Shiba_18
+    21300038: Loki Shiba_19
+    21300040: Loki Shiba_20
+    21300042: Loki Shiba_21
+    21300044: Loki Shiba_22
+    21300046: Loki Shiba_23
+    21300048: Loki Shiba_24
+    21300050: Loki Shiba_25
+    21300052: Loki Shiba_26
+    21300054: Loki Shiba_27
+    21300056: Loki Shiba_28
+    21300058: Loki Shiba_29
+    21300060: Loki Shiba_30
+    21300062: Loki Shiba_31
+    21300064: Loki Shiba_32
+    21300066: Loki Shiba_33
+    21300068: Loki Shiba_34
+    21300070: Loki Shiba_35
+    21300072: Loki Shiba_36
+    21300074: Loki Shiba_37
+    21300076: Loki Shiba_38
+    21300078: Loki Shiba_39
+    21300080: Loki Shiba_40
+    21300082: Loki Shiba_41
+    21300084: Loki Shiba_42
+    21300086: Loki Shiba_43
+    21300088: Loki Shiba_44
+    21300090: Loki Shiba_45
+    21300092: Loki Shiba_46
+    21300094: Loki Shiba_47
+    21300096: Loki Shiba_48
+    21300098: Loki Shiba_49
+    21300100: Loki Shiba_50
+    21300102: Loki Shiba_51
+    21300104: Loki Shiba_52
+    21300106: Loki Shiba_53
+    21300108: Loki Shiba_54
+    21300110: Loki Shiba_55
+    21300112: Loki Shiba_56
+    21300114: Loki Shiba_57
+    21300116: Loki Shiba_58
+    21300118: Loki Shiba_59
+    21300120: Loki Shiba_60
+    21300122: Loki Shiba_61
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Loki Shiba_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2216
+        width: 180
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2215
+        width: 178
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 2212
+        width: 180
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2208
+        width: 181
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_4
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 2204
+        width: 179
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_5
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 2203
+        width: 181
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_6
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 2200
+        width: 180
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_7
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2200
+        width: 180
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_8
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 2204
+        width: 180
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_9
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 2207
+        width: 180
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_10
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 2208
+        width: 177
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_11
+      rect:
+        serializedVersion: 2
+        x: 2348
+        y: 2212
+        width: 176
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1778
+        width: 176
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1776
+        width: 173
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1772
+        width: 174
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_15
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1768
+        width: 177
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_16
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1764
+        width: 176
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_17
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1763
+        width: 176
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_18
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1759
+        width: 174
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_19
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 1758
+        width: 171
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_20
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 1760
+        width: 174
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_21
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1763
+        width: 171
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_22
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 1764
+        width: 171
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_23
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 1768
+        width: 169
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_24
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1332
+        width: 169
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_25
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1336
+        width: 169
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_26
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1332
+        width: 169
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_27
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1330
+        width: 173
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_28
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1328
+        width: 171
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_29
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1324
+        width: 171
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_30
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1323
+        width: 173
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_31
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1320
+        width: 172
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_32
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 1320
+        width: 171
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_33
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1324
+        width: 171
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_34
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1327
+        width: 171
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_35
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 1331
+        width: 173
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 896
+        width: 169
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_37
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 900
+        width: 169
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_38
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 900
+        width: 169
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_39
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 896
+        width: 169
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_40
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 892
+        width: 171
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_41
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 890
+        width: 172
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_42
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 887
+        width: 175
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_43
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 884
+        width: 174
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_44
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 883
+        width: 176
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_45
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 887
+        width: 176
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_46
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 888
+        width: 174
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_47
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 894
+        width: 174
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_48
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 460
+        width: 173
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_49
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 464
+        width: 174
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_50
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 468
+        width: 172
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_51
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 464
+        width: 173
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_52
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 460
+        width: 176
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_53
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 459
+        width: 177
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_54
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 455
+        width: 180
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_55
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 452
+        width: 180
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_56
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 448
+        width: 180
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_57
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 448
+        width: 181
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_58
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 453
+        width: 181
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_59
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 455
+        width: 178
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 20
+        width: 179
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Loki Shiba_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 23
+        width: 180
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
