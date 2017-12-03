@@ -8,6 +8,10 @@ public class Dog : MonoBehaviour {
     private int _force = 0;
     [SerializeField]
     float _perception = 0f;
+    [SerializeField]
+    AudioSource[] background;
+    [SerializeField]
+    AudioSource woof;
 
     private Collider2D _collider;
     private Vector3 _lastInteract;
@@ -17,6 +21,8 @@ public class Dog : MonoBehaviour {
 
     private Vector2 _CurrentDirection = new Vector2(0, 0);
     bool _newInterract = false;
+
+    bool _haveMaster = false;
 
 	// Use this for initialization
 	void Start () {
@@ -41,6 +47,10 @@ public class Dog : MonoBehaviour {
         {
             Debug.DrawRay(transform.position, _lastInteract - transform.position,Color.white);
         }
+
+        if (woof.volume == 0.01f)
+            woof.volume = 0;
+
     }
 
 
@@ -48,7 +58,7 @@ public class Dog : MonoBehaviour {
     {
         if (other.gameObject.tag == "Object")
         {
-
+          
             Vector3 targetDir = other.gameObject.transform.position - transform.position;
             float angle = Vector3.Angle(targetDir, transform.right);
 
@@ -79,7 +89,7 @@ public class Dog : MonoBehaviour {
                         _lastInteract = other.gameObject.transform.position;
                         _lastDistance = Distance;
                     }
-
+                    bark(true);
                 }
             }
         }
@@ -89,6 +99,7 @@ public class Dog : MonoBehaviour {
         if (other.gameObject.tag == "Object")
         {
             _lastInteract = new Vector3(0, 0, 0);
+            bark(false);
         }
     }
 
@@ -120,5 +131,71 @@ public class Dog : MonoBehaviour {
     public void AddPerception(float add)
     {
         _perception += add;
+    }
+    public void  playBackgroundLoop()
+    {
+        foreach(AudioSource sound in background)
+        if(!sound.isPlaying)
+                sound.Play();
+        if (!woof.isPlaying)
+        {
+            woof.Play();
+            woof.volume = 0;
+        }
+           
+    }
+    public void bark(bool state)
+    {
+        if(_haveMaster)
+        {
+            if (state)
+            {
+                if(woof.volume != 1)
+                {
+                    StopCoroutine(fadeout());
+                    StartCoroutine(fadein());
+                }          
+
+            }
+            else
+            {
+                if(woof.volume != 0)
+                {
+                    StopCoroutine(fadein());
+                    StartCoroutine(fadeout());
+                }
+               
+            }
+        }
+       
+    }
+    public void haveMaster(bool state)
+    {
+        _haveMaster = state;
+    }
+
+    IEnumerator fadeout()
+    {
+        woof.volume -= 0.01f;
+        yield return new WaitForSeconds(0.01f);
+        if (woof.volume > 0)
+        {
+            StartCoroutine(fadeout());
+
+        }
+        else
+            woof.volume = 0;
+
+    }
+    IEnumerator fadein()
+    {
+        woof.volume += 0.01f;
+        yield return new WaitForSeconds(0.01f);
+        if (woof.volume != 1)
+        {
+            StartCoroutine(fadein());
+        }
+        else
+            woof.volume = 1;
     }
 }

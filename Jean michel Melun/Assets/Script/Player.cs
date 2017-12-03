@@ -235,6 +235,8 @@ public class Player : MonoBehaviour
             other.gameObject.transform.SetParent(this.transform);
             other.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
             CalculatePositionDogs();
+            other.gameObject.GetComponent<Dog>().playBackgroundLoop();
+            other.gameObject.GetComponent<Dog>().haveMaster(true);
         }
     }
 }
