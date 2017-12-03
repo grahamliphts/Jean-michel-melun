@@ -12,8 +12,14 @@ public class Player : MonoBehaviour
     [SerializeField]
     GameObject leftArmRoot;
     [SerializeField]
+    Transform Lefthandroot;
+    [SerializeField]
     GameObject rightArmRoot;
+    [SerializeField]
+    Transform Righthandroot;
     float _distPlayer = .7f;
+
+    List<LineRenderer> laisses;
     // Use this for initialization
     void Start ()
     {
@@ -102,6 +108,11 @@ public class Player : MonoBehaviour
             i++;
             leftDirection += dog.transform.localPosition;
 
+            if (dog.gameObject.GetComponent<LineRenderer>() != null)
+            {
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(0, Lefthandroot.position);
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(1, dog.transform.position);
+            }
         }
         leftDirection = leftDirection / i;
         i = 0;
@@ -140,7 +151,13 @@ public class Player : MonoBehaviour
                 dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
             }
             rightDirecton += dog.transform.localPosition;
+            if (dog.gameObject.GetComponent<LineRenderer>() != null)
+            {
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(0, Righthandroot.position);
+                dog.gameObject.GetComponent<LineRenderer>().SetPosition(1, dog.transform.position);
+            }
             i++;
+
         }
         rightDirecton = rightDirecton / i;
 
@@ -202,7 +219,8 @@ public class Player : MonoBehaviour
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
                 _leftDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
             }
-        }
+
+          }
 
         for (int i = 0; i < _rightDogs.Count; i++)
         {
@@ -258,6 +276,13 @@ public class Player : MonoBehaviour
             CalculatePositionDogs();
             other.gameObject.GetComponent<Dog>().playBackgroundLoop();
             other.gameObject.GetComponent<Dog>().haveMaster(true);
+           // other.gameObject.AddComponent<LineRenderer>();
+
+            other.gameObject.GetComponent<LineRenderer>().SetPosition(0, transform.position);
+            other.gameObject.GetComponent<LineRenderer>().SetPosition(1, other.transform.position);
+            other.gameObject.GetComponent<LineRenderer>().startWidth = .01f;
+            other.gameObject.GetComponent<LineRenderer>().endWidth = .01f;
         }
+
     }
 }
