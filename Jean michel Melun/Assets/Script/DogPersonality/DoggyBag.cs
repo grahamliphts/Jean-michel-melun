@@ -19,8 +19,27 @@ public class DoggyBag : MonoBehaviour
     [SerializeField]
     public AudioClip[] _sourceSound; // 0 - big / 1 - medium / 2 - small / 3 - sniff
 
-    // Use this for initialization
+    [SerializeField]
+    mapGenerator _mapGenerator;
+    
+    List<Vector3> sideWalkList = new List<Vector3>();
+
     void Start()
+    {
+        StartCoroutine("WaitMap");
+    }
+
+    IEnumerator WaitMap()
+    {
+        while(!_mapGenerator._finish)
+        {
+            yield return new WaitForSeconds(0.1f);
+        }
+        sideWalkList = _mapGenerator.sideWalkList;
+        StartGenerator();
+    }
+
+    void StartGenerator()
     {
         RuntimeAnimatorController[][] _allDogs = new RuntimeAnimatorController[3][];
         _allDogs[0] = _shybaType;
@@ -30,7 +49,10 @@ public class DoggyBag : MonoBehaviour
         for (int i = 0; i < _numberDogs; i++)
         {
             GameObject newDog = Instantiate(Resources.Load("DogPrefab")) as GameObject;
-            newDog.transform.position = new Vector3(Random.Range(-5.0f, 5.0f), Random.Range(-5.0f, 5.0f), 0);
+
+            int pos = Random.Range(0, sideWalkList.Count);
+            newDog.transform.position = sideWalkList[pos];
+            sideWalkList.RemoveAt(pos);
             newDog.transform.rotation = new Quaternion();
 
             int typeDog = Random.Range(0, _allDogs.Length);

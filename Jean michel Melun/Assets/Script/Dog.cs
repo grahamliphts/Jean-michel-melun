@@ -228,9 +228,9 @@ public class Dog : MonoBehaviour {
         diff.Normalize();
 
         float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-        transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z);
+        transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
-        GetComponent<Rigidbody2D>().AddForce(diff * 50);
+        GetComponent<Rigidbody2D>().AddForce(diff * 200);
 
         StartCoroutine("WaitEvade");
     }

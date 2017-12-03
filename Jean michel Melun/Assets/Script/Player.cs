@@ -28,6 +28,9 @@ public class Player : MonoBehaviour
     [SerializeField]
     int _maxForcePlayer = 15;
 
+    [SerializeField]
+    int _forcePlayer = 30;
+
 
     float _distPlayer = .9f;
 
@@ -46,19 +49,19 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Z))
         {
-            _rigidbody.AddForce(new Vector2(0, 5));
+            _rigidbody.AddForce(new Vector2(0, _forcePlayer));
         }
         if (Input.GetKey(KeyCode.S))
         {
-            _rigidbody.AddForce(new Vector2(0, -5));
+            _rigidbody.AddForce(new Vector2(0, -_forcePlayer));
         }
         if (Input.GetKey(KeyCode.Q))
         {
-            _rigidbody.AddForce(new Vector2(-5, 0));
+            _rigidbody.AddForce(new Vector2(-_forcePlayer, 0));
         }
         if (Input.GetKey(KeyCode.D))
         {
-            _rigidbody.AddForce(new Vector2(5, 0));
+            _rigidbody.AddForce(new Vector2(_forcePlayer, 0));
         }
 
 

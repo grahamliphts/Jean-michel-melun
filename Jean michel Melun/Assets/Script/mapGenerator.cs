@@ -31,7 +31,8 @@ public class mapGenerator : MonoBehaviour {
     int endLine;
     int endColumn;
 
-    List<Vector3> sideWalkList = new List<Vector3>(); 
+    public List<Vector3> sideWalkList = new List<Vector3>();
+    public bool _finish = false;
 
     int[] endLineTab;
     int[] endColumnTab;
@@ -105,8 +106,8 @@ public class mapGenerator : MonoBehaviour {
         createBuilding(buildType, baseMapType, buildingSize);
 
         generateMap();
-
-	}
+        _finish = true;
+    }
 	
 	// Update is called once per frame
 	void Update () {
