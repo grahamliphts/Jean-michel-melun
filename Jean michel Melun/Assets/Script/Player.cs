@@ -124,7 +124,7 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
                 directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
                 _forceLeft += dog.GetForce();
@@ -142,7 +142,7 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
             i++;
             leftDirection += dog.transform.localPosition;
@@ -170,7 +170,7 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
                 directionToApply += (lastInteract - dog.transform.position) * dog.GetForce();
                 _forceRight += dog.GetForce();
@@ -188,7 +188,7 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                dog.transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                dog.transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
             rightDirecton += dog.transform.localPosition;
             if (dog.gameObject.GetComponent<LineRenderer>() != null)
@@ -223,13 +223,13 @@ public class Player : MonoBehaviour
         _jauge[1].color = Color.HSVToRGB((120 - forceRight * 120) / 255.0f, 1, 1);
         _jauge[1].fillAmount = forceRight;
 
-        if (forceLeft > 1.0f)
+        if (forceLeft >= 1.0f)
         {
             int j = Random.Range(0, _leftDogs.Count);
             _leftDogs[j].Evade();
             _leftDogs.RemoveAt(j);
         }
-        if (forceRight > 1.0f)
+        if (forceRight >= 1.0f)
         {
             int j = Random.Range(0, _rightDogs.Count);
             _rightDogs[j].Evade();
@@ -284,7 +284,7 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                _leftDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                _leftDogs[i].transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
 
           }
@@ -303,7 +303,7 @@ public class Player : MonoBehaviour
                 diff.Normalize();
 
                 float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-                _rightDogs[i].transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+                _rightDogs[i].transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z - 90);
             }
         }
     }

@@ -48,6 +48,11 @@ public class Dog : MonoBehaviour {
         {
             Debug.DrawRay(transform.position, _lastInteract - transform.position,Color.white);
         }
+        else
+        {
+            transform.GetChild(2).gameObject.SetActive(false);
+            transform.GetChild(3).gameObject.SetActive(false);
+        }
 
         if (woof.volume == 0.01f)
             woof.volume = 0;
@@ -61,7 +66,7 @@ public class Dog : MonoBehaviour {
         {
           
             Vector3 targetDir = other.gameObject.transform.position - transform.position;
-            float angle = Vector3.Angle(targetDir, transform.right);
+            float angle = Vector3.Angle(targetDir, transform.GetChild(0).up);
 
             if (angle < _perception)
             {
@@ -91,6 +96,17 @@ public class Dog : MonoBehaviour {
                         _lastDistance = Distance;
                     }
                     bark(true);
+
+                    if (Distance > 0.2f)
+                    {
+                        transform.GetChild(2).gameObject.SetActive(true);
+                        transform.GetChild(3).gameObject.SetActive(false);
+                    }
+                    else
+                    {
+                        transform.GetChild(2).gameObject.SetActive(false);
+                        transform.GetChild(3).gameObject.SetActive(true);
+                    }
                 }
             }
         }
@@ -212,7 +228,7 @@ public class Dog : MonoBehaviour {
         diff.Normalize();
 
         float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-        transform.localRotation = Quaternion.Euler(0f, 0f, rot_z);
+        transform.GetChild(0).localRotation = Quaternion.Euler(0f, 0f, rot_z);
 
         GetComponent<Rigidbody2D>().AddForce(diff * 50);
 
