@@ -67,7 +67,7 @@ public class Player : MonoBehaviour
                 float x = _distPlayer * Mathf.Cos(angle * (i + 1) + Mathf.PI / 2);
                 float y = _distPlayer * Mathf.Sin(angle * (i + 1) + Mathf.PI / 2);
 
-                dog.transform.localPosition = new Vector3(x + ((lastInteract.x - x) * 0.1f), y + ((lastInteract.y - y) * 0.1f), 0);
+                dog.transform.localPosition = new Vector3(x + ((lastInteract.x - (x + transform.position.x)) * 0.1f), y + ((lastInteract.y - (y + transform.position.y)) * 0.2f), 0);
 
                 Vector3 diff = lastInteract - dog.transform.position;
                 diff.Normalize();
