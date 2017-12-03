@@ -365,12 +365,12 @@ public class Player : MonoBehaviour
             CalculatePositionDogs();
             other.gameObject.GetComponent<Dog>().playBackgroundLoop();
             other.gameObject.GetComponent<Dog>().haveMaster(true);
-           // other.gameObject.AddComponent<LineRenderer>();
+            // other.gameObject.AddComponent<LineRenderer>();
 
             other.gameObject.GetComponent<LineRenderer>().SetPosition(0, transform.position);
             other.gameObject.GetComponent<LineRenderer>().SetPosition(1, other.transform.position);
-            other.gameObject.GetComponent<LineRenderer>().startWidth = .01f;
-            other.gameObject.GetComponent<LineRenderer>().endWidth = .01f;
+            other.gameObject.GetComponent<LineRenderer>().startWidth = 0.1f;
+            other.gameObject.GetComponent<LineRenderer>().endWidth = 0.1f;
         }
 
     }

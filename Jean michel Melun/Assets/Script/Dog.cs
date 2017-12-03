@@ -97,7 +97,7 @@ public class Dog : MonoBehaviour {
                     }
                     bark(true);
 
-                    if (Distance > 0.2f)
+                    if (Distance > 5f)
                     {
                         transform.GetChild(2).gameObject.SetActive(true);
                         transform.GetChild(3).gameObject.SetActive(false);
