@@ -31,6 +31,8 @@ public class mapGenerator : MonoBehaviour {
     int endLine;
     int endColumn;
 
+    List<Vector3> sideWalkList = new List<Vector3>(); 
+
     int[] endLineTab;
     int[] endColumnTab;
     int[] heightTab; 
@@ -384,8 +386,9 @@ public class mapGenerator : MonoBehaviour {
                         Instantiate(RoadPrefab[nb], position, new Quaternion(), transform);
                         break;
                     case 4:     //SideWalk
-                        nb = Random.Range(0, SideWalkPrefab.Length);
+                        nb = scaledRandom(0, SideWalkPrefab.Length, true);
                         Instantiate(SideWalkPrefab[nb], position, new Quaternion(), transform);
+                        sideWalkList.Add(position);
                         break;
                 }
                 j += sprite_size;
