@@ -11,27 +11,41 @@ public class textManager : MonoBehaviour {
     GameObject furry;
     [SerializeField]
     AudioSource sound;
+    [SerializeField]
+    GameObject nextToshow;
 
     private string notice;
     private int iterator = 0;
     private int maxiter;
 
     int up = 0;
+
+    float speed = 0.02f;
 	// Use this for initialization
 	void Start () {
         notice = _maintext.text;
         maxiter = notice.Length;
         _maintext.text = " ";
         StartCoroutine(WriteNotice());
-	}
+        nextToshow.SetActive(false);
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            speed = 0.001f;
+        }
+        else
+            speed = 0.02f;
 
         if (iterator >= maxiter)
         {
 
                 sound.Stop();
+            StartCoroutine(waitForDogPred());
         }
 
     }
@@ -62,7 +76,7 @@ public class textManager : MonoBehaviour {
         up++;
         if (up >= 8)
             up = 0;
-        yield return new WaitForSeconds(0.02f);
+        yield return new WaitForSeconds(speed);
         
         if(iterator < maxiter && notice[iterator].CompareTo('\n') == 0)
         {
@@ -82,9 +96,19 @@ public class textManager : MonoBehaviour {
     IEnumerator WriteNotice()
     {
         
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(speed * 10);
         StartCoroutine(WriteLine());
 
+    }
+
+    IEnumerator waitForDogPred()
+    {
+        if(Input.GetKeyDown(KeyCode.Space))
+            yield return new WaitForSeconds(0.1f);
+        else
+            yield return new WaitForSeconds(2f);
+        nextToshow.SetActive(true);
+        this.gameObject.SetActive(false);
     }
 
 }
