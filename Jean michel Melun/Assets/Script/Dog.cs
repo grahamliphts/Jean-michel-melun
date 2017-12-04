@@ -14,7 +14,7 @@ public class Dog : MonoBehaviour {
     [SerializeField]
     public AudioSource woof;
     [SerializeField]
-    int scoreValue = 1;
+    public int scoreValue = 1;
 
     [SerializeField]
     public ParticleSystem vision;
@@ -101,7 +101,7 @@ public class Dog : MonoBehaviour {
                     bark(true);
                     vision.gameObject.SetActive(true);
 
-                    if (Distance > 5f)
+                    if (Distance > 12f)
                     {
                         transform.GetChild(2).gameObject.SetActive(true);
                         transform.GetChild(3).gameObject.SetActive(false);
