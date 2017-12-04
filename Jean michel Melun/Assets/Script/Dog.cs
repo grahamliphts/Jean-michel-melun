@@ -16,6 +16,9 @@ public class Dog : MonoBehaviour {
     [SerializeField]
     int scoreValue = 1;
 
+    [SerializeField]
+    public ParticleSystem vision;
+
     private Collider2D _collider;
     private Vector3 _lastInteract;
 
@@ -24,9 +27,8 @@ public class Dog : MonoBehaviour {
 
     private Vector2 _CurrentDirection = new Vector2(0, 0);
     bool _newInterract = false;
-
     bool _haveMaster = false;
-
+    
 	// Use this for initialization
 	void Start () {
 		
@@ -46,7 +48,7 @@ public class Dog : MonoBehaviour {
         _lastInterest = 0;
         _lastDistance = -1;
 
-        if(_lastInteract != new Vector3())
+        if (_lastInteract != new Vector3())
         {
             Debug.DrawRay(transform.position, _lastInteract - transform.position,Color.white);
         }
@@ -54,19 +56,18 @@ public class Dog : MonoBehaviour {
         {
             transform.GetChild(2).gameObject.SetActive(false);
             transform.GetChild(3).gameObject.SetActive(false);
+            vision.gameObject.SetActive(false);
         }
 
         if (woof.volume == 0.01f)
             woof.volume = 0;
 
     }
-
-
+    
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.gameObject.tag == "Object")
         {
-          
             Vector3 targetDir = other.gameObject.transform.position - transform.position;
             float angle = Vector3.Angle(targetDir, transform.GetChild(0).up);
 
@@ -98,6 +99,7 @@ public class Dog : MonoBehaviour {
                         _lastDistance = Distance;
                     }
                     bark(true);
+                    vision.gameObject.SetActive(true);
 
                     if (Distance > 5f)
                     {
@@ -118,6 +120,7 @@ public class Dog : MonoBehaviour {
         if (other.gameObject.tag == "Object")
         {
             _lastInteract = new Vector3(0, 0, 0);
+            vision.gameObject.SetActive(false);
             bark(false);
         }
     }
@@ -222,6 +225,8 @@ public class Dog : MonoBehaviour {
     {
         transform.SetParent(null);
         GetComponent<LineRenderer>().enabled = false;
+        GetComponent<LineRenderer>().startWidth = 0f;
+        gameObject.GetComponent<LineRenderer>().endWidth = 0f;
         GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
 
         Vector3 diff;

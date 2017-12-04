@@ -109,7 +109,17 @@ public class AquaDog : MonoBehaviour
     {
         if (other.gameObject.tag == "Water" && !_hasWater)
         {
-            _dog.AddForce(1);
+            _dog.AddForce(2);
+            _dog.AddPerception(20);
+            StopCoroutine("TriggerUlti");
+            _hasWater = true;
+        }
+    }
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Water" && !_hasWater)
+        {
+            _dog.AddForce(2);
             _dog.AddPerception(20);
             StopCoroutine("TriggerUlti");
             _hasWater = true;
@@ -119,7 +129,7 @@ public class AquaDog : MonoBehaviour
     {
         if (other.gameObject.tag == "Water" && _hasWater)
         {
-            _dog.AddForce(-1);
+            _dog.AddForce(-2);
             _dog.AddPerception(-20);
             _hasWater = false;
         }

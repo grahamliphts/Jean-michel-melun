@@ -88,7 +88,7 @@ public class DoggyBag : MonoBehaviour
                 case 2: // Chihuahua
                     newDog.GetComponent<Dog>().AddForce(2);
                     newDog.GetComponent<Dog>().AddPerception(60);
-                    newDog.GetComponent<Dog>().woof.clip = _sourceSound[2];
+                    newDog.GetComponent<Dog>().woof.clip = _sourceSound[1];
                     newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
                     break;
             }
