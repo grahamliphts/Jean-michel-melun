@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class scoreManager : MonoBehaviour {
 
@@ -76,12 +77,20 @@ public class scoreManager : MonoBehaviour {
     }
     public void endGame()
     {
-        finalScore.text = score.ToString();
+        string val = "Score : ";
+        val += score.ToString();
+        finalScore.text = val;
         endGamePanel.SetActive(true);
+        StartCoroutine(quitGame());
        
     }
     public void updateFinalScore(int val)
     {
         score = val;
     } 
+    IEnumerator quitGame()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+    }
 }
