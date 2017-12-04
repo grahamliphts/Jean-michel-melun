@@ -386,7 +386,7 @@ MonoBehaviour:
   UpRoadNb: 4
   RightRoadNb: 6
   pathNb: 50
-  buildingSize: 2
+  buildingSize: 3
   maxKeepGo: 4
   sideWalkList: []
   freeSpaceList: []
@@ -1637,8 +1637,8 @@ RectTransform:
   m_Father: {fileID: 133996179}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.42, y: 0}
-  m_AnchorMax: {x: 0.47, y: 0.1}
+  m_AnchorMin: {x: 0.42, y: 0.1}
+  m_AnchorMax: {x: 0.47, y: 0.2}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1766,6 +1766,12 @@ Prefab:
       propertyPath: Endpoint
       value: 
       objectReference: {fileID: 954035722}
+    - target: {fileID: 114524061309214348, guid: 3138ee6a5a0c7b846804ac5fbcf90dea,
+        type: 2}
+      propertyPath: batSmoke
+      value: 
+      objectReference: {fileID: 1906591198534720, guid: 9f7dd479b5105fd4dbd4d721891b2654,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3138ee6a5a0c7b846804ac5fbcf90dea, type: 2}
   m_IsPrefabParent: 0
@@ -2370,8 +2376,8 @@ RectTransform:
   m_Father: {fileID: 133996179}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.53, y: 0}
-  m_AnchorMax: {x: 0.58, y: 0.1}
+  m_AnchorMin: {x: 0.53, y: 0.1}
+  m_AnchorMax: {x: 0.58, y: 0.2}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
