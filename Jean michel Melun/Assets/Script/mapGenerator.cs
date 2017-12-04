@@ -53,7 +53,8 @@ public class mapGenerator : MonoBehaviour {
     GameObject[] RoadPrefab;
     [SerializeField]
     GameObject[] SideWalkPrefab;
-
+    [SerializeField]
+    GameObject[] WallPrefab;
 
     private int[][] _Map;
 
@@ -68,6 +69,7 @@ public class mapGenerator : MonoBehaviour {
         int pathType = 2;
         int roadType = 3;
         int sideWalkType = 5;
+        int wallType = 6;
 
         // Generate base ground empty map
         initMap(baseMapType);
@@ -132,6 +134,9 @@ public class mapGenerator : MonoBehaviour {
         ExitPoint.y = (mapSize-1) * sprite_size;
 
         Debug.Log("Exit : " + ExitPoint.x);
+
+        createWalls(wallType);
+
 
         generateMap();
         _finish = true;
@@ -518,6 +523,19 @@ public class mapGenerator : MonoBehaviour {
 
     }
 
+
+    void createWalls(int area_type)
+    {
+        for (int line = 0; line < mapSize; line++)
+        {
+            _Map[0][line] = area_type;
+            _Map[mapSize-1][line] = area_type;
+
+            _Map[line][0] = area_type;
+            _Map[line][mapSize-1] = area_type;
+        }
+    }
+
     int scaledRandom(int begin, int end, bool direction)
     {
         int[] tab_rand = new int[end];
@@ -585,7 +603,10 @@ public class mapGenerator : MonoBehaviour {
                         Instantiate(SideWalkPrefab[nb], position, new Quaternion(), transform);
                         sideWalkList.Add(position);
                         break;
-
+                    case 6:     //SideWalk
+                        nb = scaledRandom(0, WallPrefab.Length, true);
+                        Instantiate(WallPrefab[nb], position, new Quaternion(), transform);
+                        break;
 
                 }
                 j += sprite_size;
