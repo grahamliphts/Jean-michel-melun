@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4771244918425594}
   - component: {fileID: 212789670934706662}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: map_pavement_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
