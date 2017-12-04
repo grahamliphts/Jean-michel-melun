@@ -22,6 +22,8 @@ public class Player : MonoBehaviour
     GameObject rightArmRoot;
     [SerializeField]
     Transform Righthandroot;
+    [SerializeField]
+    scoreManager _scoreManager;
 
     [SerializeField]
     Image[] _jauge;
@@ -129,6 +131,7 @@ public class Player : MonoBehaviour
         _forceLeft = 0;
         _forceRight = 0;
         dogAmount = 0;
+        int curScore = 0;
         foreach (Dog dog in _leftDogs)
         {
             dogAmount++;
@@ -173,6 +176,7 @@ public class Player : MonoBehaviour
                 dog.gameObject.GetComponent<LineRenderer>().SetPosition(0, Lefthandroot.position);
                 dog.gameObject.GetComponent<LineRenderer>().SetPosition(1, dog.transform.position);
             }
+            curScore += dog.getValue();
         }
 
         i = 0;
@@ -219,6 +223,7 @@ public class Player : MonoBehaviour
                 dog.gameObject.GetComponent<LineRenderer>().SetPosition(1, dog.transform.position);
             }
             i++;
+            curScore += dog.getValue();
 
         }
         _rigidbody.AddForce(directionToApply);
@@ -259,7 +264,7 @@ public class Player : MonoBehaviour
             _rightDogs.RemoveAt(j);
         }
 
-
+        _scoreManager.updateFinalScore(curScore);
     }
 
     void SwitchDogLeftToRight()
@@ -372,7 +377,26 @@ public class Player : MonoBehaviour
             other.gameObject.GetComponent<LineRenderer>().startWidth = 0.1f;
             other.gameObject.GetComponent<LineRenderer>().endWidth = 0.1f;
         }
+        if(other.tag == "start")
+        {
+            _scoreManager.showTuto();
 
+        }
+        if(other.tag == "end")
+        {
+            _scoreManager.endGame();
+            GetComponent<Rigidbody2D>().isKinematic = true;
+
+        }
+
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.tag == "start")
+        {
+            _scoreManager.hideTuto();
+        }
     }
     public int getDogInHands()
     {
