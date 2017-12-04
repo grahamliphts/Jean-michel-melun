@@ -17,13 +17,13 @@ public class BatDog : MonoBehaviour
     float _addPerceptionStat = 20; // en °
 
     [SerializeField]
-    uint _timeReloadUlti = 60; // en secondes
+    uint _timeReloadUlti = 20; // en secondes
 
     [SerializeField]
-    uint _timeUlti = 30; // en secondes
+    uint _timeUlti = 10; // en secondes
 
     [SerializeField]
-    float _probabilityUlti = 0.1f; // en %
+    float _probabilityUlti = 0.4f; // en %
 
     [SerializeField]
     Sprite _hat;
@@ -35,7 +35,7 @@ public class BatDog : MonoBehaviour
     Sprite _cape;
 
     [SerializeField]
-    ParticleSystem _batdogSmoke;
+    public ParticleSystem _batdogSmoke;
 
     // Use this for initialization
     void Start()

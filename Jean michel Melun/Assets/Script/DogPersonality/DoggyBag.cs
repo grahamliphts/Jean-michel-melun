@@ -37,6 +37,9 @@ public class DoggyBag : MonoBehaviour
     List<Vector3> sideWalkList = new List<Vector3>();
     List<Vector3> freeSpaceList = new List<Vector3>();
 
+    [SerializeField]
+    GameObject batSmoke;
+
     void Start()
     {
         StartCoroutine("WaitMap");
@@ -114,6 +117,13 @@ public class DoggyBag : MonoBehaviour
                     batDog.Initialize(scriptDog);
                     settingsVision.startColor = new Color(0.1f, 0.1f, 0.1f, 0.8f);
                     scriptDog.scoreValue *= 3;
+
+
+                    GameObject smoke = Instantiate(batSmoke);
+                    smoke.transform.SetParent(newDog.transform);
+                    smoke.transform.localPosition = new Vector3();
+                    batDog._batdogSmoke = smoke.GetComponent<ParticleSystem>();
+
                     break;
                 case 2:
                     AquaDog aquaDog = newDog.AddComponent<AquaDog>();
