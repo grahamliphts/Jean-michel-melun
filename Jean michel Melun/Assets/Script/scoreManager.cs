@@ -20,9 +20,13 @@ public class scoreManager : MonoBehaviour {
     GameObject endGamePanel;
     [SerializeField]
     Text finalScore;
+    [SerializeField]
+    float maxtime = 300;
 
     private int maxDog = 0;
     private int score;
+    bool timeLaunched = false;
+    private float timeRemover = 0;
 	// Use this for initialization
 	void Start () {
         maxDog = _bag.getDogOnMap();
@@ -38,20 +42,37 @@ public class scoreManager : MonoBehaviour {
         val += maxDog;
         Score.text = val;
 
+        float timeValue = maxtime - (Time.time - timeRemover);
         string timeVal = "";
-        timeVal += (int)(Time.time / 60);
+        timeVal += (int)(timeValue / 60);
         timeVal += ':';
-        timeVal += (int)Time.time % 60;
+        timeVal += (int)timeValue % 60;
         timer.text = timeVal;
+
+        if (!timeLaunched)
+            timeRemover = Time.time;
+
+        if (timeValue <= 0)
+        {
+            endGame();
+            timer.text = 0.ToString();
+        }
+           
 	}
 
     public void showTuto()
     {
+       
         tutoPanel.SetActive(true);
     }
     public void hideTuto()
     {
+        if (!timeLaunched)
+        {
+            timeLaunched = true;
+        }
         tutoPanel.SetActive(false);
+
     }
     public void endGame()
     {

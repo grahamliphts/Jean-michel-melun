@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212942108468149170}
   - component: {fileID: 50697949606203554}
   - component: {fileID: 61076378942269700}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: map_basin
   m_TagString: Untagged
   m_Icon: {fileID: 0}

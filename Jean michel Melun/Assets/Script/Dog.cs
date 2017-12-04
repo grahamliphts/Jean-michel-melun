@@ -14,7 +14,7 @@ public class Dog : MonoBehaviour {
     [SerializeField]
     public AudioSource woof;
     [SerializeField]
-    int scoreValue = 1;
+    public int scoreValue = 1;
 
     [SerializeField]
     public ParticleSystem vision;
