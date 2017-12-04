@@ -249,8 +249,8 @@ public class Player : MonoBehaviour
         float forceLeft = _forceLeft * 1.0f / _maxForcePlayer;
         float forceRight = _forceRight * 1.0f / _maxForcePlayer;
 
-        //rightJaugeModuler(forceRight);
-        //LeftJaugeModuler(forceLeft);
+        rightJaugeModuler(forceRight);
+        LeftJaugeModuler(forceLeft);
         
         if (forceLeft >= 1.0f)
         {
