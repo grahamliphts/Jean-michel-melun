@@ -65,7 +65,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update ()
     {
-        if (Input.GetKey(KeyCode.Z))
+        if (Input.GetKey(KeyCode.W))
         {
             _rigidbody.AddForce(new Vector2(0, _forcePlayer));
         }
@@ -73,7 +73,7 @@ public class Player : MonoBehaviour
         {
             _rigidbody.AddForce(new Vector2(0, -_forcePlayer));
         }
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.A))
         {
             _rigidbody.AddForce(new Vector2(-_forcePlayer, 0));
         }
