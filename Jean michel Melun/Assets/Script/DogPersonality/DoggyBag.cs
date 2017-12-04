@@ -68,59 +68,67 @@ public class DoggyBag : MonoBehaviour
             newDog.transform.position = sideWalkList[pos];
             sideWalkList.RemoveAt(pos);
             newDog.transform.rotation = new Quaternion();
+            Dog scriptDog = newDog.GetComponent<Dog>();
 
             int typeDog = Random.Range(0, _allDogs.Length);
 
             switch (typeDog)
             {
                 case 0: // Shiba
-                    newDog.GetComponent<Dog>().AddForce(6);
-                    newDog.GetComponent<Dog>().AddPerception(40);
-                    newDog.GetComponent<Dog>().woof.clip = _sourceSound[1];
-                    newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
+                    scriptDog.AddForce(6);
+                    scriptDog.AddPerception(40);
+                    scriptDog.woof.clip = _sourceSound[1];
+                    scriptDog.background[0].clip = _sourceSound[3];
                     break;
                 case 1: // Bulldog
-                    newDog.GetComponent<Dog>().AddForce(10);
-                    newDog.GetComponent<Dog>().AddPerception(20);
-                    newDog.GetComponent<Dog>().woof.clip = _sourceSound[0];
-                    newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
+                    scriptDog.AddForce(10);
+                    scriptDog.AddPerception(20);
+                    scriptDog.woof.clip = _sourceSound[0];
+                    scriptDog.background[0].clip = _sourceSound[3];
                     break;
                 case 2: // Chihuahua
-                    newDog.GetComponent<Dog>().AddForce(2);
-                    newDog.GetComponent<Dog>().AddPerception(60);
-                    newDog.GetComponent<Dog>().woof.clip = _sourceSound[1];
-                    newDog.GetComponent<Dog>().background[0].clip = _sourceSound[3];
+                    scriptDog.AddForce(2);
+                    scriptDog.AddPerception(60);
+                    scriptDog.woof.clip = _sourceSound[1];
+                    scriptDog.background[0].clip = _sourceSound[3];
                     break;
             }
 
 
             int caract = Random.Range(0, 6);
             newDog.transform.GetChild(0).GetComponent<Animator>().runtimeAnimatorController = _allDogs[typeDog][caract];
+            ParticleSystem.MainModule settingsVision = scriptDog.vision.main;
             switch (caract)
             {
                 case 0:
                     SuperDog superDog = newDog.AddComponent<SuperDog>();
-                    superDog.Initialize(newDog.GetComponent<Dog>());
+                    superDog.Initialize(scriptDog);
+                    settingsVision.startColor = new Color(0.6f, 0, 0, 0.8f);
                     break;
                 case 1:
                     BatDog batDog = newDog.AddComponent<BatDog>();
-                    batDog.Initialize(newDog.GetComponent<Dog>());
+                    batDog.Initialize(scriptDog);
+                    settingsVision.startColor = new Color(0.1f, 0.1f, 0.1f, 0.8f);
                     break;
                 case 2:
                     AquaDog aquaDog = newDog.AddComponent<AquaDog>();
-                    aquaDog.Initialize(newDog.GetComponent<Dog>());
+                    aquaDog.Initialize(scriptDog);
+                    settingsVision.startColor = new Color(0, 0, 0.6f, 0.8f);
                     break;
                 case 3:
                     ThorDog thorDog = newDog.AddComponent<ThorDog>();
-                    thorDog.Initialize(newDog.GetComponent<Dog>());
+                    thorDog.Initialize(scriptDog);
+                    settingsVision.startColor = new Color(0.6f, 0, 0, 0.8f);
                     break;
                 case 4:
                     CaptainDog captainDog = newDog.AddComponent<CaptainDog>();
-                    captainDog.Initialize(newDog.GetComponent<Dog>());
+                    captainDog.Initialize(scriptDog);
+                    settingsVision.startColor = new Color(0, 0, 0.6f, 0.8f);
                     break;
                 case 5:
                     LokiDog lokiDog = newDog.AddComponent<LokiDog>();
-                    lokiDog.Initialize(newDog.GetComponent<Dog>());
+                    lokiDog.Initialize(scriptDog);
+                    settingsVision.startColor = new Color(0, 0.6f, 0, 0.8f);
                     break;
             }
         }
