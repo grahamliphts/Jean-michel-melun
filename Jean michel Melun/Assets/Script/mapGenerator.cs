@@ -121,7 +121,7 @@ public class mapGenerator : MonoBehaviour {
         while (_Map[i][0] != roadType)
             i++;
         EntryPoint.x = i * sprite_size;
-        EntryPoint.y = 0;
+        EntryPoint.y = 1 * sprite_size;
 
         Debug.Log("Entry : " + EntryPoint.x);
 
@@ -131,7 +131,7 @@ public class mapGenerator : MonoBehaviour {
         while (_Map[i][mapSize-1] != roadType)
             i--;
         ExitPoint.x = i * sprite_size;
-        ExitPoint.y = (mapSize-1) * sprite_size;
+        ExitPoint.y = (mapSize-2) * sprite_size;
 
         Debug.Log("Exit : " + ExitPoint.x);
 
