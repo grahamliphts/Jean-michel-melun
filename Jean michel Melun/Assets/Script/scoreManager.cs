@@ -90,7 +90,7 @@ public class scoreManager : MonoBehaviour {
     } 
     IEnumerator quitGame()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(10f);
         SceneManager.LoadScene("Menu", LoadSceneMode.Single);
     }
 }
