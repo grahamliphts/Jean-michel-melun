@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212678138702112938}
   - component: {fileID: 50473232048829718}
   - component: {fileID: 61400478349251426}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: map_bulding_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
