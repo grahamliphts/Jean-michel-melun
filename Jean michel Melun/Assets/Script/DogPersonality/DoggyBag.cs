@@ -79,18 +79,21 @@ public class DoggyBag : MonoBehaviour
                     scriptDog.AddPerception(40);
                     scriptDog.woof.clip = _sourceSound[1];
                     scriptDog.background[0].clip = _sourceSound[3];
+                    scriptDog.scoreValue = 3;
                     break;
                 case 1: // Bulldog
                     scriptDog.AddForce(10);
                     scriptDog.AddPerception(20);
                     scriptDog.woof.clip = _sourceSound[0];
                     scriptDog.background[0].clip = _sourceSound[3];
+                    scriptDog.scoreValue = 5;
                     break;
                 case 2: // Chihuahua
                     scriptDog.AddForce(2);
                     scriptDog.AddPerception(60);
                     scriptDog.woof.clip = _sourceSound[1];
                     scriptDog.background[0].clip = _sourceSound[3];
+                    scriptDog.scoreValue = 1;
                     break;
             }
 
@@ -104,31 +107,37 @@ public class DoggyBag : MonoBehaviour
                     SuperDog superDog = newDog.AddComponent<SuperDog>();
                     superDog.Initialize(scriptDog);
                     settingsVision.startColor = new Color(0.6f, 0, 0, 0.8f);
+                    scriptDog.scoreValue *= 5;
                     break;
                 case 1:
                     BatDog batDog = newDog.AddComponent<BatDog>();
                     batDog.Initialize(scriptDog);
                     settingsVision.startColor = new Color(0.1f, 0.1f, 0.1f, 0.8f);
+                    scriptDog.scoreValue *= 3;
                     break;
                 case 2:
                     AquaDog aquaDog = newDog.AddComponent<AquaDog>();
                     aquaDog.Initialize(scriptDog);
                     settingsVision.startColor = new Color(0, 0, 0.6f, 0.8f);
+                    scriptDog.scoreValue *= 1;
                     break;
                 case 3:
                     ThorDog thorDog = newDog.AddComponent<ThorDog>();
                     thorDog.Initialize(scriptDog);
                     settingsVision.startColor = new Color(0.6f, 0, 0, 0.8f);
+                    scriptDog.scoreValue *= 5;
                     break;
                 case 4:
                     CaptainDog captainDog = newDog.AddComponent<CaptainDog>();
                     captainDog.Initialize(scriptDog);
                     settingsVision.startColor = new Color(0, 0, 0.6f, 0.8f);
+                    scriptDog.scoreValue *= 3;
                     break;
                 case 5:
                     LokiDog lokiDog = newDog.AddComponent<LokiDog>();
                     lokiDog.Initialize(scriptDog);
                     settingsVision.startColor = new Color(0, 0.6f, 0, 0.8f);
+                    scriptDog.scoreValue *= 3;
                     break;
             }
         }
