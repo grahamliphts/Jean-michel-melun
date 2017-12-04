@@ -9,6 +9,8 @@ TagManager:
   - Dog
   - Water
   - Kryptonite
+  - start
+  - end
   layers:
   - Default
   - TransparentFX

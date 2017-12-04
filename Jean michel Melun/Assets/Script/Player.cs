@@ -22,9 +22,14 @@ public class Player : MonoBehaviour
     GameObject rightArmRoot;
     [SerializeField]
     Transform Righthandroot;
+    [SerializeField]
+    scoreManager _scoreManager;
+
 
     [SerializeField]
-    Image[] _jauge;
+    GameObject[] leftJauge;
+    [SerializeField]
+    GameObject[] rightJauge;
 
     [SerializeField]
     int _maxForcePlayer = 5;
@@ -129,6 +134,7 @@ public class Player : MonoBehaviour
         _forceLeft = 0;
         _forceRight = 0;
         dogAmount = 0;
+        int curScore = 0;
         foreach (Dog dog in _leftDogs)
         {
             dogAmount++;
@@ -173,6 +179,7 @@ public class Player : MonoBehaviour
                 dog.gameObject.GetComponent<LineRenderer>().SetPosition(0, Lefthandroot.position);
                 dog.gameObject.GetComponent<LineRenderer>().SetPosition(1, dog.transform.position);
             }
+            curScore += dog.getValue();
         }
 
         i = 0;
@@ -219,6 +226,7 @@ public class Player : MonoBehaviour
                 dog.gameObject.GetComponent<LineRenderer>().SetPosition(1, dog.transform.position);
             }
             i++;
+            curScore += dog.getValue();
 
         }
         _rigidbody.AddForce(directionToApply);
@@ -241,25 +249,25 @@ public class Player : MonoBehaviour
         float forceLeft = _forceLeft * 1.0f / _maxForcePlayer;
         float forceRight = _forceRight * 1.0f / _maxForcePlayer;
 
-        _jauge[0].color = Color.HSVToRGB((120 - forceLeft * 120) / 255.0f, 1, 1);
-        _jauge[0].fillAmount = forceLeft;
-        _jauge[1].color = Color.HSVToRGB((120 - forceRight * 120) / 255.0f, 1, 1);
-        _jauge[1].fillAmount = forceRight;
-
+        rightJaugeModuler(forceRight);
+        LeftJaugeModuler(forceLeft);
+        
         if (forceLeft >= 1.0f)
         {
             int j = Random.Range(0, _leftDogs.Count);
             _leftDogs[j].Evade();
             _leftDogs.RemoveAt(j);
+            StartCoroutine(showExplodeLeft());
         }
         if (forceRight >= 1.0f)
         {
             int j = Random.Range(0, _rightDogs.Count);
             _rightDogs[j].Evade();
             _rightDogs.RemoveAt(j);
+            StartCoroutine(showExplodeRight());
         }
-
-
+        
+        _scoreManager.updateFinalScore(curScore);
     }
 
     void SwitchDogLeftToRight()
@@ -372,10 +380,82 @@ public class Player : MonoBehaviour
             other.gameObject.GetComponent<LineRenderer>().startWidth = 0.1f;
             other.gameObject.GetComponent<LineRenderer>().endWidth = 0.1f;
         }
+        if(other.tag == "start")
+        {
+            _scoreManager.showTuto();
 
+        }
+        if(other.tag == "end")
+        {
+            _scoreManager.endGame();
+            GetComponent<Rigidbody2D>().isKinematic = true;
+
+        }
+
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.tag == "start")
+        {
+            _scoreManager.hideTuto();
+        }
     }
     public int getDogInHands()
     {
         return dogAmount;
+    }
+
+    void LeftJaugeModuler(float value)
+    {
+        for (int i = 0; i < leftJauge.Length - 1; i++)
+            leftJauge[i].SetActive(false);
+
+        if (value >= 0 )
+           leftJauge[0].SetActive(true);
+        if (value > (1 / (float)leftJauge.Length) * 2)
+           leftJauge[1].SetActive(true);
+        if (value > (1 / (float)leftJauge.Length) * 3)
+           leftJauge[2].SetActive(true);
+        if (value > (1 / (float)leftJauge.Length) * 4)
+           leftJauge[3].SetActive(true);
+        if (value > (1 / (float)leftJauge.Length) * 5)
+           leftJauge[4].SetActive(true);
+
+
+    }
+    void rightJaugeModuler(float value)
+    {
+        for (int i = 0; i < rightJauge.Length - 1; i++)
+            rightJauge[i].SetActive(false);
+
+        if (value >= 0)
+            rightJauge[0].SetActive(true);
+        if (value > (1 / (float)rightJauge.Length) * 2)
+            rightJauge[1].SetActive(true);
+        if (value > (1 / (float)rightJauge.Length) * 3)
+            rightJauge[2].SetActive(true);
+        if (value > (1 / (float)rightJauge.Length) * 4)
+            rightJauge[3].SetActive(true);
+        if (value > (1 / (float)rightJauge.Length) * 5)
+            rightJauge[4].SetActive(true);
+
+    }
+
+    IEnumerator showExplodeLeft()
+    {
+        leftJauge[leftJauge.Length-1].SetActive(true);
+        Debug.Log("explode");
+        yield return new WaitForSeconds(1f);
+        leftJauge[leftJauge.Length - 1].SetActive(false);
+        Debug.Log("hide Explode");
+
+    }
+    IEnumerator showExplodeRight()
+    {
+        rightJauge[rightJauge.Length - 1].SetActive(true);
+        
+        yield return new WaitForSeconds(1f);
+        rightJauge[rightJauge.Length - 1].SetActive(false);
     }
 }

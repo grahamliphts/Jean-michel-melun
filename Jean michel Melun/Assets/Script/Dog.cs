@@ -13,6 +13,8 @@ public class Dog : MonoBehaviour {
     public AudioSource[] background;
     [SerializeField]
     public AudioSource woof;
+    [SerializeField]
+    int scoreValue = 1;
 
     [SerializeField]
     public ParticleSystem vision;
@@ -250,6 +252,11 @@ public class Dog : MonoBehaviour {
     {
         yield return new WaitForSeconds(5f);
         Destroy(gameObject);
+    }
+
+    public int getValue()
+    {
+        return scoreValue;
     }
 
 }

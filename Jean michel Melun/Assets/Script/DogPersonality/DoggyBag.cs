@@ -28,6 +28,12 @@ public class DoggyBag : MonoBehaviour
     [SerializeField]
     GameObject[] _objects;
 
+    [SerializeField]
+    GameObject StartPoint;
+
+    [SerializeField]
+    GameObject Endpoint;
+
     List<Vector3> sideWalkList = new List<Vector3>();
     List<Vector3> freeSpaceList = new List<Vector3>();
 
@@ -133,6 +139,8 @@ public class DoggyBag : MonoBehaviour
             freeSpaceList.RemoveAt(pos);
         }
 
+        addStartStopPoint();
+
         //Sprite sprite = newDog.AddComponent<SpriteRenderer>();
     }
 
@@ -145,4 +153,11 @@ public class DoggyBag : MonoBehaviour
 	void Update () {
 		
 	}
+
+    void addStartStopPoint()
+    {
+        StartPoint.transform.position =  _mapGenerator.EntryPoint;
+        Endpoint.transform.position = _mapGenerator.ExitPoint;
+
+    }
 }
