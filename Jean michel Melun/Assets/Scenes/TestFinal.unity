@@ -2073,6 +2073,7 @@ MonoBehaviour:
   tutoPanel: {fileID: 1336139439}
   endGamePanel: {fileID: 757174259}
   finalScore: {fileID: 1816509089}
+  maxtime: 2
 --- !u!1 &1336139439
 GameObject:
   m_ObjectHideFlags: 0
